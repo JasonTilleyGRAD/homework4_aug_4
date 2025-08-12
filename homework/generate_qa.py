@@ -151,8 +151,59 @@ def extract_kart_objects(
         - center: (x, y) coordinates of the kart's center
         - is_center_kart: Boolean indicating if this is the kart closest to image center
     """
+    file = info_path
 
-    raise NotImplementedError("Not implemented")
+    karts = file.get('karts', [])
+    detections = file.get('detections', [])
+
+    karts = karts
+    detections = detections[view_index]
+
+    image_center = np.array([img_width/2,img_height/2])
+
+    karts_list = []
+    id_list = []
+    id_to_coords = {}
+    if len(karts) > 0:
+        for kart_detection, kart_name in zip(detections,karts):
+                class_id, track_id, x1, y1, x2, y2 = kart_detection
+                if class_id == 1:
+                    center_x = (x1 + x2) / 2
+                    center_y = (y1 + y2) / 2
+
+                    if track_id not in id_to_coords:
+                        id_to_coords[track_id] = {'x': [], 'y': []}
+                        karts_list.append({
+                        "instance_id": track_id,
+                        "kart_name": kart_name,
+                        "is_center_kart": False,
+                        "center": (-1,-1)})
+                        id_list.append(track_id)
+
+                    id_to_coords[track_id]['x'].append(center_x)
+                    id_to_coords[track_id]['y'].append(center_y)
+
+
+        i = 0
+        max_dist = 10e10
+        for id in id_list:
+            avg_x = np.mean(id_to_coords[id]['x'])
+            avg_y = np.mean(id_to_coords[id]['y'])
+            kart_center = (avg_x, avg_y)
+            karts_list[i]["center"] = kart_center
+        
+            dist = np.linalg.norm(image_center - kart_center)
+
+            if dist < max_dist:
+                max_dist = dist
+                center_kart_index = i
+            i +=1
+
+        if len(karts_list)!= 0:
+            karts_list[center_kart_index]["is_center_kart"] = True
+
+    return karts_list
+    
 
 
 def extract_track_info(info_path: str) -> str:
@@ -166,7 +217,9 @@ def extract_track_info(info_path: str) -> str:
         Track name as a string
     """
 
-    raise NotImplementedError("Not implemented")
+    track = info_path.get('track')
+
+    return track
 
 
 def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img_height: int = 100) -> list:
@@ -201,8 +254,60 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
     # How many karts are to the right of the ego car?
     # How many karts are in front of the ego car?
     # How many karts are behind the ego car?
+    try:
 
-    raise NotImplementedError("Not implemented")
+        with open(info_path, 'r') as f:
+            file = json.load(f)
+        track_name = extract_track_info(file)
+
+        karts = extract_kart_objects(file,view_index,img_width,img_height)
+
+        ego_kart_name = None
+        for kart in karts:
+            if kart.get("is_center_kart", True):
+                ego_kart_name = kart["kart_name"]
+                ego_kart_center = kart["center"]
+                break
+
+        qa_pairs = []
+        left = 0
+        front = 0
+        for kart in karts:
+            coord = kart["center"]
+            new_coors = (coord[0] - ego_kart_center[0], coord[1] - ego_kart_center[1])
+
+
+            if new_coors[0] > 0:
+                LorR = "right"
+            else:
+                LorR = "left"
+                left +=1
+
+            if coord[1] - ego_kart_center[1] > 0:
+                ForB = "front"
+                front +=1
+            else:
+                ForB = "behind"
+            
+            
+        
+            qa_pairs.append({"question": f"Is {kart["kart_name"]} to the left or right of the ego car?", "answer": LorR})
+            qa_pairs.append({"question": f"Is {kart["kart_name"]} in front of or behind the ego car?", "answer": ForB})
+            qa_pairs.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": str(new_coors)})
+
+        more_qa =  [
+        {"question": "What kart is the ego car?", "answer": ego_kart_name},
+        {"question": "How many karts are there in the scenario?", "answer": len(karts)},
+        {"question": "What track is this?", "answer": track_name},
+        {"question": "How many karts are to the left of the ego car?", "answer": left},
+        {"question": "How many karts are to the right of the ego car?", "answer": len(karts)- left},
+        {"question": "How many karts are in front of the ego car?", "answer": front},
+        {"question": "How many karts are behind the ego car?", "answer": len(karts)- front}
+        ]
+        qa_pairs += more_qa
+        return qa_pairs
+    except AttributeError:
+        print("no worky")
 
 
 def check_qa_pairs(info_file: str, view_index: int):
@@ -239,7 +344,30 @@ def check_qa_pairs(info_file: str, view_index: int):
         print(f"A: {qa['answer']}")
         print("-" * 50)
 
+def generate():
 
+    main_path = Path("../data/train/")
+
+    for file_path in main_path.glob("*.json"):
+
+        generations = []
+        for j in range(9):
+            try:
+                generations.append(generate_qa_pairs(file_path, j))
+            except ValueError:
+                print(f"No {j} generation for {file_path.name}")
+
+ 
+        new_filename = file_path.stem.replace("_info", "") + "_qa_pairs.json"
+        new_file_path = main_path / new_filename
+        with open(new_file_path, "w") as f:
+            json.dump(generations, f, indent=4)
+            print(f"Saved to: {new_file_path}")
+
+            
+
+
+    
 """
 Usage Example: Visualize QA pairs for a specific file and view:
    python generate_qa.py check --info_file ../data/valid/00000_info.json --view_index 0
@@ -249,7 +377,8 @@ You probably need to add additional commands to Fire below.
 
 
 def main():
-    fire.Fire({"check": check_qa_pairs})
+    fire.Fire({"check": check_qa_pairs, 
+               "generate": generate})
 
 
 if __name__ == "__main__":

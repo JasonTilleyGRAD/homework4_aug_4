@@ -106,8 +106,8 @@ class CLIP(nn.Module):
     def encode_image(self, image: torch.Tensor) -> torch.Tensor:
         return self.vision_encoder(image)
 
-    def encode_text(self, text: str) -> torch.Tensor:
-        return self.text_encoder(text)
+    def encode_text(self, text: str, attention_mask: torch.Tensor) -> torch.Tensor:
+        return self.text_encoder(text, attention_mask)
 
     def save_pretrained(self, save_directory: str, **kwargs):
         """Customize save method, save additional parameters"""
@@ -180,7 +180,7 @@ class CLIP(nn.Module):
             TODO: think about the what values should be returned
         """
         image_encoded = self.encode_image(pixel_values)
-        text_encoded = self.encode_text(input_ids)
+        text_encoded = self.encode_text(input_ids, attention_mask)
         image_norm = torch.norm(image_encoded)
         text_norm = torch.norm(text_encoded)
         logits = image_norm @ text_norm.T
