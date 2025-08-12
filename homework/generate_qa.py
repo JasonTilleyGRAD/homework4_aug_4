@@ -254,60 +254,58 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
     # How many karts are to the right of the ego car?
     # How many karts are in front of the ego car?
     # How many karts are behind the ego car?
-    try:
-
-        with open(info_path, 'r') as f:
-            file = json.load(f)
-        track_name = extract_track_info(file)
-
-        karts = extract_kart_objects(file,view_index,img_width,img_height)
-
-        ego_kart_name = None
-        for kart in karts:
-            if kart.get("is_center_kart", True):
-                ego_kart_name = kart["kart_name"]
-                ego_kart_center = kart["center"]
-                break
-
-        qa_pairs = []
-        left = 0
-        front = 0
-        for kart in karts:
-            coord = kart["center"]
-            new_coors = (coord[0] - ego_kart_center[0], coord[1] - ego_kart_center[1])
 
 
-            if new_coors[0] > 0:
-                LorR = "right"
-            else:
-                LorR = "left"
-                left +=1
+    with open(info_path, 'r') as f:
+        file = json.load(f)
+    track_name = extract_track_info(file)
 
-            if coord[1] - ego_kart_center[1] > 0:
-                ForB = "front"
-                front +=1
-            else:
-                ForB = "behind"
-            
-            
+    karts = extract_kart_objects(file,view_index,img_width,img_height)
+
+    ego_kart_name = None
+    for kart in karts:
+        if kart.get("is_center_kart", True):
+            ego_kart_name = kart["kart_name"]
+            ego_kart_center = kart["center"]
+            break
+
+    qa_pairs = []
+    left = 0
+    front = 0
+    for kart in karts:
+        coord = kart["center"]
+        new_coors = (coord[0] - ego_kart_center[0], coord[1] - ego_kart_center[1])
+
+
+        if new_coors[0] > 0:
+            LorR = "right"
+        else:
+            LorR = "left"
+            left +=1
+
+        if coord[1] - ego_kart_center[1] > 0:
+            ForB = "front"
+            front +=1
+        else:
+            ForB = "behind"
         
-            qa_pairs.append({"question": f"Is {kart["kart_name"]} to the left or right of the ego car?", "answer": LorR})
-            qa_pairs.append({"question": f"Is {kart["kart_name"]} in front of or behind the ego car?", "answer": ForB})
-            qa_pairs.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": str(new_coors)})
+        
+    
+        qa_pairs.append({"question": f"Is {kart["kart_name"]} to the left or right of the ego car?", "answer": LorR})
+        qa_pairs.append({"question": f"Is {kart["kart_name"]} in front of or behind the ego car?", "answer": ForB})
+        qa_pairs.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": str(new_coors)})
 
-        more_qa =  [
-        {"question": "What kart is the ego car?", "answer": ego_kart_name},
-        {"question": "How many karts are there in the scenario?", "answer": len(karts)},
-        {"question": "What track is this?", "answer": track_name},
-        {"question": "How many karts are to the left of the ego car?", "answer": left},
-        {"question": "How many karts are to the right of the ego car?", "answer": len(karts)- left},
-        {"question": "How many karts are in front of the ego car?", "answer": front},
-        {"question": "How many karts are behind the ego car?", "answer": len(karts)- front}
-        ]
-        qa_pairs += more_qa
-        return qa_pairs
-    except AttributeError:
-        print("no worky")
+    more_qa =  [
+    {"question": "What kart is the ego car?", "answer": ego_kart_name},
+    {"question": "How many karts are there in the scenario?", "answer": len(karts)},
+    {"question": "What track is this?", "answer": track_name},
+    {"question": "How many karts are to the left of the ego car?", "answer": left},
+    {"question": "How many karts are to the right of the ego car?", "answer": len(karts)- left},
+    {"question": "How many karts are in front of the ego car?", "answer": front},
+    {"question": "How many karts are behind the ego car?", "answer": len(karts)- front}
+    ]
+    qa_pairs += more_qa
+    return qa_pairs
 
 
 def check_qa_pairs(info_file: str, view_index: int):
