@@ -349,14 +349,24 @@ def generate():
     for file_path in main_path.glob("*.json"):
 
         generations = []
+
+        info_path = file_path
+        base_name = info_path.stem.replace("_info", "")
+
         for j in range(9):
             try:
-                generations.append(generate_qa_pairs(file_path, j))
+                image_file = list(info_path.parent.glob(f"{base_name}_{j:02d}_im.jpg"))[0]
+                qa_pairs = generate_qa_pairs(file_path, j)
+                generations.append({
+                    "qa_pairs": qa_pairs,
+                    "image_file": str(image_file)
+                })
             except ValueError:
                 print(f"No {j} generation for {file_path.name}")
+            except IndexError:
+                print(f"No image file found for {base_name}_{j:02d}_im.jpg")
 
- 
-        new_filename = file_path.stem.replace("_info", "") + "_qa_pairs.json"
+        new_filename = base_name + "_qa_pairs.json"
         new_file_path = main_path / new_filename
         with open(new_file_path, "w") as f:
             json.dump(generations, f, indent=4)

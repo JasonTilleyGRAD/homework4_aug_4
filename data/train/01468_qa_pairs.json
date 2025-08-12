@@ -1,440 +1,467 @@
 [
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "right"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "front"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(50.5), np.float64(51.5))"
-        },
-        {
-            "question": "Is puffy to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is puffy in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is puffy relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "puffy"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 2
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "right"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "front"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(42.0), np.float64(77.0))"
-        },
-        {
-            "question": "Is puffy to the left or right of the ego car?",
-            "answer": "right"
-        },
-        {
-            "question": "Is puffy in front of or behind the ego car?",
-            "answer": "front"
-        },
-        {
-            "question": "Where is puffy relative to the ego car?",
-            "answer": "(np.float64(31.5), np.float64(20.0))"
-        },
-        {
-            "question": "Is kiki to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is kiki in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is kiki relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "kiki"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 3
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 2
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 2
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "suzanne"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 1
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "suzanne"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 1
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "suzanne"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 1
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "right"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "front"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(70.0), np.float64(177.0))"
-        },
-        {
-            "question": "Is puffy to the left or right of the ego car?",
-            "answer": "right"
-        },
-        {
-            "question": "Is puffy in front of or behind the ego car?",
-            "answer": "front"
-        },
-        {
-            "question": "Where is puffy relative to the ego car?",
-            "answer": "(np.float64(34.5), np.float64(37.5))"
-        },
-        {
-            "question": "Is kiki to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is kiki in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is kiki relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "kiki"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 3
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 2
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 2
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "suzanne"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 1
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "suzanne"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 1
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ],
-    [
-        {
-            "question": "Is suzanne to the left or right of the ego car?",
-            "answer": "left"
-        },
-        {
-            "question": "Is suzanne in front of or behind the ego car?",
-            "answer": "behind"
-        },
-        {
-            "question": "Where is suzanne relative to the ego car?",
-            "answer": "(np.float64(0.0), np.float64(0.0))"
-        },
-        {
-            "question": "What kart is the ego car?",
-            "answer": "suzanne"
-        },
-        {
-            "question": "How many karts are there in the scenario?",
-            "answer": 1
-        },
-        {
-            "question": "What track is this?",
-            "answer": "ravenbridge_mansion"
-        },
-        {
-            "question": "How many karts are to the left of the ego car?",
-            "answer": 1
-        },
-        {
-            "question": "How many karts are to the right of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are in front of the ego car?",
-            "answer": 0
-        },
-        {
-            "question": "How many karts are behind the ego car?",
-            "answer": 1
-        }
-    ]
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "right"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "front"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(50.5), np.float64(51.5))"
+            },
+            {
+                "question": "Is puffy to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is puffy in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is puffy relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "puffy"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 2
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_00_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "right"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "front"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(42.0), np.float64(77.0))"
+            },
+            {
+                "question": "Is puffy to the left or right of the ego car?",
+                "answer": "right"
+            },
+            {
+                "question": "Is puffy in front of or behind the ego car?",
+                "answer": "front"
+            },
+            {
+                "question": "Where is puffy relative to the ego car?",
+                "answer": "(np.float64(31.5), np.float64(20.0))"
+            },
+            {
+                "question": "Is kiki to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is kiki in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is kiki relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "kiki"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 3
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 2
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 2
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_01_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "suzanne"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 1
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_02_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "suzanne"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 1
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_03_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "suzanne"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 1
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_04_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "right"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "front"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(70.0), np.float64(177.0))"
+            },
+            {
+                "question": "Is puffy to the left or right of the ego car?",
+                "answer": "right"
+            },
+            {
+                "question": "Is puffy in front of or behind the ego car?",
+                "answer": "front"
+            },
+            {
+                "question": "Where is puffy relative to the ego car?",
+                "answer": "(np.float64(34.5), np.float64(37.5))"
+            },
+            {
+                "question": "Is kiki to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is kiki in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is kiki relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "kiki"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 3
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 2
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 2
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_05_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "suzanne"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 1
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_06_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "suzanne"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 1
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_07_im.jpg"
+    },
+    {
+        "qa_pairs": [
+            {
+                "question": "Is suzanne to the left or right of the ego car?",
+                "answer": "left"
+            },
+            {
+                "question": "Is suzanne in front of or behind the ego car?",
+                "answer": "behind"
+            },
+            {
+                "question": "Where is suzanne relative to the ego car?",
+                "answer": "(np.float64(0.0), np.float64(0.0))"
+            },
+            {
+                "question": "What kart is the ego car?",
+                "answer": "suzanne"
+            },
+            {
+                "question": "How many karts are there in the scenario?",
+                "answer": 1
+            },
+            {
+                "question": "What track is this?",
+                "answer": "ravenbridge_mansion"
+            },
+            {
+                "question": "How many karts are to the left of the ego car?",
+                "answer": 1
+            },
+            {
+                "question": "How many karts are to the right of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are in front of the ego car?",
+                "answer": 0
+            },
+            {
+                "question": "How many karts are behind the ego car?",
+                "answer": 1
+            }
+        ],
+        "image_file": "../data/train/01468_08_im.jpg"
+    }
 ]
