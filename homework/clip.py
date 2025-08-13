@@ -200,9 +200,6 @@ class CLIP(nn.Module):
         image_features = self.image_projection(image_features)
         text_features = self.text_projection(text_features)
 
-        image_features = image_features / image_features.norm(dim=-1, keepdim=True)
-        text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-
         logits_per_image = image_features @ text_features.T * self.temperature
         logits_per_text = logits_per_image.T
 
