@@ -233,7 +233,7 @@ def compute_clip_loss(
     loss_i = CEL(logits_per_image, labels) 
     loss_t = CEL(logits_per_text, labels)    
 
-    loss = (loss_i + loss_t) / batch_size
+    loss = (loss_i + loss_t) / 2
     return loss
 
 
