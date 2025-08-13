@@ -1,22 +1,7 @@
 [
     {
-        "question": "Is suzanne to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/006cc_05_im.jpg"
-    },
-    {
-        "question": "Is suzanne in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/006cc_05_im.jpg"
-    },
-    {
-        "question": "Where is suzanne relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/006cc_05_im.jpg"
-    },
-    {
         "question": "What kart is the ego car?",
-        "answer": "suzanne",
+        "answer": "pidgin",
         "image_file": "train/006cc_05_im.jpg"
     },
     {
@@ -31,7 +16,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/006cc_05_im.jpg"
     },
     {
@@ -46,7 +31,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/006cc_05_im.jpg"
     }
 ]

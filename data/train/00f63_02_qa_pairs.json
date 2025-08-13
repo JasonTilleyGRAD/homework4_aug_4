@@ -1,7 +1,7 @@
 [
     {
         "question": "What kart is the ego car?",
-        "answer": "None",
+        "answer": null,
         "image_file": "train/00f63_02_im.jpg"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "0",
+        "answer": "-1",
         "image_file": "train/00f63_02_im.jpg"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "0",
+        "answer": "-1",
         "image_file": "train/00f63_02_im.jpg"
     }
 ]

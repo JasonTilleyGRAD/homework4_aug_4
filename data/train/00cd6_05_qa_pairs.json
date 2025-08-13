@@ -1,52 +1,37 @@
 [
     {
-        "question": "Is adiumy to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/00cd6_05_im.jpg"
-    },
-    {
-        "question": "Is adiumy in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/00cd6_05_im.jpg"
-    },
-    {
-        "question": "Where is adiumy relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/00cd6_05_im.jpg"
-    },
-    {
-        "question": "Is nolok to the left or right of the ego car?",
+        "question": "Is amanda to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
-        "question": "Is nolok in front of or behind the ego car?",
-        "answer": "front",
+        "question": "Is amanda in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
-        "question": "Where is nolok relative to the ego car?",
-        "answer": "(179, 32)",
+        "question": "Where is amanda relative to the ego car?",
+        "answer": "back and right",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
-        "question": "Is hexley to the left or right of the ego car?",
+        "question": "Is konqi to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
-        "question": "Is hexley in front of or behind the ego car?",
-        "answer": "front",
+        "question": "Is konqi in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
-        "question": "Where is hexley relative to the ego car?",
-        "answer": "(80, 98)",
+        "question": "Where is konqi relative to the ego car?",
+        "answer": "back and right",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "adiumy",
+        "answer": "nolok",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
@@ -61,7 +46,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
@@ -71,12 +56,12 @@
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "2",
+        "answer": "0",
         "image_file": "train/00cd6_05_im.jpg"
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "1",
+        "answer": "2",
         "image_file": "train/00cd6_05_im.jpg"
     }
 ]

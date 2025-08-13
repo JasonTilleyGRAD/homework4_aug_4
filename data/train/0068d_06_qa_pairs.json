@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is beastie to the left or right of the ego car?",
+        "question": "Is adiumy to the left or right of the ego car?",
         "answer": "left",
         "image_file": "train/0068d_06_im.jpg"
     },
     {
-        "question": "Is beastie in front of or behind the ego car?",
-        "answer": "behind",
+        "question": "Is adiumy in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/0068d_06_im.jpg"
     },
     {
-        "question": "Where is beastie relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/0068d_06_im.jpg"
-    },
-    {
-        "question": "Is kiki to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/0068d_06_im.jpg"
-    },
-    {
-        "question": "Is kiki in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/0068d_06_im.jpg"
-    },
-    {
-        "question": "Where is kiki relative to the ego car?",
-        "answer": "(4, 64)",
+        "question": "Where is adiumy relative to the ego car?",
+        "answer": "back and left",
         "image_file": "train/0068d_06_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "beastie",
+        "answer": "emule",
         "image_file": "train/0068d_06_im.jpg"
     },
     {
@@ -51,12 +36,12 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/0068d_06_im.jpg"
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/0068d_06_im.jpg"
     },
     {

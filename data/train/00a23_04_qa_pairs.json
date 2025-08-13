@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is nolok to the left or right of the ego car?",
+        "question": "Is adiumy to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/00a23_04_im.jpg"
     },
     {
-        "question": "Is nolok in front of or behind the ego car?",
-        "answer": "front",
+        "question": "Is adiumy in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/00a23_04_im.jpg"
     },
     {
-        "question": "Where is nolok relative to the ego car?",
-        "answer": "(57, 95)",
-        "image_file": "train/00a23_04_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/00a23_04_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/00a23_04_im.jpg"
-    },
-    {
-        "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(0, 0)",
+        "question": "Where is adiumy relative to the ego car?",
+        "answer": "back and right",
         "image_file": "train/00a23_04_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "sara_the_racer",
+        "answer": "gavroche",
         "image_file": "train/00a23_04_im.jpg"
     },
     {
@@ -46,7 +31,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00a23_04_im.jpg"
     },
     {
@@ -56,7 +41,7 @@
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00a23_04_im.jpg"
     },
     {

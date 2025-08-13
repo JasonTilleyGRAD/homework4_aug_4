@@ -78,7 +78,7 @@ Your main task is to massively expand the dataset for VLM training. Follow the 5
 `generate_qa.py` provides some initial code to parse and visualize the supertux data.
 
 Run
-
+python -m generate_qa generate
 ```bash
 python generate_qa.py check --info_file ../data/valid/00000_info.json --view_index 0
 ```

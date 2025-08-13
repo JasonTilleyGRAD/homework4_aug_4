@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is sara_the_racer to the left or right of the ego car?",
+        "question": "Is hexley to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/01136_08_im.jpg"
     },
     {
-        "question": "Is sara_the_racer in front of or behind the ego car?",
-        "answer": "front",
+        "question": "Is hexley in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/01136_08_im.jpg"
     },
     {
-        "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(74, 96)",
-        "image_file": "train/01136_08_im.jpg"
-    },
-    {
-        "question": "Is tux to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/01136_08_im.jpg"
-    },
-    {
-        "question": "Is tux in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/01136_08_im.jpg"
-    },
-    {
-        "question": "Where is tux relative to the ego car?",
-        "answer": "(0, 0)",
+        "question": "Where is hexley relative to the ego car?",
+        "answer": "back and right",
         "image_file": "train/01136_08_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "tux",
+        "answer": "nolok",
         "image_file": "train/01136_08_im.jpg"
     },
     {
@@ -46,7 +31,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/01136_08_im.jpg"
     },
     {
@@ -56,7 +41,7 @@
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/01136_08_im.jpg"
     },
     {

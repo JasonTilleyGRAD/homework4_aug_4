@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is amanda to the left or right of the ego car?",
+        "question": "Is sara_the_racer to the left or right of the ego car?",
         "answer": "left",
         "image_file": "valid/000cb_05_im.jpg"
     },
     {
-        "question": "Is amanda in front of or behind the ego car?",
-        "answer": "behind",
+        "question": "Is sara_the_racer in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "valid/000cb_05_im.jpg"
     },
     {
-        "question": "Where is amanda relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "valid/000cb_05_im.jpg"
-    },
-    {
-        "question": "Is kiki to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/000cb_05_im.jpg"
-    },
-    {
-        "question": "Is kiki in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/000cb_05_im.jpg"
-    },
-    {
-        "question": "Where is kiki relative to the ego car?",
-        "answer": "(54, -1)",
+        "question": "Where is sara_the_racer relative to the ego car?",
+        "answer": "back and left",
         "image_file": "valid/000cb_05_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "amanda",
+        "answer": "wilber",
         "image_file": "valid/000cb_05_im.jpg"
     },
     {
@@ -51,7 +36,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "valid/000cb_05_im.jpg"
     },
     {
@@ -61,7 +46,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "2",
+        "answer": "1",
         "image_file": "valid/000cb_05_im.jpg"
     }
 ]

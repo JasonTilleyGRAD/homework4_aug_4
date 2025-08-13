@@ -151,59 +151,70 @@ def extract_kart_objects(
         - center: (x, y) coordinates of the kart's center
         - is_center_kart: Boolean indicating if this is the kart closest to image center
     """
-    file = info_path
 
-    karts = file.get('karts', [])
-    detections = file.get('detections', [])
+    karts = info_path.get('karts', [])
+    detections_all_views = info_path.get('detections', [])
 
-    karts = karts
-    detections = detections[view_index]
+    if not (0 <= view_index < len(detections_all_views)):
+        return []
 
-    image_center = np.array([img_width/2,img_height/2])
-
-    karts_list = []
-    id_list = []
+    detections = detections_all_views[view_index]
+    karts_list = {}
     id_to_coords = {}
-    if len(karts) > 0:
-        for kart_detection, kart_name in zip(detections,karts):
-                class_id, track_id, x1, y1, x2, y2 = kart_detection
-                if class_id == 1:
-                    center_x = (x1 + x2) / 2
-                    center_y = (y1 + y2) / 2
 
-                    if track_id not in id_to_coords:
-                        id_to_coords[track_id] = {'x': [], 'y': []}
-                        karts_list.append({
-                        "instance_id": track_id,
-                        "kart_name": kart_name,
-                        "is_center_kart": False,
-                        "center": (-1,-1)})
-                        id_list.append(track_id)
+    scale_x = img_width / ORIGINAL_WIDTH
+    scale_y = img_height / ORIGINAL_HEIGHT
 
-                    id_to_coords[track_id]['x'].append(center_x)
-                    id_to_coords[track_id]['y'].append(center_y)
+    image_center = np.array([img_width/2, img_height/2])
 
+    for kart_detection in detections:
+        class_id, track_id, x1, y1, x2, y2 = kart_detection
+        if class_id != 1:
+            continue
 
-        i = 0
-        max_dist = 10e10
-        for id in id_list:
-            avg_x = np.mean(id_to_coords[id]['x'])
-            avg_y = np.mean(id_to_coords[id]['y'])
-            kart_center = (avg_x, avg_y)
-            karts_list[i]["center"] = kart_center
-        
-            dist = np.linalg.norm(image_center - kart_center)
+        x1_scaled = int(x1 * scale_x)
+        y1_scaled = int(y1 * scale_y)
+        x2_scaled = int(x2 * scale_x)
+        y2_scaled = int(y2 * scale_y)
 
-            if dist < max_dist:
-                max_dist = dist
-                center_kart_index = i
-            i +=1
+        if (x2_scaled - x1_scaled) < 5 or (y2_scaled - y1_scaled) < 5:
+            continue
+        if x2_scaled < 0 or x1_scaled > img_width or y2_scaled < 0 or y1_scaled > img_height:
+            continue
 
-        if len(karts_list)!= 0:
-            karts_list[center_kart_index]["is_center_kart"] = True
+        center_x = (x1_scaled + x2_scaled) / 2
+        center_y = (y1_scaled + y2_scaled) / 2
 
-    return karts_list
-    
+        if track_id not in id_to_coords:
+            id_to_coords[track_id] = {'x': [], 'y': []}
+            karts_list[track_id] = {
+                "instance_id": track_id,
+                "kart_name": karts[track_id],
+                "is_center_kart": False,
+                "center": (center_x, center_y)
+            }
+
+        id_to_coords[track_id]['x'].append(center_x)
+        id_to_coords[track_id]['y'].append(center_y)
+
+    ego_id = None
+    min_dist = float('inf')
+    for track_id in id_to_coords:
+        avg_x = np.mean(id_to_coords[track_id]['x'])
+        avg_y = np.mean(id_to_coords[track_id]['y'])
+        kart_center = (avg_x, avg_y)
+        karts_list[track_id]["center"] = kart_center
+
+        dist = np.linalg.norm(np.array(kart_center) - image_center)
+        if dist < min_dist:
+            min_dist = dist
+            ego_id = track_id
+
+    if ego_id is not None:
+        karts_list[ego_id]["is_center_kart"] = True
+
+    return list(karts_list.values())
+
 
 
 def extract_track_info(info_path: str) -> str:
@@ -258,55 +269,63 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
 
     with open(info_path, 'r') as f:
         file = json.load(f)
-    track_name = extract_track_info(file)
 
-    karts = extract_kart_objects(file,view_index,img_width,img_height)
+    track_name = extract_track_info(file)
+    karts = extract_kart_objects(file, view_index, img_width, img_height)
 
     ego_kart_name = None
+    ego_kart_center = [0, 0]
+
     for kart in karts:
-        if kart.get("is_center_kart", True):
-            ego_kart_name = kart["kart_name"]
-            ego_kart_center = kart["center"]
+        if kart.get("is_center_kart", False):
+            ego_kart_name = str(kart.get("kart_name", "unknown"))
+            center = kart.get("center", [0, 0])
+            ego_kart_center = [float(center[0]), float(center[1])]
             break
 
-    qa_pair = []
-    left = 0
-    front = 0
+    left_count = 0
+    front_count = 0
+    qa_pairs = []
+
     for kart in karts:
-        coord = kart["center"]
-        new_coors = (int(coord[0] - ego_kart_center[0])),int(coord[1] - ego_kart_center[1])
+        kart_name = str(kart.get("kart_name", "unknown"))
+        if kart_name == ego_kart_name:
+            continue
 
+        coord = kart.get("center")
+        x, y = float(coord[0]), float(coord[1])
 
-        if new_coors[0] > 0:
-            LorR = "right"
-        else:
-            LorR = "left"
-            left +=1
+        offset_x = int(x - ego_kart_center[0])
+        offset_y = int(y - ego_kart_center[1])
 
-        if coord[1] - ego_kart_center[1] > 0:
-            ForB = "front"
-            front +=1
-        else:
-            ForB = "behind"
-        
-        
-    
-        qa_pair.append({"question": f"Is {kart['kart_name']} to the left or right of the ego car?", "answer": str(LorR)})
-        qa_pair.append({"question": f"Is {kart['kart_name']} in front of or behind the ego car?", "answer": str(ForB)})
-        qa_pair.append({"question": f"Where is {kart['kart_name']} relative to the ego car?", "answer": str(new_coors)})
+        LorR = "right" if offset_x > 0 else "left"
+        ForB = "front" if offset_y < 0 else "back"
 
-    more_qa = [
-        {"question": "What kart is the ego car?", "answer": str(ego_kart_name)},
+        if LorR == "left":
+            left_count += 1
+        if ForB == "front":
+            front_count += 1
+
+        relative_position = f"{ForB} and {LorR}"
+
+        qa_pairs.extend([
+            {"question": f"Is {kart_name} to the left or right of the ego car?", "answer": LorR},
+            {"question": f"Is {kart_name} in front of or behind the ego car?", "answer": ForB},
+            {"question": f"Where is {kart_name} relative to the ego car?", "answer": relative_position}
+        ])
+
+    qa_pairs.extend([
+        {"question": "What kart is the ego car?", "answer": ego_kart_name},
         {"question": "How many karts are there in the scenario?", "answer": str(len(karts))},
         {"question": "What track is this?", "answer": str(track_name)},
-        {"question": "How many karts are to the left of the ego car?", "answer": str(left)},
-        {"question": "How many karts are to the right of the ego car?", "answer": str(len(karts) - left)},
-        {"question": "How many karts are in front of the ego car?", "answer": str(front)},
-        {"question": "How many karts are behind the ego car?", "answer": str(len(karts) - front)}
-    ]
+        {"question": "How many karts are to the left of the ego car?", "answer": str(left_count)},
+        {"question": "How many karts are to the right of the ego car?", "answer": str(len(karts) - 1 - left_count)},
+        {"question": "How many karts are in front of the ego car?", "answer": str(front_count)},
+        {"question": "How many karts are behind the ego car?", "answer": str(len(karts) - 1 - front_count)}
+    ])
 
-    qa_pair += more_qa
-    return qa_pair
+    return qa_pairs
+
 
 
 
@@ -363,7 +382,7 @@ def generate():
                 qa_pairs = generate_qa_pairs(file_path, j)
 
                 for qa in qa_pairs:
-                    # Prepend split folder name + '/' before the image filename
+                
                     qa["image_file"] = f"{split_name}/{image_path.name}"
 
                 new_filename = image_path.stem.replace("_im", "") + "_qa_pairs.json"
@@ -376,6 +395,71 @@ def generate():
 
 
 
+def compare_valid_train(valid_balanced_path = "../data/valid_grader/balanced_qa_pairs.json", train_dir = "../data/train/", valid_dir = "../data/valid/"):
+    # Load valid grader file
+    with open(valid_balanced_path, "r") as f:
+        valid_entries = json.load(f)
+
+    mismatches = []
+    matches = []
+
+    for entry in valid_entries:
+        image_file = entry.get("image_file")
+        question = entry.get("question")
+        answer = entry.get("answer")
+
+        if not image_file:
+            continue
+
+        
+        qa_filename = Path(image_file).stem.replace("_im", "") + "_qa_pairs.json"
+        train_qa_path = Path(train_dir) / qa_filename
+        valid_qa_path = Path(valid_dir) / qa_filename
+
+        valid_exist = not valid_qa_path.exists()
+        train_exist = not valid_qa_path.exists()
+
+        if valid_exist or train_exist :
+            mismatches.append({
+                "image_file": image_file,
+                "reason": "No matching train QA file"
+            })
+            continue
+        
+        if not train_exist:
+            with open(train_qa_path, "r") as f:
+                qas = json.load(f)
+        if not valid_exist:
+            with open(valid_qa_path, "r") as f:
+                qas = json.load(f)
+
+        # Search for question-answer match
+        found = False
+    
+        for qa in qas:
+            if qa.get("answer") == answer and qa.get("question") == question:
+                matches.append(entry)
+                found = True
+                break
+
+        if not found:
+            mismatches.append({
+                "image_file": image_file,
+                "question": question,
+                "answer": answer,
+                    
+            })
+
+    # Output results
+    print(f"Matches found: {len(matches)}")
+    print(f"Mismatches found: {len(mismatches)}")
+
+    # Save mismatches for review
+    with open("mismatches.json", "w") as f:
+        json.dump(mismatches, f, indent=4)
+
+    return mismatches
+    # print(matches)
 
 
             
@@ -392,7 +476,8 @@ You probably need to add additional commands to Fire below.
 
 def main():
     fire.Fire({"check": check_qa_pairs, 
-               "generate": generate})
+               "generate": generate,
+               "check_correct": compare_valid_train})
 
 
 if __name__ == "__main__":

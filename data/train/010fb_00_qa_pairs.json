@@ -1,32 +1,17 @@
 [
     {
-        "question": "Is adiumy to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/010fb_00_im.jpg"
-    },
-    {
-        "question": "Is adiumy in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/010fb_00_im.jpg"
-    },
-    {
-        "question": "Where is adiumy relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/010fb_00_im.jpg"
-    },
-    {
         "question": "Is nolok to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/010fb_00_im.jpg"
     },
     {
         "question": "Is nolok in front of or behind the ego car?",
-        "answer": "front",
+        "answer": "back",
         "image_file": "train/010fb_00_im.jpg"
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(100, 46)",
+        "answer": "back and right",
         "image_file": "train/010fb_00_im.jpg"
     },
     {
@@ -36,12 +21,12 @@
     },
     {
         "question": "Is hexley in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "front",
         "image_file": "train/010fb_00_im.jpg"
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(27, -18)",
+        "answer": "front and right",
         "image_file": "train/010fb_00_im.jpg"
     },
     {
@@ -61,7 +46,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/010fb_00_im.jpg"
     },
     {
@@ -76,7 +61,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "2",
+        "answer": "1",
         "image_file": "train/010fb_00_im.jpg"
     }
 ]

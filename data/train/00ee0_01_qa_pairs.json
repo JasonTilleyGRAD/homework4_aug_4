@@ -1,57 +1,27 @@
 [
     {
-        "question": "Is beastie to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/00ee0_01_im.jpg"
-    },
-    {
-        "question": "Is beastie in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/00ee0_01_im.jpg"
-    },
-    {
-        "question": "Where is beastie relative to the ego car?",
-        "answer": "(143, 13)",
-        "image_file": "train/00ee0_01_im.jpg"
-    },
-    {
-        "question": "Is wilber to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/00ee0_01_im.jpg"
-    },
-    {
-        "question": "Is wilber in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/00ee0_01_im.jpg"
-    },
-    {
-        "question": "Where is wilber relative to the ego car?",
-        "answer": "(177, -68)",
-        "image_file": "train/00ee0_01_im.jpg"
-    },
-    {
-        "question": "Is amanda to the left or right of the ego car?",
+        "question": "Is pidgin to the left or right of the ego car?",
         "answer": "left",
         "image_file": "train/00ee0_01_im.jpg"
     },
     {
-        "question": "Is amanda in front of or behind the ego car?",
-        "answer": "behind",
+        "question": "Is pidgin in front of or behind the ego car?",
+        "answer": "front",
         "image_file": "train/00ee0_01_im.jpg"
     },
     {
-        "question": "Where is amanda relative to the ego car?",
-        "answer": "(0, 0)",
+        "question": "Where is pidgin relative to the ego car?",
+        "answer": "front and left",
         "image_file": "train/00ee0_01_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "amanda",
+        "answer": "wilber",
         "image_file": "train/00ee0_01_im.jpg"
     },
     {
         "question": "How many karts are there in the scenario?",
-        "answer": "3",
+        "answer": "2",
         "image_file": "train/00ee0_01_im.jpg"
     },
     {
@@ -66,7 +36,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "2",
+        "answer": "0",
         "image_file": "train/00ee0_01_im.jpg"
     },
     {
@@ -76,7 +46,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "2",
+        "answer": "0",
         "image_file": "train/00ee0_01_im.jpg"
     }
 ]

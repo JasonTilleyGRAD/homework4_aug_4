@@ -1,37 +1,7 @@
 [
     {
-        "question": "Is suzanne to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/00904_00_im.jpg"
-    },
-    {
-        "question": "Is suzanne in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/00904_00_im.jpg"
-    },
-    {
-        "question": "Where is suzanne relative to the ego car?",
-        "answer": "(153, 74)",
-        "image_file": "train/00904_00_im.jpg"
-    },
-    {
-        "question": "Is gavroche to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/00904_00_im.jpg"
-    },
-    {
-        "question": "Is gavroche in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/00904_00_im.jpg"
-    },
-    {
-        "question": "Where is gavroche relative to the ego car?",
-        "answer": "(104, 20)",
-        "image_file": "train/00904_00_im.jpg"
-    },
-    {
         "question": "Is xue to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "train/00904_00_im.jpg"
     },
     {
@@ -41,7 +11,7 @@
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": "(133, 0)",
+        "answer": "front and left",
         "image_file": "train/00904_00_im.jpg"
     },
     {
@@ -56,27 +26,42 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(-90, 10)",
+        "answer": "front and left",
         "image_file": "train/00904_00_im.jpg"
     },
     {
-        "question": "Is tux to the left or right of the ego car?",
+        "question": "Is pidgin to the left or right of the ego car?",
         "answer": "left",
         "image_file": "train/00904_00_im.jpg"
     },
     {
-        "question": "Is tux in front of or behind the ego car?",
-        "answer": "behind",
+        "question": "Is pidgin in front of or behind the ego car?",
+        "answer": "front",
         "image_file": "train/00904_00_im.jpg"
     },
     {
-        "question": "Where is tux relative to the ego car?",
-        "answer": "(0, 0)",
+        "question": "Where is pidgin relative to the ego car?",
+        "answer": "front and left",
+        "image_file": "train/00904_00_im.jpg"
+    },
+    {
+        "question": "Is beastie to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "train/00904_00_im.jpg"
+    },
+    {
+        "question": "Is beastie in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "train/00904_00_im.jpg"
+    },
+    {
+        "question": "Where is beastie relative to the ego car?",
+        "answer": "front and left",
         "image_file": "train/00904_00_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "tux",
+        "answer": "suzanne",
         "image_file": "train/00904_00_im.jpg"
     },
     {
@@ -91,12 +76,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "2",
+        "answer": "4",
         "image_file": "train/00904_00_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "3",
+        "answer": "0",
         "image_file": "train/00904_00_im.jpg"
     },
     {
@@ -106,7 +91,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00904_00_im.jpg"
     }
 ]

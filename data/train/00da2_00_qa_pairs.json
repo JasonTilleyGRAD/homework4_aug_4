@@ -1,32 +1,17 @@
 [
     {
         "question": "Is nolok to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/00da2_00_im.jpg"
-    },
-    {
-        "question": "Is nolok in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/00da2_00_im.jpg"
-    },
-    {
-        "question": "Where is nolok relative to the ego car?",
-        "answer": "(3, 36)",
-        "image_file": "train/00da2_00_im.jpg"
-    },
-    {
-        "question": "Is kiki to the left or right of the ego car?",
         "answer": "left",
         "image_file": "train/00da2_00_im.jpg"
     },
     {
-        "question": "Is kiki in front of or behind the ego car?",
-        "answer": "behind",
+        "question": "Is nolok in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/00da2_00_im.jpg"
     },
     {
-        "question": "Where is kiki relative to the ego car?",
-        "answer": "(0, 0)",
+        "question": "Where is nolok relative to the ego car?",
+        "answer": "back and left",
         "image_file": "train/00da2_00_im.jpg"
     },
     {
@@ -51,12 +36,12 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00da2_00_im.jpg"
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00da2_00_im.jpg"
     },
     {

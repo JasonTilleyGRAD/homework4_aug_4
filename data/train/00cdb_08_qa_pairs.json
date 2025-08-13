@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is adiumy to the left or right of the ego car?",
+        "question": "Is nolok to the left or right of the ego car?",
         "answer": "left",
         "image_file": "train/00cdb_08_im.jpg"
     },
     {
-        "question": "Is adiumy in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/00cdb_08_im.jpg"
-    },
-    {
-        "question": "Where is adiumy relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/00cdb_08_im.jpg"
-    },
-    {
-        "question": "Is beastie to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/00cdb_08_im.jpg"
-    },
-    {
-        "question": "Is beastie in front of or behind the ego car?",
+        "question": "Is nolok in front of or behind the ego car?",
         "answer": "front",
         "image_file": "train/00cdb_08_im.jpg"
     },
     {
-        "question": "Where is beastie relative to the ego car?",
-        "answer": "(22, 50)",
+        "question": "Where is nolok relative to the ego car?",
+        "answer": "front and left",
         "image_file": "train/00cdb_08_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "adiumy",
+        "answer": "tux",
         "image_file": "train/00cdb_08_im.jpg"
     },
     {
@@ -51,7 +36,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00cdb_08_im.jpg"
     },
     {
@@ -61,7 +46,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00cdb_08_im.jpg"
     }
 ]

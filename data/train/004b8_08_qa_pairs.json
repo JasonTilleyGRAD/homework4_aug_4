@@ -1,20 +1,5 @@
 [
     {
-        "question": "Is adiumy to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is adiumy in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Where is adiumy relative to the ego car?",
-        "answer": "(63, -12)",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
         "question": "Is beastie to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/004b8_08_im.jpg"
@@ -26,67 +11,7 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(112, 12)",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(73, -17)",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is wilber to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is wilber in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Where is wilber relative to the ego car?",
-        "answer": "(84, -13)",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is nolok to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is nolok in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Where is nolok relative to the ego car?",
-        "answer": "(85, -3)",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is gavroche to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is gavroche in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Where is gavroche relative to the ego car?",
-        "answer": "(26, -6)",
+        "answer": "front and right",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
@@ -96,12 +21,12 @@
     },
     {
         "question": "Is konqi in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "front",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(0, 0)",
+        "answer": "front and left",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
@@ -116,22 +41,7 @@
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": "(141, 12)",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is tux to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Is tux in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/004b8_08_im.jpg"
-    },
-    {
-        "question": "Where is tux relative to the ego car?",
-        "answer": "(59, 52)",
+        "answer": "front and right",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
@@ -146,17 +56,17 @@
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": "(192, 34)",
+        "answer": "front and right",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "konqi",
+        "answer": "tux",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
         "question": "How many karts are there in the scenario?",
-        "answer": "10",
+        "answer": "5",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
@@ -171,7 +81,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "9",
+        "answer": "3",
         "image_file": "train/004b8_08_im.jpg"
     },
     {
@@ -181,7 +91,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "6",
+        "answer": "0",
         "image_file": "train/004b8_08_im.jpg"
     }
 ]

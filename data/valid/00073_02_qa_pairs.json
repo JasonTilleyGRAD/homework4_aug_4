@@ -1,52 +1,37 @@
 [
     {
-        "question": "Is gnu to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/00073_02_im.jpg"
-    },
-    {
-        "question": "Is gnu in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/00073_02_im.jpg"
-    },
-    {
-        "question": "Where is gnu relative to the ego car?",
-        "answer": "(128, -36)",
-        "image_file": "valid/00073_02_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/00073_02_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/00073_02_im.jpg"
-    },
-    {
-        "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(107, -61)",
-        "image_file": "valid/00073_02_im.jpg"
-    },
-    {
         "question": "Is konqi to the left or right of the ego car?",
-        "answer": "left",
+        "answer": "right",
         "image_file": "valid/00073_02_im.jpg"
     },
     {
         "question": "Is konqi in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "back",
         "image_file": "valid/00073_02_im.jpg"
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(0, 0)",
+        "answer": "back and right",
+        "image_file": "valid/00073_02_im.jpg"
+    },
+    {
+        "question": "Is xue to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "valid/00073_02_im.jpg"
+    },
+    {
+        "question": "Is xue in front of or behind the ego car?",
+        "answer": "back",
+        "image_file": "valid/00073_02_im.jpg"
+    },
+    {
+        "question": "Where is xue relative to the ego car?",
+        "answer": "back and left",
         "image_file": "valid/00073_02_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "konqi",
+        "answer": "amanda",
         "image_file": "valid/00073_02_im.jpg"
     },
     {
@@ -66,7 +51,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "2",
+        "answer": "1",
         "image_file": "valid/00073_02_im.jpg"
     },
     {
@@ -76,7 +61,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "3",
+        "answer": "2",
         "image_file": "valid/00073_02_im.jpg"
     }
 ]

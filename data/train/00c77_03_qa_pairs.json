@@ -6,32 +6,17 @@
     },
     {
         "question": "Is suzanne in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/00c77_03_im.jpg"
-    },
-    {
-        "question": "Where is suzanne relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/00c77_03_im.jpg"
-    },
-    {
-        "question": "Is gavroche to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/00c77_03_im.jpg"
-    },
-    {
-        "question": "Is gavroche in front of or behind the ego car?",
         "answer": "front",
         "image_file": "train/00c77_03_im.jpg"
     },
     {
-        "question": "Where is gavroche relative to the ego car?",
-        "answer": "(137, 2)",
+        "question": "Where is suzanne relative to the ego car?",
+        "answer": "front and left",
         "image_file": "train/00c77_03_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "suzanne",
+        "answer": "kiki",
         "image_file": "train/00c77_03_im.jpg"
     },
     {
@@ -51,7 +36,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00c77_03_im.jpg"
     },
     {
@@ -61,7 +46,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00c77_03_im.jpg"
     }
 ]

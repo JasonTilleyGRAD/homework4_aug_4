@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is gavroche to the left or right of the ego car?",
+        "question": "Is konqi to the left or right of the ego car?",
         "answer": "left",
         "image_file": "train/008ed_02_im.jpg"
     },
     {
-        "question": "Is gavroche in front of or behind the ego car?",
-        "answer": "behind",
+        "question": "Is konqi in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/008ed_02_im.jpg"
     },
     {
-        "question": "Where is gavroche relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/008ed_02_im.jpg"
-    },
-    {
-        "question": "Is adiumy to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/008ed_02_im.jpg"
-    },
-    {
-        "question": "Is adiumy in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/008ed_02_im.jpg"
-    },
-    {
-        "question": "Where is adiumy relative to the ego car?",
-        "answer": "(-16, 39)",
+        "question": "Where is konqi relative to the ego car?",
+        "answer": "back and left",
         "image_file": "train/008ed_02_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "gavroche",
+        "answer": "amanda",
         "image_file": "train/008ed_02_im.jpg"
     },
     {
@@ -46,7 +31,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "2",
+        "answer": "1",
         "image_file": "train/008ed_02_im.jpg"
     },
     {
@@ -56,7 +41,7 @@
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/008ed_02_im.jpg"
     },
     {

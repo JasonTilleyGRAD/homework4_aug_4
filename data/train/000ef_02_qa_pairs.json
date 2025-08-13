@@ -6,42 +6,27 @@
     },
     {
         "question": "Is suzanne in front of or behind the ego car?",
-        "answer": "front",
+        "answer": "back",
         "image_file": "train/000ef_02_im.jpg"
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(-55, 135)",
+        "answer": "back and left",
         "image_file": "train/000ef_02_im.jpg"
     },
     {
-        "question": "Is puffy to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/000ef_02_im.jpg"
-    },
-    {
-        "question": "Is puffy in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/000ef_02_im.jpg"
-    },
-    {
-        "question": "Where is puffy relative to the ego car?",
-        "answer": "(32, -10)",
-        "image_file": "train/000ef_02_im.jpg"
-    },
-    {
-        "question": "Is kiki to the left or right of the ego car?",
+        "question": "Is beastie to the left or right of the ego car?",
         "answer": "left",
         "image_file": "train/000ef_02_im.jpg"
     },
     {
-        "question": "Is kiki in front of or behind the ego car?",
-        "answer": "behind",
+        "question": "Is beastie in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/000ef_02_im.jpg"
     },
     {
-        "question": "Where is kiki relative to the ego car?",
-        "answer": "(0, 0)",
+        "question": "Where is beastie relative to the ego car?",
+        "answer": "back and left",
         "image_file": "train/000ef_02_im.jpg"
     },
     {
@@ -66,12 +51,12 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/000ef_02_im.jpg"
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/000ef_02_im.jpg"
     },
     {

@@ -1,102 +1,27 @@
 [
     {
-        "question": "Is xue to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is xue in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Where is xue relative to the ego car?",
-        "answer": "(124, -92)",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is amanda to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is amanda in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Where is amanda relative to the ego car?",
-        "answer": "(154, -106)",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is tux to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is tux in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Where is tux relative to the ego car?",
-        "answer": "(176, -109)",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer to the left or right of the ego car?",
+        "question": "Is pidgin to the left or right of the ego car?",
         "answer": "left",
         "image_file": "valid/00016_06_im.jpg"
     },
     {
-        "question": "Is sara_the_racer in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is konqi to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is konqi in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Where is konqi relative to the ego car?",
-        "answer": "(100, -23)",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
-        "question": "Is pidgin to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/00016_06_im.jpg"
-    },
-    {
         "question": "Is pidgin in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "back",
         "image_file": "valid/00016_06_im.jpg"
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(191, -111)",
+        "answer": "back and left",
         "image_file": "valid/00016_06_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "sara_the_racer",
+        "answer": "suzanne",
         "image_file": "valid/00016_06_im.jpg"
     },
     {
         "question": "How many karts are there in the scenario?",
-        "answer": "6",
+        "answer": "2",
         "image_file": "valid/00016_06_im.jpg"
     },
     {
@@ -111,7 +36,7 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "5",
+        "answer": "0",
         "image_file": "valid/00016_06_im.jpg"
     },
     {
@@ -121,7 +46,7 @@
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "6",
+        "answer": "1",
         "image_file": "valid/00016_06_im.jpg"
     }
 ]

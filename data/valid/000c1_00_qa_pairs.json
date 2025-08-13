@@ -1,32 +1,17 @@
 [
     {
-        "question": "Is gavroche to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/000c1_00_im.jpg"
-    },
-    {
-        "question": "Is gavroche in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "valid/000c1_00_im.jpg"
-    },
-    {
-        "question": "Where is gavroche relative to the ego car?",
-        "answer": "(129, 17)",
-        "image_file": "valid/000c1_00_im.jpg"
-    },
-    {
         "question": "Is nolok to the left or right of the ego car?",
         "answer": "right",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {
         "question": "Is nolok in front of or behind the ego car?",
-        "answer": "front",
+        "answer": "back",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(202, 44)",
+        "answer": "back and right",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {
@@ -36,17 +21,17 @@
     },
     {
         "question": "Is sara_the_racer in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "front",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(0, 0)",
+        "answer": "front and left",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "sara_the_racer",
+        "answer": "gavroche",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {
@@ -66,12 +51,12 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "2",
+        "answer": "1",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "2",
+        "answer": "1",
         "image_file": "valid/000c1_00_im.jpg"
     },
     {

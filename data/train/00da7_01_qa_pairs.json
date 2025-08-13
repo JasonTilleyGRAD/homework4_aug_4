@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is wilber to the left or right of the ego car?",
+        "question": "Is emule to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/00da7_01_im.jpg"
     },
     {
-        "question": "Is wilber in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/00da7_01_im.jpg"
-    },
-    {
-        "question": "Where is wilber relative to the ego car?",
-        "answer": "(70, 97)",
-        "image_file": "train/00da7_01_im.jpg"
-    },
-    {
-        "question": "Is emule to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/00da7_01_im.jpg"
-    },
-    {
         "question": "Is emule in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "back",
         "image_file": "train/00da7_01_im.jpg"
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(0, 0)",
+        "answer": "back and right",
         "image_file": "train/00da7_01_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "emule",
+        "answer": "konqi",
         "image_file": "train/00da7_01_im.jpg"
     },
     {
@@ -46,7 +31,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00da7_01_im.jpg"
     },
     {
@@ -56,7 +41,7 @@
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/00da7_01_im.jpg"
     },
     {

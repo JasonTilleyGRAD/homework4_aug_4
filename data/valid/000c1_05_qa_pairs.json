@@ -11,7 +11,7 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(53, 7)",
+        "answer": "front and right",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {
@@ -26,22 +26,7 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(79, 12)",
-        "image_file": "valid/000c1_05_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "valid/000c1_05_im.jpg"
-    },
-    {
-        "question": "Is sara_the_racer in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/000c1_05_im.jpg"
-    },
-    {
-        "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(0, 0)",
+        "answer": "front and right",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {
@@ -51,37 +36,22 @@
     },
     {
         "question": "Is konqi in front of or behind the ego car?",
-        "answer": "front",
+        "answer": "back",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(-197, 153)",
-        "image_file": "valid/000c1_05_im.jpg"
-    },
-    {
-        "question": "Is emule to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "valid/000c1_05_im.jpg"
-    },
-    {
-        "question": "Is emule in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "valid/000c1_05_im.jpg"
-    },
-    {
-        "question": "Where is emule relative to the ego car?",
-        "answer": "(-1, 39)",
+        "answer": "back and left",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "sara_the_racer",
+        "answer": "kiki",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {
         "question": "How many karts are there in the scenario?",
-        "answer": "5",
+        "answer": "4",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {
@@ -91,7 +61,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "3",
+        "answer": "1",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {
@@ -101,7 +71,7 @@
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "4",
+        "answer": "2",
         "image_file": "valid/000c1_05_im.jpg"
     },
     {

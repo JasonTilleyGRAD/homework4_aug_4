@@ -1,47 +1,17 @@
 [
     {
-        "question": "Is kiki to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Is kiki in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Where is kiki relative to the ego car?",
-        "answer": "(225, 135)",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Is adiumy to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Is adiumy in front of or behind the ego car?",
-        "answer": "front",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Where is adiumy relative to the ego car?",
-        "answer": "(62, 25)",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
         "question": "Is nolok to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
         "question": "Is nolok in front of or behind the ego car?",
-        "answer": "front",
+        "answer": "back",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(58, 16)",
+        "answer": "back and right",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
@@ -51,37 +21,22 @@
     },
     {
         "question": "Is wilber in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Where is wilber relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Is gnu to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "train/012b5_09_im.jpg"
-    },
-    {
-        "question": "Is gnu in front of or behind the ego car?",
         "answer": "front",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
-        "question": "Where is gnu relative to the ego car?",
-        "answer": "(127, 84)",
+        "question": "Where is wilber relative to the ego car?",
+        "answer": "front and left",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "wilber",
+        "answer": "konqi",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
         "question": "How many karts are there in the scenario?",
-        "answer": "5",
+        "answer": "3",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
@@ -96,12 +51,12 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "4",
+        "answer": "1",
         "image_file": "train/012b5_09_im.jpg"
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "4",
+        "answer": "1",
         "image_file": "train/012b5_09_im.jpg"
     },
     {

@@ -1,37 +1,22 @@
 [
     {
-        "question": "Is beastie to the left or right of the ego car?",
+        "question": "Is wilber to the left or right of the ego car?",
         "answer": "right",
         "image_file": "train/001ea_09_im.jpg"
     },
     {
-        "question": "Is beastie in front of or behind the ego car?",
-        "answer": "front",
+        "question": "Is wilber in front of or behind the ego car?",
+        "answer": "back",
         "image_file": "train/001ea_09_im.jpg"
     },
     {
-        "question": "Where is beastie relative to the ego car?",
-        "answer": "(38, 147)",
-        "image_file": "train/001ea_09_im.jpg"
-    },
-    {
-        "question": "Is kiki to the left or right of the ego car?",
-        "answer": "left",
-        "image_file": "train/001ea_09_im.jpg"
-    },
-    {
-        "question": "Is kiki in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "train/001ea_09_im.jpg"
-    },
-    {
-        "question": "Where is kiki relative to the ego car?",
-        "answer": "(0, 0)",
+        "question": "Where is wilber relative to the ego car?",
+        "answer": "back and right",
         "image_file": "train/001ea_09_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "kiki",
+        "answer": "nolok",
         "image_file": "train/001ea_09_im.jpg"
     },
     {
@@ -46,7 +31,7 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/001ea_09_im.jpg"
     },
     {
@@ -56,7 +41,7 @@
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "1",
+        "answer": "0",
         "image_file": "train/001ea_09_im.jpg"
     },
     {

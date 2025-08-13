@@ -6,12 +6,12 @@
     },
     {
         "question": "Is amanda in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "front",
         "image_file": "valid/000ec_02_im.jpg"
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(98, -37)",
+        "answer": "front and right",
         "image_file": "valid/000ec_02_im.jpg"
     },
     {
@@ -21,32 +21,17 @@
     },
     {
         "question": "Is puffy in front of or behind the ego car?",
-        "answer": "behind",
+        "answer": "back",
         "image_file": "valid/000ec_02_im.jpg"
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(0, 0)",
-        "image_file": "valid/000ec_02_im.jpg"
-    },
-    {
-        "question": "Is gnu to the left or right of the ego car?",
-        "answer": "right",
-        "image_file": "valid/000ec_02_im.jpg"
-    },
-    {
-        "question": "Is gnu in front of or behind the ego car?",
-        "answer": "behind",
-        "image_file": "valid/000ec_02_im.jpg"
-    },
-    {
-        "question": "Where is gnu relative to the ego car?",
-        "answer": "(58, -11)",
+        "answer": "back and left",
         "image_file": "valid/000ec_02_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
-        "answer": "puffy",
+        "answer": "gnu",
         "image_file": "valid/000ec_02_im.jpg"
     },
     {
@@ -66,17 +51,17 @@
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": "2",
+        "answer": "1",
         "image_file": "valid/000ec_02_im.jpg"
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": "0",
+        "answer": "1",
         "image_file": "valid/000ec_02_im.jpg"
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": "3",
+        "answer": "1",
         "image_file": "valid/000ec_02_im.jpg"
     }
 ]
