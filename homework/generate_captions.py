@@ -31,6 +31,7 @@ def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_
     captions =[]
     for kart in karts:
         if kart.get("kart_name") == ego_kart_name:
+            captions.append({"caption":  str(kart["kart_name"]) + " is the ego car." })
             continue
         coord = kart.get("center")
         x, y = float(coord[0]), float(coord[1])
