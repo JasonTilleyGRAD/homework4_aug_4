@@ -191,10 +191,10 @@ class CLIP(nn.Module):
         image_hidden = image_output.last_hidden_state
         text_hidden = text_output.last_hidden_state
 
-        if self.image_projection is None:
-            self.image_projection = nn.Linear(image_features.shape[-1], self.proj_dim).to(image_features.device)
-        if self.text_projection is None:
-            self.text_projection = nn.Linear(text_features.shape[-1], self.proj_dim).to(text_features.device)
+        if not hasattr(self, 'image_projection'):
+            self.image_projection = nn.Linear(image_hidden.shape[-1], self.proj_dim).to(image_features.device)
+        if not hasattr(self, 'text_projection'):
+            self.text_projection = nn.Linear(text_hidden.shape[-1], self.proj_dim).to(text_features.device)
 
         image_features = self.image_projection(image_features)
         text_features = self.text_projection(text_features)
@@ -233,8 +233,8 @@ def compute_clip_loss(
     labels = torch.arange(batch_size, device=logits_per_image.device)
 
     CEL = nn.CrossEntropyLoss()
-    loss_i = CEL(logits_per_image.float(), labels) 
-    loss_t = CEL(logits_per_text.float(), labels)    
+    loss_i = CEL(logits_per_image, labels) 
+    loss_t = CEL(logits_per_text, labels)    
 
     loss = (loss_i + loss_t) / 2
     return loss

@@ -1,6 +1,6 @@
 [
     {
-        "caption": "kiki is in front of the ego car.",
+        "caption": "kiki is behind the ego car.",
         "image_file": "train/0038a_06_im.jpg"
     },
     {
@@ -12,11 +12,11 @@
         "image_file": "train/0038a_06_im.jpg"
     },
     {
-        "caption": "hexley is in front of the ego car.",
+        "caption": "hexley is behind the ego car.",
         "image_file": "train/0038a_06_im.jpg"
     },
     {
-        "caption": "tux is in front of the ego car.",
+        "caption": "tux is behind the ego car.",
         "image_file": "train/0038a_06_im.jpg"
     },
     {
