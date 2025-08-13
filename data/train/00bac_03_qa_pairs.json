@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(10.5), np.float64(40.5))",
+        "answer": [
+            10,
+            40
+        ],
         "image_file": "00bac_03_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00bac_03_im.jpg"
     },
     {

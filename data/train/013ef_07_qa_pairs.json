@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(260.0), np.float64(-187.0))",
+        "answer": [
+            260,
+            -187
+        ],
         "image_file": "013ef_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "013ef_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(250.0), np.float64(-183.5))",
+        "answer": [
+            250,
+            -183
+        ],
         "image_file": "013ef_07_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(227.0), np.float64(-179.5))",
+        "answer": [
+            227,
+            -179
+        ],
         "image_file": "013ef_07_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(166.5), np.float64(-64.0))",
+        "answer": [
+            166,
+            -64
+        ],
         "image_file": "013ef_07_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(np.float64(265.0), np.float64(-188.5))",
+        "answer": [
+            265,
+            -188
+        ],
         "image_file": "013ef_07_im.jpg"
     },
     {

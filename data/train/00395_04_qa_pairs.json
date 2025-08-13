@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00395_04_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(38.5), np.float64(60.0))",
+        "answer": [
+            38,
+            60
+        ],
         "image_file": "00395_04_im.jpg"
     },
     {

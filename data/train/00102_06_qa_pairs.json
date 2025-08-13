@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(154.0), np.float64(-16.5))",
+        "answer": [
+            154,
+            -16
+        ],
         "image_file": "00102_06_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(46.5), np.float64(-47.0))",
+        "answer": [
+            46,
+            -47
+        ],
         "image_file": "00102_06_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(46.5), np.float64(-52.5))",
+        "answer": [
+            46,
+            -52
+        ],
         "image_file": "00102_06_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00102_06_im.jpg"
     },
     {

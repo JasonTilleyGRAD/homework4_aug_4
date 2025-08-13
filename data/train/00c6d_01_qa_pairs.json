@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(24.0), np.float64(60.5))",
+        "answer": [
+            24,
+            60
+        ],
         "image_file": "00c6d_01_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00c6d_01_im.jpg"
     },
     {
@@ -41,12 +47,15 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(2.0), np.float64(-3.0))",
+        "answer": [
+            2,
+            -3
+        ],
         "image_file": "00c6d_01_im.jpg"
     },
     {
         "question": "Is hexley to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "00c6d_01_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(2.0))",
+        "answer": [
+            0,
+            2
+        ],
         "image_file": "00c6d_01_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(5.5), np.float64(-4.0))",
+        "answer": [
+            5,
+            -4
+        ],
         "image_file": "00c6d_01_im.jpg"
     },
     {
@@ -91,12 +106,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 1,
+        "answer": 2,
         "image_file": "00c6d_01_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 4,
+        "answer": 3,
         "image_file": "00c6d_01_im.jpg"
     },
     {

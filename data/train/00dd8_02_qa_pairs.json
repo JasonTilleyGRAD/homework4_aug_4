@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00dd8_02_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(82.0), np.float64(60.0))",
+        "answer": [
+            82,
+            60
+        ],
         "image_file": "00dd8_02_im.jpg"
     },
     {
@@ -41,12 +47,15 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(42.0), np.float64(4.5))",
+        "answer": [
+            42,
+            4
+        ],
         "image_file": "00dd8_02_im.jpg"
     },
     {
         "question": "Is emule to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "00dd8_02_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00dd8_02_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(68.0), np.float64(23.0))",
+        "answer": [
+            68,
+            23
+        ],
         "image_file": "00dd8_02_im.jpg"
     },
     {
@@ -91,12 +106,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 1,
+        "answer": 2,
         "image_file": "00dd8_02_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 4,
+        "answer": 3,
         "image_file": "00dd8_02_im.jpg"
     },
     {

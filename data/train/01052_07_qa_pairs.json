@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(30.5), np.float64(4.0))",
+        "answer": [
+            30,
+            4
+        ],
         "image_file": "01052_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(42.0), np.float64(6.0))",
+        "answer": [
+            42,
+            6
+        ],
         "image_file": "01052_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(14.0), np.float64(2.5))",
+        "answer": [
+            14,
+            2
+        ],
         "image_file": "01052_07_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(89.0), np.float64(9.5))",
+        "answer": [
+            89,
+            9
+        ],
         "image_file": "01052_07_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "01052_07_im.jpg"
     },
     {
@@ -86,12 +101,15 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(-33.5), np.float64(101.0))",
+        "answer": [
+            -33,
+            101
+        ],
         "image_file": "01052_07_im.jpg"
     },
     {
         "question": "Is beastie to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "01052_07_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(1.5))",
+        "answer": [
+            0,
+            1
+        ],
         "image_file": "01052_07_im.jpg"
     },
     {
@@ -121,12 +142,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 2,
+        "answer": 3,
         "image_file": "01052_07_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 5,
+        "answer": 4,
         "image_file": "01052_07_im.jpg"
     },
     {

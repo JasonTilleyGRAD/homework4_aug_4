@@ -1,7 +1,7 @@
 [
     {
         "question": "Is gavroche to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "00357_00_im.jpg"
     },
     {
@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(72.0))",
+        "answer": [
+            0,
+            72
+        ],
         "image_file": "00357_00_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(3.5), np.float64(1.5))",
+        "answer": [
+            3,
+            1
+        ],
         "image_file": "00357_00_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(4.5), np.float64(3.0))",
+        "answer": [
+            4,
+            3
+        ],
         "image_file": "00357_00_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is gnu relative to the ego car?",
-        "answer": "(np.float64(8.5), np.float64(2.5))",
+        "answer": [
+            8,
+            2
+        ],
         "image_file": "00357_00_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00357_00_im.jpg"
     },
     {
@@ -91,12 +106,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 1,
+        "answer": 2,
         "image_file": "00357_00_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 4,
+        "answer": 3,
         "image_file": "00357_00_im.jpg"
     },
     {

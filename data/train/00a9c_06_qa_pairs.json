@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(246.5), np.float64(37.5))",
+        "answer": [
+            246,
+            37
+        ],
         "image_file": "00a9c_06_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00a9c_06_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(110.0), np.float64(-5.5))",
+        "answer": [
+            110,
+            -5
+        ],
         "image_file": "00a9c_06_im.jpg"
     },
     {

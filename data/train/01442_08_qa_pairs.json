@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "01442_08_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(100.0), np.float64(-10.5))",
+        "answer": [
+            100,
+            -10
+        ],
         "image_file": "01442_08_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(112.5), np.float64(161.5))",
+        "answer": [
+            112,
+            161
+        ],
         "image_file": "01442_08_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(259.5), np.float64(198.5))",
+        "answer": [
+            259,
+            198
+        ],
         "image_file": "01442_08_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(233.5), np.float64(59.0))",
+        "answer": [
+            233,
+            59
+        ],
         "image_file": "01442_08_im.jpg"
     },
     {

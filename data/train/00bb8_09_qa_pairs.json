@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00bb8_09_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(131.0), np.float64(-22.5))",
+        "answer": [
+            131,
+            -22
+        ],
         "image_file": "00bb8_09_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": "(np.float64(191.5), np.float64(-29.0))",
+        "answer": [
+            191,
+            -29
+        ],
         "image_file": "00bb8_09_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(146.5), np.float64(-5.5))",
+        "answer": [
+            146,
+            -5
+        ],
         "image_file": "00bb8_09_im.jpg"
     },
     {

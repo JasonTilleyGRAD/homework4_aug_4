@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(158.5), np.float64(-43.0))",
+        "answer": [
+            158,
+            -43
+        ],
         "image_file": "0095a_08_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(74.5), np.float64(-20.5))",
+        "answer": [
+            74,
+            -20
+        ],
         "image_file": "0095a_08_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0095a_08_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is gnu relative to the ego car?",
-        "answer": "(np.float64(251.5), np.float64(-48.5))",
+        "answer": [
+            251,
+            -48
+        ],
         "image_file": "0095a_08_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(143.0), np.float64(-42.5))",
+        "answer": [
+            143,
+            -42
+        ],
         "image_file": "0095a_08_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(88.5), np.float64(18.0))",
+        "answer": [
+            88,
+            18
+        ],
         "image_file": "0095a_08_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(276.5), np.float64(-48.5))",
+        "answer": [
+            276,
+            -48
+        ],
         "image_file": "0095a_08_im.jpg"
     },
     {

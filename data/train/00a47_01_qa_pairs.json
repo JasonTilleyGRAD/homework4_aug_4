@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(-30.0), np.float64(100.5))",
+        "answer": [
+            -30,
+            100
+        ],
         "image_file": "00a47_01_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00a47_01_im.jpg"
     },
     {

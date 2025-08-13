@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(-4.5), np.float64(15.0))",
+        "answer": [
+            -4,
+            15
+        ],
         "image_file": "00e30_05_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(78.5), np.float64(69.0))",
+        "answer": [
+            78,
+            69
+        ],
         "image_file": "00e30_05_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00e30_05_im.jpg"
     },
     {

@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(6.0), np.float64(6.5))",
+        "answer": [
+            6,
+            6
+        ],
         "image_file": "0027f_08_im.jpg"
     },
     {
@@ -26,12 +29,15 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0027f_08_im.jpg"
     },
     {
         "question": "Is sara_the_wizard to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "0027f_08_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(4.5))",
+        "answer": [
+            0,
+            4
+        ],
         "image_file": "0027f_08_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(1.0), np.float64(4.5))",
+        "answer": [
+            1,
+            4
+        ],
         "image_file": "0027f_08_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(14.0), np.float64(74.0))",
+        "answer": [
+            14,
+            74
+        ],
         "image_file": "0027f_08_im.jpg"
     },
     {
@@ -91,12 +106,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 1,
+        "answer": 2,
         "image_file": "0027f_08_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 4,
+        "answer": 3,
         "image_file": "0027f_08_im.jpg"
     },
     {

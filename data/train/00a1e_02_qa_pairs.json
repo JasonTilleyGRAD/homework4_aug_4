@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(295.5), np.float64(97.5))",
+        "answer": [
+            295,
+            97
+        ],
         "image_file": "00a1e_02_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(255.0), np.float64(23.0))",
+        "answer": [
+            255,
+            23
+        ],
         "image_file": "00a1e_02_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00a1e_02_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(193.5), np.float64(13.5))",
+        "answer": [
+            193,
+            13
+        ],
         "image_file": "00a1e_02_im.jpg"
     },
     {

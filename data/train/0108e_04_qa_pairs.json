@@ -11,12 +11,15 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(6.5), np.float64(1.0))",
+        "answer": [
+            6,
+            1
+        ],
         "image_file": "0108e_04_im.jpg"
     },
     {
         "question": "Is tux to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "0108e_04_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(6.0))",
+        "answer": [
+            0,
+            6
+        ],
         "image_file": "0108e_04_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(-11.5), np.float64(68.5))",
+        "answer": [
+            -11,
+            68
+        ],
         "image_file": "0108e_04_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0108e_04_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(9.5), np.float64(0.0))",
+        "answer": [
+            9,
+            0
+        ],
         "image_file": "0108e_04_im.jpg"
     },
     {
@@ -91,12 +106,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 2,
+        "answer": 3,
         "image_file": "0108e_04_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 3,
+        "answer": 2,
         "image_file": "0108e_04_im.jpg"
     },
     {

@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(155.5), np.float64(-106.0))",
+        "answer": [
+            155,
+            -106
+        ],
         "image_file": "0144d_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(90.0), np.float64(-93.5))",
+        "answer": [
+            90,
+            -93
+        ],
         "image_file": "0144d_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0144d_07_im.jpg"
     },
     {

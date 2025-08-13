@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(162.5), np.float64(-75.5))",
+        "answer": [
+            162,
+            -75
+        ],
         "image_file": "00465_05_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(149.0), np.float64(-74.0))",
+        "answer": [
+            149,
+            -74
+        ],
         "image_file": "00465_05_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00465_05_im.jpg"
     },
     {

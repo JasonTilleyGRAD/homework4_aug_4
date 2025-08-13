@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(-10.0), np.float64(69.0))",
+        "answer": [
+            -10,
+            69
+        ],
         "image_file": "00ebf_02_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(-207.0), np.float64(163.5))",
+        "answer": [
+            -207,
+            163
+        ],
         "image_file": "00ebf_02_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00ebf_02_im.jpg"
     },
     {

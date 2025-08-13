@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(4.0), np.float64(6.0))",
+        "answer": [
+            4,
+            6
+        ],
         "image_file": "0119a_05_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0119a_05_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(297.5), np.float64(53.5))",
+        "answer": [
+            297,
+            53
+        ],
         "image_file": "0119a_05_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(532.0), np.float64(94.5))",
+        "answer": [
+            532,
+            94
+        ],
         "image_file": "0119a_05_im.jpg"
     },
     {

@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00275_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(101.5), np.float64(56.0))",
+        "answer": [
+            101,
+            56
+        ],
         "image_file": "00275_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(176.0), np.float64(-83.5))",
+        "answer": [
+            176,
+            -83
+        ],
         "image_file": "00275_07_im.jpg"
     },
     {

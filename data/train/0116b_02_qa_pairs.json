@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(27.5), np.float64(59.5))",
+        "answer": [
+            27,
+            59
+        ],
         "image_file": "0116b_02_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(36.5), np.float64(2.0))",
+        "answer": [
+            36,
+            2
+        ],
         "image_file": "0116b_02_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0116b_02_im.jpg"
     },
     {

@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(40.0), np.float64(-34.5))",
+        "answer": [
+            40,
+            -34
+        ],
         "image_file": "00ffe_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(192.5), np.float64(-84.5))",
+        "answer": [
+            192,
+            -84
+        ],
         "image_file": "00ffe_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00ffe_07_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(93.0), np.float64(-63.5))",
+        "answer": [
+            93,
+            -63
+        ],
         "image_file": "00ffe_07_im.jpg"
     },
     {

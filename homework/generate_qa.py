@@ -274,7 +274,7 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
     front = 0
     for kart in karts:
         coord = kart["center"]
-        new_coors = (coord[0] - ego_kart_center[0], coord[1] - ego_kart_center[1])
+        new_coors = (int(coord[0] - ego_kart_center[0])),int(coord[1] - ego_kart_center[1])
 
 
         if new_coors[0] > 0:
@@ -293,7 +293,7 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
     
         qa_pair.append({"question": f"Is {kart["kart_name"]} to the left or right of the ego car?", "answer": LorR})
         qa_pair.append({"question": f"Is {kart["kart_name"]} in front of or behind the ego car?", "answer": ForB})
-        qa_pair.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": str(new_coors)})
+        qa_pair.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": new_coors})
 
     more_qa =  [
     {"question": "What kart is the ego car?", "answer": ego_kart_name},
@@ -349,28 +349,37 @@ def generate():
     for file_path in main_path.glob("*_info.json"):
         base_name = file_path.stem.replace("_info", "")
 
-        for j in range(10):
+        for image_path in file_path.parent.glob(f"{base_name}_*_im.jpg"):
             try:
-                image_files = list(file_path.parent.glob(f"{base_name}_{j:02d}_im.jpg"))
-                if not image_files:
-                    raise IndexError(f"No image file found for {base_name}_{j:02d}_im.jpg")
-                image_file = f"{base_name}_{j:02d}_im.jpg"
+                # image_path is guaranteed to exist here because glob found it
+                stem = image_path.stem
+                parts = stem.split('_')
+                j = int(parts[-2])  # extract the index from filename
 
+                # generate QA pairs for this index
                 qa_pairs = generate_qa_pairs(file_path, j)
-                for qa in qa_pairs:
-                    qa["image_file"] = str(image_file)
 
-                new_filename = f"{base_name}_{j:02d}_qa_pairs.json"
+                if not image_path.exists():
+                    print(f"Image file does not exist: {image_path}")
+                    continue  # skip to next image
+                for qa in qa_pairs:
+                    qa["image_file"] = image_path.name  # just the filename
+
+                # name your QA pairs file by replacing '_im.jpg' with '_qa_pairs.json'
+                new_filename = image_path.stem.replace("_im", "") + "_qa_pairs.json"
                 new_file_path = main_path / new_filename
+
                 with open(new_file_path, "w") as f:
                     json.dump(qa_pairs, f, indent=4)
 
             except ValueError:
-                print(f"No {j} generation for {file_path.name}")
-            except IndexError as e:
-                print(e)
+                print(f"No QA generated for view {j} in file {file_path.name}")
+            except Exception as e:
+                print(f"Error for file {file_path.name}, image {image_path.name}: {e}")
 
     print("Done.")
+
+
 
 
             

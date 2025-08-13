@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(252.0), np.float64(-31.0))",
+        "answer": [
+            252,
+            -31
+        ],
         "image_file": "00646_04_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(203.0), np.float64(-31.5))",
+        "answer": [
+            203,
+            -31
+        ],
         "image_file": "00646_04_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(133.5), np.float64(38.5))",
+        "answer": [
+            133,
+            38
+        ],
         "image_file": "00646_04_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(144.5), np.float64(0.0))",
+        "answer": [
+            144,
+            0
+        ],
         "image_file": "00646_04_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00646_04_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(32.0), np.float64(-10.5))",
+        "answer": [
+            32,
+            -10
+        ],
         "image_file": "00646_04_im.jpg"
     },
     {

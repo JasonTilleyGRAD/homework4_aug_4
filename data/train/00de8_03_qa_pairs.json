@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(11.5), np.float64(7.5))",
+        "answer": [
+            11,
+            7
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(41.5), np.float64(2.0))",
+        "answer": [
+            41,
+            2
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": "(np.float64(6.5), np.float64(1.5))",
+        "answer": [
+            6,
+            1
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(32.0), np.float64(124.0))",
+        "answer": [
+            32,
+            124
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(15.0), np.float64(0.0))",
+        "answer": [
+            15,
+            0
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(2.5), np.float64(-1.0))",
+        "answer": [
+            2,
+            -1
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(18.0), np.float64(-1.5))",
+        "answer": [
+            18,
+            -1
+        ],
         "image_file": "00de8_03_im.jpg"
     },
     {

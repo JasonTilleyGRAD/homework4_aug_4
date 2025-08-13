@@ -11,12 +11,15 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00cef_07_im.jpg"
     },
     {
         "question": "Is hexley to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "00cef_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(74.5))",
+        "answer": [
+            0,
+            74
+        ],
         "image_file": "00cef_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(53.0), np.float64(94.0))",
+        "answer": [
+            53,
+            94
+        ],
         "image_file": "00cef_07_im.jpg"
     },
     {
@@ -61,12 +70,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 1,
+        "answer": 2,
         "image_file": "00cef_07_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 2,
+        "answer": 1,
         "image_file": "00cef_07_im.jpg"
     },
     {

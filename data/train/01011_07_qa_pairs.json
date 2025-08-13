@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(-42.0), np.float64(56.0))",
+        "answer": [
+            -42,
+            56
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(327.5), np.float64(16.5))",
+        "answer": [
+            327,
+            16
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(163.5), np.float64(-54.0))",
+        "answer": [
+            163,
+            -54
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is gnu relative to the ego car?",
-        "answer": "(np.float64(159.0), np.float64(-40.0))",
+        "answer": [
+            159,
+            -40
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(237.5), np.float64(-57.5))",
+        "answer": [
+            237,
+            -57
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": "(np.float64(270.5), np.float64(32.5))",
+        "answer": [
+            270,
+            32
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(201.5), np.float64(6.5))",
+        "answer": [
+            201,
+            6
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(272.5), np.float64(-50.5))",
+        "answer": [
+            272,
+            -50
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {
@@ -131,7 +155,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "01011_07_im.jpg"
     },
     {

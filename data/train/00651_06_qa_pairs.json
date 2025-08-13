@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(53.5), np.float64(-45.0))",
+        "answer": [
+            53,
+            -45
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(48.5), np.float64(-36.0))",
+        "answer": [
+            48,
+            -36
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(-121.0), np.float64(188.0))",
+        "answer": [
+            -121,
+            188
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(54.5), np.float64(50.5))",
+        "answer": [
+            54,
+            50
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(34.0), np.float64(-3.5))",
+        "answer": [
+            34,
+            -3
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(np.float64(46.5), np.float64(-41.0))",
+        "answer": [
+            46,
+            -41
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": "(np.float64(35.0), np.float64(-29.5))",
+        "answer": [
+            35,
+            -29
+        ],
         "image_file": "00651_06_im.jpg"
     },
     {

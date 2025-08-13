@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00afb_02_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(187.0), np.float64(-88.5))",
+        "answer": [
+            187,
+            -88
+        ],
         "image_file": "00afb_02_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(197.5), np.float64(-91.5))",
+        "answer": [
+            197,
+            -91
+        ],
         "image_file": "00afb_02_im.jpg"
     },
     {

@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(-7.0), np.float64(135.0))",
+        "answer": [
+            -7,
+            135
+        ],
         "image_file": "00b6c_01_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00b6c_01_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(101.0), np.float64(-10.0))",
+        "answer": [
+            101,
+            -10
+        ],
         "image_file": "00b6c_01_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is gnu relative to the ego car?",
-        "answer": "(np.float64(28.5), np.float64(-7.0))",
+        "answer": [
+            28,
+            -7
+        ],
         "image_file": "00b6c_01_im.jpg"
     },
     {

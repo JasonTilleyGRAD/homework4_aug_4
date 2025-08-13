@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(5.0), np.float64(16.0))",
+        "answer": [
+            5,
+            16
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(25.0), np.float64(-12.5))",
+        "answer": [
+            25,
+            -12
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(27.5), np.float64(-11.5))",
+        "answer": [
+            27,
+            -11
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(23.0), np.float64(-9.5))",
+        "answer": [
+            23,
+            -9
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(23.5), np.float64(88.0))",
+        "answer": [
+            23,
+            88
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(33.0), np.float64(-13.5))",
+        "answer": [
+            33,
+            -13
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": "(np.float64(-55.0), np.float64(69.5))",
+        "answer": [
+            -55,
+            69
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {
@@ -131,7 +155,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(30.0), np.float64(-12.0))",
+        "answer": [
+            30,
+            -12
+        ],
         "image_file": "00370_05_im.jpg"
     },
     {

@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(70.5), np.float64(-17.5))",
+        "answer": [
+            70,
+            -17
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(28.0), np.float64(-7.0))",
+        "answer": [
+            28,
+            -7
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is gnu relative to the ego car?",
-        "answer": "(np.float64(149.5), np.float64(-22.0))",
+        "answer": [
+            149,
+            -22
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(58.5), np.float64(-17.5))",
+        "answer": [
+            58,
+            -17
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(-6.0), np.float64(44.5))",
+        "answer": [
+            -6,
+            44
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(58.0), np.float64(3.0))",
+        "answer": [
+            58,
+            3
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(171.5), np.float64(-21.5))",
+        "answer": [
+            171,
+            -21
+        ],
         "image_file": "0095a_07_im.jpg"
     },
     {

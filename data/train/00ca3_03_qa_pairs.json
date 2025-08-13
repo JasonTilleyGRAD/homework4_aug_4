@@ -11,12 +11,15 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(-19.0), np.float64(38.5))",
+        "answer": [
+            -19,
+            38
+        ],
         "image_file": "00ca3_03_im.jpg"
     },
     {
         "question": "Is tux to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "00ca3_03_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(35.0))",
+        "answer": [
+            0,
+            35
+        ],
         "image_file": "00ca3_03_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00ca3_03_im.jpg"
     },
     {
@@ -61,12 +70,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 2,
+        "answer": 3,
         "image_file": "00ca3_03_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 1,
+        "answer": 0,
         "image_file": "00ca3_03_im.jpg"
     },
     {

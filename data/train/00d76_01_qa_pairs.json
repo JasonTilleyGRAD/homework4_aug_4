@@ -1,7 +1,7 @@
 [
     {
         "question": "Is nolok to the left or right of the ego car?",
-        "answer": "right",
+        "answer": "left",
         "image_file": "00d76_01_im.jpg"
     },
     {
@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(0.5), np.float64(57.5))",
+        "answer": [
+            0,
+            57
+        ],
         "image_file": "00d76_01_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(-16.0), np.float64(78.5))",
+        "answer": [
+            -16,
+            78
+        ],
         "image_file": "00d76_01_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(10.0), np.float64(21.5))",
+        "answer": [
+            10,
+            21
+        ],
         "image_file": "00d76_01_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00d76_01_im.jpg"
     },
     {
@@ -76,12 +88,12 @@
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 2,
+        "answer": 3,
         "image_file": "00d76_01_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 2,
+        "answer": 1,
         "image_file": "00d76_01_im.jpg"
     },
     {

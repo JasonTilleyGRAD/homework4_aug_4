@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(-1.0), np.float64(3.5))",
+        "answer": [
+            -1,
+            3
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": "(np.float64(75.0), np.float64(100.5))",
+        "answer": [
+            75,
+            100
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is kiki relative to the ego car?",
-        "answer": "(np.float64(6.5), np.float64(-1.0))",
+        "answer": [
+            6,
+            -1
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(35.0), np.float64(1.5))",
+        "answer": [
+            35,
+            1
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(47.5), np.float64(0.0))",
+        "answer": [
+            47,
+            0
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(27.0), np.float64(-1.5))",
+        "answer": [
+            27,
+            -1
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(31.5), np.float64(3.5))",
+        "answer": [
+            31,
+            3
+        ],
         "image_file": "010ec_02_im.jpg"
     },
     {

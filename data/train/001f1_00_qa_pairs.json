@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "001f1_00_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(116.0), np.float64(-101.5))",
+        "answer": [
+            116,
+            -101
+        ],
         "image_file": "001f1_00_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(126.0), np.float64(-100.0))",
+        "answer": [
+            126,
+            -100
+        ],
         "image_file": "001f1_00_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(103.5), np.float64(-100.5))",
+        "answer": [
+            103,
+            -100
+        ],
         "image_file": "001f1_00_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(220.5), np.float64(-93.5))",
+        "answer": [
+            220,
+            -93
+        ],
         "image_file": "001f1_00_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(91.0), np.float64(-102.5))",
+        "answer": [
+            91,
+            -102
+        ],
         "image_file": "001f1_00_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(73.5), np.float64(-98.5))",
+        "answer": [
+            73,
+            -98
+        ],
         "image_file": "001f1_00_im.jpg"
     },
     {

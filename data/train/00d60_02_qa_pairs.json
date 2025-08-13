@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": "(np.float64(116.0), np.float64(-83.5))",
+        "answer": [
+            116,
+            -83
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(121.0), np.float64(-84.0))",
+        "answer": [
+            121,
+            -84
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(116.0), np.float64(-81.5))",
+        "answer": [
+            116,
+            -81
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(94.0), np.float64(-93.5))",
+        "answer": [
+            94,
+            -93
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(np.float64(52.0), np.float64(-54.0))",
+        "answer": [
+            52,
+            -54
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": "(np.float64(86.0), np.float64(-76.5))",
+        "answer": [
+            86,
+            -76
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(87.0), np.float64(-82.5))",
+        "answer": [
+            87,
+            -82
+        ],
         "image_file": "00d60_02_im.jpg"
     },
     {

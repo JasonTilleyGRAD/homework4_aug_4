@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(194.5), np.float64(36.0))",
+        "answer": [
+            194,
+            36
+        ],
         "image_file": "0103d_04_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0103d_04_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(217.5), np.float64(17.0))",
+        "answer": [
+            217,
+            17
+        ],
         "image_file": "0103d_04_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(146.5), np.float64(-52.0))",
+        "answer": [
+            146,
+            -52
+        ],
         "image_file": "0103d_04_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(13.5), np.float64(147.5))",
+        "answer": [
+            13,
+            147
+        ],
         "image_file": "0103d_04_im.jpg"
     },
     {

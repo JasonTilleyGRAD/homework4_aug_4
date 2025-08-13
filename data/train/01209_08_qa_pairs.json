@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "01209_08_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(48.0), np.float64(61.5))",
+        "answer": [
+            48,
+            61
+        ],
         "image_file": "01209_08_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(33.0), np.float64(13.0))",
+        "answer": [
+            33,
+            13
+        ],
         "image_file": "01209_08_im.jpg"
     },
     {

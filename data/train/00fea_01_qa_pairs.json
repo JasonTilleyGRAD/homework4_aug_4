@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": "(np.float64(193.0), np.float64(24.0))",
+        "answer": [
+            193,
+            24
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is sara_the_racer relative to the ego car?",
-        "answer": "(np.float64(188.0), np.float64(-34.0))",
+        "answer": [
+            188,
+            -34
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(200.5), np.float64(-35.0))",
+        "answer": [
+            200,
+            -35
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(161.0), np.float64(-32.5))",
+        "answer": [
+            161,
+            -32
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(98.0), np.float64(-20.0))",
+        "answer": [
+            98,
+            -20
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(63.5), np.float64(-18.0))",
+        "answer": [
+            63,
+            -18
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is gnu relative to the ego car?",
-        "answer": "(np.float64(215.5), np.float64(-34.5))",
+        "answer": [
+            215,
+            -34
+        ],
         "image_file": "00fea_01_im.jpg"
     },
     {

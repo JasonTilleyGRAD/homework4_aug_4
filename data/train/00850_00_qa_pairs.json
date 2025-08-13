@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(49.0), np.float64(78.0))",
+        "answer": [
+            49,
+            78
+        ],
         "image_file": "00850_00_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(19.5), np.float64(1.5))",
+        "answer": [
+            19,
+            1
+        ],
         "image_file": "00850_00_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00850_00_im.jpg"
     },
     {

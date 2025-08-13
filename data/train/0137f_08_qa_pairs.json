@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": "(np.float64(95.5), np.float64(-15.5))",
+        "answer": [
+            95,
+            -15
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is hexley relative to the ego car?",
-        "answer": "(np.float64(125.5), np.float64(-26.5))",
+        "answer": [
+            125,
+            -26
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is tux relative to the ego car?",
-        "answer": "(np.float64(98.0), np.float64(-33.0))",
+        "answer": [
+            98,
+            -33
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {
@@ -56,7 +65,10 @@
     },
     {
         "question": "Where is suzanne relative to the ego car?",
-        "answer": "(np.float64(113.5), np.float64(-27.5))",
+        "answer": [
+            113,
+            -27
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {
@@ -71,7 +83,10 @@
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": "(np.float64(144.0), np.float64(-18.5))",
+        "answer": [
+            144,
+            -18
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {
@@ -86,7 +101,10 @@
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": "(np.float64(112.0), np.float64(-23.0))",
+        "answer": [
+            112,
+            -23
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {
@@ -101,7 +119,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(106.5), np.float64(-30.0))",
+        "answer": [
+            106,
+            -30
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {
@@ -116,7 +137,10 @@
     },
     {
         "question": "Where is gavroche relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0137f_08_im.jpg"
     },
     {

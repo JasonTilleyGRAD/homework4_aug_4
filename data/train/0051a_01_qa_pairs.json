@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(119.0), np.float64(45.5))",
+        "answer": [
+            119,
+            45
+        ],
         "image_file": "0051a_01_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "0051a_01_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": "(np.float64(-15.0), np.float64(29.5))",
+        "answer": [
+            -15,
+            29
+        ],
         "image_file": "0051a_01_im.jpg"
     },
     {

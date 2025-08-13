@@ -11,7 +11,10 @@
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": "(np.float64(42.0), np.float64(-9.5))",
+        "answer": [
+            42,
+            -9
+        ],
         "image_file": "00403_09_im.jpg"
     },
     {
@@ -26,7 +29,10 @@
     },
     {
         "question": "Where is wilber relative to the ego car?",
-        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "answer": [
+            0,
+            0
+        ],
         "image_file": "00403_09_im.jpg"
     },
     {
@@ -41,7 +47,10 @@
     },
     {
         "question": "Where is amanda relative to the ego car?",
-        "answer": "(np.float64(7.5), np.float64(60.5))",
+        "answer": [
+            7,
+            60
+        ],
         "image_file": "00403_09_im.jpg"
     },
     {
