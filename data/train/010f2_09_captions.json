@@ -1,14 +1,14 @@
 [
     {
-        "caption": "beastie is behind the ego car.",
+        "caption": "beastie is in front of the ego car.",
         "image_file": "train/010f2_09_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/010f2_09_im.jpg"
     },
     {
-        "caption": "pidgin is in front of the ego car.",
+        "caption": "pidgin is behind the ego car.",
         "image_file": "train/010f2_09_im.jpg"
     },
     {

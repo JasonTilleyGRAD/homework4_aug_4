@@ -1,6 +1,6 @@
 [
     {
-        "caption": "wilber is in front of the ego car.",
+        "caption": "wilber is behind the ego car.",
         "image_file": "train/01186_09_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/01186_09_im.jpg"
     },
     {
-        "caption": "emule is in front of the ego car.",
+        "caption": "emule is behind the ego car.",
         "image_file": "train/01186_09_im.jpg"
     },
     {

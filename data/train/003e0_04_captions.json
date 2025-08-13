@@ -4,11 +4,11 @@
         "image_file": "train/003e0_04_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/003e0_04_im.jpg"
     },
     {
-        "caption": "sara_the_racer is behind the ego car.",
+        "caption": "sara_the_racer is in front of the ego car.",
         "image_file": "train/003e0_04_im.jpg"
     },
     {

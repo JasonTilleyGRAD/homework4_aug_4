@@ -1,6 +1,6 @@
 [
     {
-        "caption": "emule is behind the ego car.",
+        "caption": "emule is in front of the ego car.",
         "image_file": "train/0123c_06_im.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "image_file": "train/0123c_06_im.jpg"
     },
     {
-        "caption": "tux is in front of the ego car.",
+        "caption": "tux is behind the ego car.",
         "image_file": "train/0123c_06_im.jpg"
     },
     {

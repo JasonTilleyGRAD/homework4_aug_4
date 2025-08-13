@@ -1,6 +1,6 @@
 [
     {
-        "caption": "wilber is in front of the ego car.",
+        "caption": "wilber is behind the ego car.",
         "image_file": "train/01025_06_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/01025_06_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is in front of the ego car.",
+        "caption": "sara_the_wizard is behind the ego car.",
         "image_file": "train/01025_06_im.jpg"
     },
     {

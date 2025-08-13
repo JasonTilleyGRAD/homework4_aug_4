@@ -103,8 +103,6 @@ class CLIP(nn.Module):
         self.text_encoder = text_encoder
         self.temperature = temperature
         self.proj_dim = proj_dim
-        self.image_projection = None
-        self.text_projection = None
 
         
 

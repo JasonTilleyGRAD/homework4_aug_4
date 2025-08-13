@@ -4,11 +4,11 @@
         "image_file": "train/00f62_03_im.jpg"
     },
     {
-        "caption": "beastie is in front of the ego car.",
+        "caption": "beastie is behind the ego car.",
         "image_file": "train/00f62_03_im.jpg"
     },
     {
-        "caption": "tux is in front of the ego car.",
+        "caption": "tux is behind the ego car.",
         "image_file": "train/00f62_03_im.jpg"
     },
     {
