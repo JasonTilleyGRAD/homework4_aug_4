@@ -4,11 +4,11 @@
         "image_file": "valid/0003b_00_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "valid/0003b_00_im.jpg"
     },
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "valid/0003b_00_im.jpg"
     },
     {

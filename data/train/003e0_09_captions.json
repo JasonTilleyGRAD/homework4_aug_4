@@ -8,15 +8,15 @@
         "image_file": "train/003e0_09_im.jpg"
     },
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "train/003e0_09_im.jpg"
     },
     {
-        "caption": "suzanne is left of the ego car.",
+        "caption": "suzanne is right of the ego car.",
         "image_file": "train/003e0_09_im.jpg"
     },
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/003e0_09_im.jpg"
     },
     {

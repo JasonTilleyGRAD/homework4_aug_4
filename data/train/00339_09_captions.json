@@ -1,10 +1,10 @@
 [
     {
-        "caption": "tux is in front of the ego car.",
+        "caption": "tux is behind the ego car.",
         "image_file": "train/00339_09_im.jpg"
     },
     {
-        "caption": "suzanne is in front of the ego car.",
+        "caption": "suzanne is behind the ego car.",
         "image_file": "train/00339_09_im.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "image_file": "train/00339_09_im.jpg"
     },
     {
-        "caption": "adiumy is behind the ego car.",
+        "caption": "adiumy is in front of the ego car.",
         "image_file": "train/00339_09_im.jpg"
     },
     {

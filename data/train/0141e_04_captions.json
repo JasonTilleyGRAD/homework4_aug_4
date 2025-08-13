@@ -1,6 +1,6 @@
 [
     {
-        "caption": "konqi is left of the ego car.",
+        "caption": "konqi is right of the ego car.",
         "image_file": "train/0141e_04_im.jpg"
     },
     {
@@ -8,11 +8,11 @@
         "image_file": "train/0141e_04_im.jpg"
     },
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "train/0141e_04_im.jpg"
     },
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/0141e_04_im.jpg"
     },
     {

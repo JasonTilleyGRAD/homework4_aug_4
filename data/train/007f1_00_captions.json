@@ -1,10 +1,10 @@
 [
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "train/007f1_00_im.jpg"
     },
     {
-        "caption": "hexley is left of the ego car.",
+        "caption": "hexley is right of the ego car.",
         "image_file": "train/007f1_00_im.jpg"
     },
     {

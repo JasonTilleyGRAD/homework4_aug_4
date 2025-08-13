@@ -45,7 +45,7 @@ def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_
             else:
                 position = "left of"
         else:
-            if offset_y > 0:
+            if offset_y < 0:
                 position = "in front of"
             else:
                 position = "behind"

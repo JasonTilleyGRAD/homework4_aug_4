@@ -1,6 +1,6 @@
 [
     {
-        "caption": "wilber is right of the ego car.",
+        "caption": "wilber is left of the ego car.",
         "image_file": "train/003e0_08_im.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "image_file": "train/003e0_08_im.jpg"
     },
     {
-        "caption": "adiumy is right of the ego car.",
+        "caption": "adiumy is left of the ego car.",
         "image_file": "train/003e0_08_im.jpg"
     },
     {

@@ -1,6 +1,6 @@
 [
     {
-        "caption": "gavroche is behind the ego car.",
+        "caption": "gavroche is in front of the ego car.",
         "image_file": "train/00aed_03_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/00aed_03_im.jpg"
     },
     {
-        "caption": "kiki is in front of the ego car.",
+        "caption": "kiki is behind the ego car.",
         "image_file": "train/00aed_03_im.jpg"
     },
     {

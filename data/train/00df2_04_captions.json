@@ -1,10 +1,10 @@
 [
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/00df2_04_im.jpg"
     },
     {
-        "caption": "adiumy is left of the ego car.",
+        "caption": "adiumy is right of the ego car.",
         "image_file": "train/00df2_04_im.jpg"
     },
     {
@@ -12,11 +12,11 @@
         "image_file": "train/00df2_04_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "train/00df2_04_im.jpg"
     },
     {
-        "caption": "xue is left of the ego car.",
+        "caption": "xue is right of the ego car.",
         "image_file": "train/00df2_04_im.jpg"
     },
     {

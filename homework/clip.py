@@ -103,6 +103,9 @@ class CLIP(nn.Module):
         self.text_encoder = text_encoder
         self.temperature = temperature
         self.proj_dim = proj_dim
+        self.image_projection = None
+        self.text_projection = None
+
         
 
     def encode_image(self, image: torch.Tensor) -> torch.Tensor:
@@ -188,11 +191,10 @@ class CLIP(nn.Module):
         image_hidden = image_output.last_hidden_state
         text_hidden = text_output.last_hidden_state
 
-        image_features = nn.AvgPool1d(kernel_size=image_hidden.shape[1])(image_hidden.permute(0, 2, 1)).squeeze(-1)
-        text_features = nn.AvgPool1d(kernel_size=text_hidden.shape[1])(text_hidden.permute(0, 2, 1)).squeeze(-1)
-        
-        self.image_projection = nn.Linear(image_features.shape[-1], self.proj_dim).to(image_features.device)
-        self.text_projection = nn.Linear(text_features.shape[-1], self.proj_dim).to(text_features.device)
+        if self.image_projection is None:
+            self.image_projection = nn.Linear(image_features.shape[-1], self.proj_dim).to(image_features.device)
+        if self.text_projection is None:
+            self.text_projection = nn.Linear(text_features.shape[-1], self.proj_dim).to(text_features.device)
 
         image_features = self.image_projection(image_features)
         text_features = self.text_projection(text_features)
@@ -201,7 +203,7 @@ class CLIP(nn.Module):
 
         text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
-        logits_per_image = image_features @ text_features.T * 0.1
+        logits_per_image = image_features @ text_features.T * self.temperature
 
         logits_per_text = logits_per_image.T
 
@@ -231,8 +233,8 @@ def compute_clip_loss(
     labels = torch.arange(batch_size, device=logits_per_image.device)
 
     CEL = nn.CrossEntropyLoss()
-    loss_i = CEL(logits_per_image, labels) 
-    loss_t = CEL(logits_per_text, labels)    
+    loss_i = CEL(logits_per_image.float(), labels) 
+    loss_t = CEL(logits_per_text.float(), labels)    
 
     loss = (loss_i + loss_t) / 2
     return loss

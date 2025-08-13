@@ -1,10 +1,10 @@
 [
     {
-        "caption": "konqi is in front of the ego car.",
+        "caption": "konqi is behind the ego car.",
         "image_file": "train/00854_03_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is in front of the ego car.",
+        "caption": "sara_the_wizard is behind the ego car.",
         "image_file": "train/00854_03_im.jpg"
     },
     {

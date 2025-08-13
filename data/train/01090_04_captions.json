@@ -4,11 +4,11 @@
         "image_file": "train/01090_04_im.jpg"
     },
     {
-        "caption": "gnu is left of the ego car.",
+        "caption": "gnu is right of the ego car.",
         "image_file": "train/01090_04_im.jpg"
     },
     {
-        "caption": "puffy is left of the ego car.",
+        "caption": "puffy is right of the ego car.",
         "image_file": "train/01090_04_im.jpg"
     },
     {

@@ -1,6 +1,6 @@
 [
     {
-        "caption": "wilber is left of the ego car.",
+        "caption": "wilber is right of the ego car.",
         "image_file": "train/00a96_01_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/00a96_01_im.jpg"
     },
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "train/00a96_01_im.jpg"
     },
     {

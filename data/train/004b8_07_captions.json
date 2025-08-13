@@ -4,7 +4,7 @@
         "image_file": "train/004b8_07_im.jpg"
     },
     {
-        "caption": "nolok is in front of the ego car.",
+        "caption": "nolok is behind the ego car.",
         "image_file": "train/004b8_07_im.jpg"
     },
     {
@@ -20,7 +20,7 @@
         "image_file": "train/004b8_07_im.jpg"
     },
     {
-        "caption": "xue is behind the ego car.",
+        "caption": "xue is in front of the ego car.",
         "image_file": "train/004b8_07_im.jpg"
     },
     {

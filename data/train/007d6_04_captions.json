@@ -1,10 +1,10 @@
 [
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "train/007d6_04_im.jpg"
     },
     {
-        "caption": "wilber is left of the ego car.",
+        "caption": "wilber is right of the ego car.",
         "image_file": "train/007d6_04_im.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "image_file": "train/007d6_04_im.jpg"
     },
     {
-        "caption": "gavroche is left of the ego car.",
+        "caption": "gavroche is right of the ego car.",
         "image_file": "train/007d6_04_im.jpg"
     },
     {

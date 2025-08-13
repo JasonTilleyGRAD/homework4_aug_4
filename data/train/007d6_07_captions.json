@@ -1,14 +1,14 @@
 [
     {
-        "caption": "wilber is right of the ego car.",
+        "caption": "wilber is left of the ego car.",
         "image_file": "train/007d6_07_im.jpg"
     },
     {
-        "caption": "nolok is right of the ego car.",
+        "caption": "nolok is left of the ego car.",
         "image_file": "train/007d6_07_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "train/007d6_07_im.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "image_file": "train/007d6_07_im.jpg"
     },
     {
-        "caption": "tux is right of the ego car.",
+        "caption": "tux is left of the ego car.",
         "image_file": "train/007d6_07_im.jpg"
     },
     {

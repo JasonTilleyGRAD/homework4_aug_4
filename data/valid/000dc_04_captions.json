@@ -1,14 +1,14 @@
 [
     {
-        "caption": "amanda is right of the ego car.",
+        "caption": "amanda is left of the ego car.",
         "image_file": "valid/000dc_04_im.jpg"
     },
     {
-        "caption": "pidgin is left of the ego car.",
+        "caption": "pidgin is right of the ego car.",
         "image_file": "valid/000dc_04_im.jpg"
     },
     {
-        "caption": "xue is left of the ego car.",
+        "caption": "xue is right of the ego car.",
         "image_file": "valid/000dc_04_im.jpg"
     },
     {

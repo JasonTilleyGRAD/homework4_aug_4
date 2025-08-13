@@ -1,14 +1,14 @@
 [
     {
-        "caption": "adiumy is right of the ego car.",
+        "caption": "adiumy is left of the ego car.",
         "image_file": "train/00947_09_im.jpg"
     },
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/00947_09_im.jpg"
     },
     {
-        "caption": "tux is right of the ego car.",
+        "caption": "tux is left of the ego car.",
         "image_file": "train/00947_09_im.jpg"
     },
     {

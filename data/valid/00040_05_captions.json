@@ -1,10 +1,10 @@
 [
     {
-        "caption": "xue is left of the ego car.",
+        "caption": "xue is right of the ego car.",
         "image_file": "valid/00040_05_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "valid/00040_05_im.jpg"
     },
     {

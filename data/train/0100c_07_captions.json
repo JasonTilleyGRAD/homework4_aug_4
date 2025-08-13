@@ -1,10 +1,10 @@
 [
     {
-        "caption": "hexley is left of the ego car.",
+        "caption": "hexley is right of the ego car.",
         "image_file": "train/0100c_07_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is right of the ego car.",
+        "caption": "sara_the_wizard is left of the ego car.",
         "image_file": "train/0100c_07_im.jpg"
     },
     {

@@ -1,6 +1,6 @@
 [
     {
-        "caption": "puffy is in front of the ego car.",
+        "caption": "puffy is behind the ego car.",
         "image_file": "train/00e72_02_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/00e72_02_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/00e72_02_im.jpg"
     },
     {

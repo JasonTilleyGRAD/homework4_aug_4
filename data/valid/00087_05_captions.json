@@ -1,18 +1,18 @@
 [
     {
-        "caption": "wilber is left of the ego car.",
+        "caption": "wilber is right of the ego car.",
         "image_file": "valid/00087_05_im.jpg"
     },
     {
-        "caption": "puffy is right of the ego car.",
+        "caption": "puffy is left of the ego car.",
         "image_file": "valid/00087_05_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "valid/00087_05_im.jpg"
     },
     {
-        "caption": "beastie is left of the ego car.",
+        "caption": "beastie is right of the ego car.",
         "image_file": "valid/00087_05_im.jpg"
     },
     {

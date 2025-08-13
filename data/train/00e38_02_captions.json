@@ -1,14 +1,14 @@
 [
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00e38_02_im.jpg"
     },
     {
-        "caption": "adiumy is right of the ego car.",
+        "caption": "adiumy is left of the ego car.",
         "image_file": "train/00e38_02_im.jpg"
     },
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/00e38_02_im.jpg"
     },
     {

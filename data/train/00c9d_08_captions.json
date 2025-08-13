@@ -1,14 +1,14 @@
 [
     {
-        "caption": "wilber is left of the ego car.",
+        "caption": "wilber is right of the ego car.",
         "image_file": "train/00c9d_08_im.jpg"
     },
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/00c9d_08_im.jpg"
     },
     {
-        "caption": "xue is right of the ego car.",
+        "caption": "xue is left of the ego car.",
         "image_file": "train/00c9d_08_im.jpg"
     },
     {

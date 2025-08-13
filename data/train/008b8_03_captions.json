@@ -1,6 +1,6 @@
 [
     {
-        "caption": "suzanne is left of the ego car.",
+        "caption": "suzanne is right of the ego car.",
         "image_file": "train/008b8_03_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/008b8_03_im.jpg"
     },
     {
-        "caption": "beastie is left of the ego car.",
+        "caption": "beastie is right of the ego car.",
         "image_file": "train/008b8_03_im.jpg"
     },
     {

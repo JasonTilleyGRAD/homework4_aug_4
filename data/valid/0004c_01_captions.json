@@ -1,10 +1,10 @@
 [
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "valid/0004c_01_im.jpg"
     },
     {
-        "caption": "suzanne is left of the ego car.",
+        "caption": "suzanne is right of the ego car.",
         "image_file": "valid/0004c_01_im.jpg"
     },
     {

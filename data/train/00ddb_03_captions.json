@@ -1,10 +1,10 @@
 [
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "train/00ddb_03_im.jpg"
     },
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "train/00ddb_03_im.jpg"
     },
     {
@@ -12,11 +12,11 @@
         "image_file": "train/00ddb_03_im.jpg"
     },
     {
-        "caption": "kiki is left of the ego car.",
+        "caption": "kiki is right of the ego car.",
         "image_file": "train/00ddb_03_im.jpg"
     },
     {
-        "caption": "gnu is left of the ego car.",
+        "caption": "gnu is right of the ego car.",
         "image_file": "train/00ddb_03_im.jpg"
     },
     {
@@ -24,7 +24,7 @@
         "image_file": "train/00ddb_03_im.jpg"
     },
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/00ddb_03_im.jpg"
     },
     {

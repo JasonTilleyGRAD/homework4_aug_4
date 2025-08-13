@@ -1,10 +1,10 @@
 [
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "valid/00015_01_im.jpg"
     },
     {
-        "caption": "adiumy is left of the ego car.",
+        "caption": "adiumy is right of the ego car.",
         "image_file": "valid/00015_01_im.jpg"
     },
     {

@@ -4,7 +4,7 @@
         "image_file": "train/00668_01_im.jpg"
     },
     {
-        "caption": "amanda is in front of the ego car.",
+        "caption": "amanda is behind the ego car.",
         "image_file": "train/00668_01_im.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "image_file": "train/00668_01_im.jpg"
     },
     {
-        "caption": "kiki is behind the ego car.",
+        "caption": "kiki is in front of the ego car.",
         "image_file": "train/00668_01_im.jpg"
     },
     {

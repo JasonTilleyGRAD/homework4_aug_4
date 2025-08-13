@@ -1,6 +1,6 @@
 [
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "train/007ee_03_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/007ee_03_im.jpg"
     },
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/007ee_03_im.jpg"
     },
     {

@@ -1,10 +1,10 @@
 [
     {
-        "caption": "nolok is right of the ego car.",
+        "caption": "nolok is left of the ego car.",
         "image_file": "train/0095c_03_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "train/0095c_03_im.jpg"
     },
     {

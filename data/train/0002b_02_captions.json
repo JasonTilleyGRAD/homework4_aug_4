@@ -4,11 +4,11 @@
         "image_file": "train/0002b_02_im.jpg"
     },
     {
-        "caption": "wilber is right of the ego car.",
+        "caption": "wilber is left of the ego car.",
         "image_file": "train/0002b_02_im.jpg"
     },
     {
-        "caption": "tux is right of the ego car.",
+        "caption": "tux is left of the ego car.",
         "image_file": "train/0002b_02_im.jpg"
     },
     {

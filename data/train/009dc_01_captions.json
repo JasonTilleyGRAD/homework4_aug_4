@@ -4,11 +4,11 @@
         "image_file": "train/009dc_01_im.jpg"
     },
     {
-        "caption": "suzanne is left of the ego car.",
+        "caption": "suzanne is right of the ego car.",
         "image_file": "train/009dc_01_im.jpg"
     },
     {
-        "caption": "nolok is right of the ego car.",
+        "caption": "nolok is left of the ego car.",
         "image_file": "train/009dc_01_im.jpg"
     },
     {

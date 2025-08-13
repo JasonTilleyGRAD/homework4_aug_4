@@ -4,7 +4,7 @@
         "image_file": "train/013e4_06_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is behind the ego car.",
+        "caption": "sara_the_wizard is in front of the ego car.",
         "image_file": "train/013e4_06_im.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "image_file": "train/013e4_06_im.jpg"
     },
     {
-        "caption": "pidgin is behind the ego car.",
+        "caption": "pidgin is in front of the ego car.",
         "image_file": "train/013e4_06_im.jpg"
     },
     {

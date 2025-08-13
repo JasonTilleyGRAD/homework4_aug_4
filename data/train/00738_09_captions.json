@@ -4,15 +4,15 @@
         "image_file": "train/00738_09_im.jpg"
     },
     {
-        "caption": "adiumy is right of the ego car.",
+        "caption": "adiumy is left of the ego car.",
         "image_file": "train/00738_09_im.jpg"
     },
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/00738_09_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is left of the ego car.",
+        "caption": "sara_the_wizard is right of the ego car.",
         "image_file": "train/00738_09_im.jpg"
     },
     {

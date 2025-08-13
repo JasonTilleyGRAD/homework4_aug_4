@@ -4,7 +4,7 @@
         "image_file": "train/010fb_07_im.jpg"
     },
     {
-        "caption": "beastie is in front of the ego car.",
+        "caption": "beastie is behind the ego car.",
         "image_file": "train/010fb_07_im.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "image_file": "train/010fb_07_im.jpg"
     },
     {
-        "caption": "gnu is in front of the ego car.",
+        "caption": "gnu is behind the ego car.",
         "image_file": "train/010fb_07_im.jpg"
     },
     {

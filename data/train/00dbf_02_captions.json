@@ -1,6 +1,6 @@
 [
     {
-        "caption": "nolok is right of the ego car.",
+        "caption": "nolok is left of the ego car.",
         "image_file": "train/00dbf_02_im.jpg"
     },
     {
@@ -8,11 +8,11 @@
         "image_file": "train/00dbf_02_im.jpg"
     },
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00dbf_02_im.jpg"
     },
     {
-        "caption": "puffy is left of the ego car.",
+        "caption": "puffy is right of the ego car.",
         "image_file": "train/00dbf_02_im.jpg"
     },
     {

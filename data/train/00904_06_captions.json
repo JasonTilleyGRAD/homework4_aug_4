@@ -8,11 +8,11 @@
         "image_file": "train/00904_06_im.jpg"
     },
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "train/00904_06_im.jpg"
     },
     {
-        "caption": "beastie is right of the ego car.",
+        "caption": "beastie is left of the ego car.",
         "image_file": "train/00904_06_im.jpg"
     },
     {

@@ -8,11 +8,11 @@
         "image_file": "valid/00065_04_im.jpg"
     },
     {
-        "caption": "amanda is left of the ego car.",
+        "caption": "amanda is right of the ego car.",
         "image_file": "valid/00065_04_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is right of the ego car.",
+        "caption": "sara_the_wizard is left of the ego car.",
         "image_file": "valid/00065_04_im.jpg"
     },
     {
@@ -20,7 +20,7 @@
         "image_file": "valid/00065_04_im.jpg"
     },
     {
-        "caption": "nolok is right of the ego car.",
+        "caption": "nolok is left of the ego car.",
         "image_file": "valid/00065_04_im.jpg"
     },
     {

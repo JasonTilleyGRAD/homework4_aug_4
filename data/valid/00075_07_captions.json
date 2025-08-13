@@ -1,10 +1,10 @@
 [
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "valid/00075_07_im.jpg"
     },
     {
-        "caption": "gnu is left of the ego car.",
+        "caption": "gnu is right of the ego car.",
         "image_file": "valid/00075_07_im.jpg"
     },
     {

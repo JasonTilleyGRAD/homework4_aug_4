@@ -4,11 +4,11 @@
         "image_file": "train/010f2_03_im.jpg"
     },
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/010f2_03_im.jpg"
     },
     {
-        "caption": "kiki is left of the ego car.",
+        "caption": "kiki is right of the ego car.",
         "image_file": "train/010f2_03_im.jpg"
     },
     {

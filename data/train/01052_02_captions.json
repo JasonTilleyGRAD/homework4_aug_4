@@ -1,18 +1,18 @@
 [
     {
-        "caption": "hexley is right of the ego car.",
+        "caption": "hexley is left of the ego car.",
         "image_file": "train/01052_02_im.jpg"
     },
     {
-        "caption": "suzanne is right of the ego car.",
+        "caption": "suzanne is left of the ego car.",
         "image_file": "train/01052_02_im.jpg"
     },
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/01052_02_im.jpg"
     },
     {
-        "caption": "beastie is right of the ego car.",
+        "caption": "beastie is left of the ego car.",
         "image_file": "train/01052_02_im.jpg"
     },
     {

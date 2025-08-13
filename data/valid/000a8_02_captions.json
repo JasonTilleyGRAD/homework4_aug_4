@@ -1,10 +1,10 @@
 [
     {
-        "caption": "kiki is right of the ego car.",
+        "caption": "kiki is left of the ego car.",
         "image_file": "valid/000a8_02_im.jpg"
     },
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "valid/000a8_02_im.jpg"
     },
     {

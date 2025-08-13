@@ -8,11 +8,11 @@
         "image_file": "train/010c5_05_im.jpg"
     },
     {
-        "caption": "tux is in front of the ego car.",
+        "caption": "tux is behind the ego car.",
         "image_file": "train/010c5_05_im.jpg"
     },
     {
-        "caption": "hexley is in front of the ego car.",
+        "caption": "hexley is behind the ego car.",
         "image_file": "train/010c5_05_im.jpg"
     },
     {

@@ -1,14 +1,14 @@
 [
     {
-        "caption": "adiumy is left of the ego car.",
+        "caption": "adiumy is right of the ego car.",
         "image_file": "train/00c7a_02_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "train/00c7a_02_im.jpg"
     },
     {
-        "caption": "xue is right of the ego car.",
+        "caption": "xue is left of the ego car.",
         "image_file": "train/00c7a_02_im.jpg"
     },
     {

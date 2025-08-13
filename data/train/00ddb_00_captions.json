@@ -4,15 +4,15 @@
         "image_file": "train/00ddb_00_im.jpg"
     },
     {
-        "caption": "tux is right of the ego car.",
+        "caption": "tux is left of the ego car.",
         "image_file": "train/00ddb_00_im.jpg"
     },
     {
-        "caption": "kiki is right of the ego car.",
+        "caption": "kiki is left of the ego car.",
         "image_file": "train/00ddb_00_im.jpg"
     },
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/00ddb_00_im.jpg"
     },
     {

@@ -4,19 +4,19 @@
         "image_file": "train/00c6c_01_im.jpg"
     },
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "train/00c6c_01_im.jpg"
     },
     {
-        "caption": "emule is right of the ego car.",
+        "caption": "emule is left of the ego car.",
         "image_file": "train/00c6c_01_im.jpg"
     },
     {
-        "caption": "puffy is right of the ego car.",
+        "caption": "puffy is left of the ego car.",
         "image_file": "train/00c6c_01_im.jpg"
     },
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/00c6c_01_im.jpg"
     },
     {

@@ -1,6 +1,6 @@
 [
     {
-        "caption": "kiki is right of the ego car.",
+        "caption": "kiki is left of the ego car.",
         "image_file": "train/00366_01_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/00366_01_im.jpg"
     },
     {
-        "caption": "hexley is right of the ego car.",
+        "caption": "hexley is left of the ego car.",
         "image_file": "train/00366_01_im.jpg"
     },
     {

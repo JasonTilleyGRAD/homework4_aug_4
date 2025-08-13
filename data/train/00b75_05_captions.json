@@ -1,14 +1,14 @@
 [
     {
-        "caption": "hexley is in front of the ego car.",
+        "caption": "hexley is behind the ego car.",
         "image_file": "train/00b75_05_im.jpg"
     },
     {
-        "caption": "amanda is behind the ego car.",
+        "caption": "amanda is in front of the ego car.",
         "image_file": "train/00b75_05_im.jpg"
     },
     {
-        "caption": "konqi is behind the ego car.",
+        "caption": "konqi is in front of the ego car.",
         "image_file": "train/00b75_05_im.jpg"
     },
     {

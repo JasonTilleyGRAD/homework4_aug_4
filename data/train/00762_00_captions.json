@@ -4,15 +4,15 @@
         "image_file": "train/00762_00_im.jpg"
     },
     {
-        "caption": "konqi is left of the ego car.",
+        "caption": "konqi is right of the ego car.",
         "image_file": "train/00762_00_im.jpg"
     },
     {
-        "caption": "amanda is right of the ego car.",
+        "caption": "amanda is left of the ego car.",
         "image_file": "train/00762_00_im.jpg"
     },
     {
-        "caption": "xue is left of the ego car.",
+        "caption": "xue is right of the ego car.",
         "image_file": "train/00762_00_im.jpg"
     },
     {

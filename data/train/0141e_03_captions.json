@@ -8,7 +8,7 @@
         "image_file": "train/0141e_03_im.jpg"
     },
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "train/0141e_03_im.jpg"
     },
     {
@@ -16,11 +16,11 @@
         "image_file": "train/0141e_03_im.jpg"
     },
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/0141e_03_im.jpg"
     },
     {
-        "caption": "xue is left of the ego car.",
+        "caption": "xue is right of the ego car.",
         "image_file": "train/0141e_03_im.jpg"
     },
     {
