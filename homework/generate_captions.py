@@ -40,7 +40,7 @@ def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_
 
     
         if abs(offset_x) > abs(offset_y):
-            if offset_x < 0:
+            if offset_x > 0:
                 position = "right of"
             else:
                 position = "left of"
@@ -142,19 +142,22 @@ def compare_valid_train(valid_balanced_path="data/valid_grader/all_mc_qas.json",
             })
             continue
 
-        caption_path = train_qa_path if train_exists else valid_qa_path
-        with open(caption_path, "r") as f:
-            generated_entries = json.load(f)  
+        if train_exists:
+            with open(train_qa_path, "r") as f:
+                generated_entries = json.load(f)
+        if valid_exists:
+            with open(valid_qa_path, "r") as f:
+                generated_entries = json.load(f)
 
         correct_index = entry.get("correct_index")
-        correct_caption = entry.get("candidates", [])[correct_index]
+        correct_captions = entry.get("candidates")
 
         found = False
         
+        correct_caption = correct_captions[correct_index]
 
-        
         for gen_entry in generated_entries:
-            if correct_caption == gen_entry.get("caption", []):
+            if correct_caption == gen_entry.get("caption"):
                 found = True
                 break
 

@@ -1,10 +1,10 @@
 [
     {
-        "caption": "konqi is left of the ego car.",
+        "caption": "konqi is right of the ego car.",
         "image_file": "train/01328_09_im.jpg"
     },
     {
-        "caption": "puffy is left of the ego car.",
+        "caption": "puffy is right of the ego car.",
         "image_file": "train/01328_09_im.jpg"
     },
     {

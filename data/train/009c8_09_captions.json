@@ -1,18 +1,18 @@
 [
     {
-        "caption": "hexley is left of the ego car.",
+        "caption": "hexley is right of the ego car.",
         "image_file": "train/009c8_09_im.jpg"
     },
     {
-        "caption": "beastie is behind the ego car.",
+        "caption": "beastie is in front of the ego car.",
         "image_file": "train/009c8_09_im.jpg"
     },
     {
-        "caption": "amanda is left of the ego car.",
+        "caption": "amanda is right of the ego car.",
         "image_file": "train/009c8_09_im.jpg"
     },
     {
-        "caption": "adiumy is in front of the ego car.",
+        "caption": "adiumy is behind the ego car.",
         "image_file": "train/009c8_09_im.jpg"
     },
     {

@@ -1,14 +1,14 @@
 [
     {
-        "caption": "kiki is left of the ego car.",
+        "caption": "kiki is right of the ego car.",
         "image_file": "train/006c6_01_im.jpg"
     },
     {
-        "caption": "beastie is left of the ego car.",
+        "caption": "beastie is right of the ego car.",
         "image_file": "train/006c6_01_im.jpg"
     },
     {
-        "caption": "konqi is left of the ego car.",
+        "caption": "konqi is right of the ego car.",
         "image_file": "train/006c6_01_im.jpg"
     },
     {

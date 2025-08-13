@@ -1,14 +1,14 @@
 [
     {
-        "caption": "adiumy is right of the ego car.",
+        "caption": "adiumy is left of the ego car.",
         "image_file": "train/00717_03_im.jpg"
     },
     {
-        "caption": "beastie is left of the ego car.",
+        "caption": "beastie is right of the ego car.",
         "image_file": "train/00717_03_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is right of the ego car.",
+        "caption": "sara_the_wizard is left of the ego car.",
         "image_file": "train/00717_03_im.jpg"
     },
     {

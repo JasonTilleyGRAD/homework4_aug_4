@@ -1,14 +1,14 @@
 [
     {
-        "caption": "puffy is left of the ego car.",
+        "caption": "puffy is right of the ego car.",
         "image_file": "train/00f75_07_im.jpg"
     },
     {
-        "caption": "gavroche is in front of the ego car.",
+        "caption": "gavroche is behind the ego car.",
         "image_file": "train/00f75_07_im.jpg"
     },
     {
-        "caption": "adiumy is left of the ego car.",
+        "caption": "adiumy is right of the ego car.",
         "image_file": "train/00f75_07_im.jpg"
     },
     {

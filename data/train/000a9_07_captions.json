@@ -1,14 +1,14 @@
 [
     {
-        "caption": "konqi is in front of the ego car.",
+        "caption": "konqi is behind the ego car.",
         "image_file": "train/000a9_07_im.jpg"
     },
     {
-        "caption": "emule is in front of the ego car.",
+        "caption": "emule is behind the ego car.",
         "image_file": "train/000a9_07_im.jpg"
     },
     {
-        "caption": "xue is right of the ego car.",
+        "caption": "xue is left of the ego car.",
         "image_file": "train/000a9_07_im.jpg"
     },
     {

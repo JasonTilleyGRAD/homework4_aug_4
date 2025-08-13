@@ -1,14 +1,14 @@
 [
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/01250_05_im.jpg"
     },
     {
-        "caption": "konqi is left of the ego car.",
+        "caption": "konqi is right of the ego car.",
         "image_file": "train/01250_05_im.jpg"
     },
     {
-        "caption": "hexley is right of the ego car.",
+        "caption": "hexley is left of the ego car.",
         "image_file": "train/01250_05_im.jpg"
     },
     {

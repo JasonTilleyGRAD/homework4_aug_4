@@ -1,10 +1,10 @@
 [
     {
-        "caption": "puffy is left of the ego car.",
+        "caption": "puffy is right of the ego car.",
         "image_file": "train/006f4_01_im.jpg"
     },
     {
-        "caption": "amanda is behind the ego car.",
+        "caption": "amanda is in front of the ego car.",
         "image_file": "train/006f4_01_im.jpg"
     },
     {

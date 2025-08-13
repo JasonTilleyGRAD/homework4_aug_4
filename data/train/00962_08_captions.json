@@ -1,14 +1,14 @@
 [
     {
-        "caption": "pidgin is left of the ego car.",
+        "caption": "pidgin is right of the ego car.",
         "image_file": "train/00962_08_im.jpg"
     },
     {
-        "caption": "suzanne is in front of the ego car.",
+        "caption": "suzanne is behind the ego car.",
         "image_file": "train/00962_08_im.jpg"
     },
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/00962_08_im.jpg"
     },
     {

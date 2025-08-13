@@ -1,14 +1,14 @@
 [
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/0146e_08_im.jpg"
     },
     {
-        "caption": "konqi is left of the ego car.",
+        "caption": "konqi is right of the ego car.",
         "image_file": "train/0146e_08_im.jpg"
     },
     {
-        "caption": "suzanne is right of the ego car.",
+        "caption": "suzanne is left of the ego car.",
         "image_file": "train/0146e_08_im.jpg"
     },
     {

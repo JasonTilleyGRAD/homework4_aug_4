@@ -1,14 +1,14 @@
 [
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00b9e_08_im.jpg"
     },
     {
-        "caption": "kiki is behind the ego car.",
+        "caption": "kiki is in front of the ego car.",
         "image_file": "train/00b9e_08_im.jpg"
     },
     {
-        "caption": "gnu is left of the ego car.",
+        "caption": "gnu is right of the ego car.",
         "image_file": "train/00b9e_08_im.jpg"
     },
     {

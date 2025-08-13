@@ -1,26 +1,26 @@
 [
     {
-        "caption": "amanda is right of the ego car.",
+        "caption": "amanda is left of the ego car.",
         "image_file": "train/00467_08_im.jpg"
     },
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "train/00467_08_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is left of the ego car.",
+        "caption": "sara_the_wizard is right of the ego car.",
         "image_file": "train/00467_08_im.jpg"
     },
     {
-        "caption": "sara_the_racer is right of the ego car.",
+        "caption": "sara_the_racer is left of the ego car.",
         "image_file": "train/00467_08_im.jpg"
     },
     {
-        "caption": "gnu is left of the ego car.",
+        "caption": "gnu is right of the ego car.",
         "image_file": "train/00467_08_im.jpg"
     },
     {
-        "caption": "wilber is in front of the ego car.",
+        "caption": "wilber is behind the ego car.",
         "image_file": "train/00467_08_im.jpg"
     },
     {

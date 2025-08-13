@@ -1,10 +1,10 @@
 [
     {
-        "caption": "pidgin is in front of the ego car.",
+        "caption": "pidgin is behind the ego car.",
         "image_file": "train/0130c_00_im.jpg"
     },
     {
-        "caption": "gnu is left of the ego car.",
+        "caption": "gnu is right of the ego car.",
         "image_file": "train/0130c_00_im.jpg"
     },
     {

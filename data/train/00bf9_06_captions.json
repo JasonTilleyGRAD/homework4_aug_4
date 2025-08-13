@@ -1,10 +1,10 @@
 [
     {
-        "caption": "hexley is right of the ego car.",
+        "caption": "hexley is left of the ego car.",
         "image_file": "train/00bf9_06_im.jpg"
     },
     {
-        "caption": "emule is behind the ego car.",
+        "caption": "emule is in front of the ego car.",
         "image_file": "train/00bf9_06_im.jpg"
     },
     {

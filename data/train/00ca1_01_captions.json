@@ -1,14 +1,14 @@
 [
     {
-        "caption": "adiumy is right of the ego car.",
+        "caption": "adiumy is left of the ego car.",
         "image_file": "train/00ca1_01_im.jpg"
     },
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00ca1_01_im.jpg"
     },
     {
-        "caption": "xue is behind the ego car.",
+        "caption": "xue is in front of the ego car.",
         "image_file": "train/00ca1_01_im.jpg"
     },
     {

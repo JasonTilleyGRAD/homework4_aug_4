@@ -1,18 +1,18 @@
 [
     {
-        "caption": "beastie is left of the ego car.",
+        "caption": "beastie is right of the ego car.",
         "image_file": "train/00bb6_09_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/00bb6_09_im.jpg"
     },
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00bb6_09_im.jpg"
     },
     {
-        "caption": "emule is in front of the ego car.",
+        "caption": "emule is behind the ego car.",
         "image_file": "train/00bb6_09_im.jpg"
     },
     {

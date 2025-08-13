@@ -1,22 +1,22 @@
 [
     {
-        "caption": "adiumy is in front of the ego car.",
+        "caption": "adiumy is behind the ego car.",
         "image_file": "train/0059f_00_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/0059f_00_im.jpg"
     },
     {
-        "caption": "gavroche is left of the ego car.",
+        "caption": "gavroche is right of the ego car.",
         "image_file": "train/0059f_00_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is left of the ego car.",
+        "caption": "sara_the_wizard is right of the ego car.",
         "image_file": "train/0059f_00_im.jpg"
     },
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/0059f_00_im.jpg"
     },
     {

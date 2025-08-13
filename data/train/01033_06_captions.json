@@ -1,10 +1,10 @@
 [
     {
-        "caption": "amanda is right of the ego car.",
+        "caption": "amanda is left of the ego car.",
         "image_file": "train/01033_06_im.jpg"
     },
     {
-        "caption": "emule is behind the ego car.",
+        "caption": "emule is in front of the ego car.",
         "image_file": "train/01033_06_im.jpg"
     },
     {

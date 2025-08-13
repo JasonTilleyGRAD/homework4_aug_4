@@ -1,10 +1,10 @@
 [
     {
-        "caption": "tux is in front of the ego car.",
+        "caption": "tux is behind the ego car.",
         "image_file": "train/00b9e_07_im.jpg"
     },
     {
-        "caption": "konqi is behind the ego car.",
+        "caption": "konqi is in front of the ego car.",
         "image_file": "train/00b9e_07_im.jpg"
     },
     {

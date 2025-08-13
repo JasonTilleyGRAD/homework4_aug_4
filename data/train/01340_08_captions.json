@@ -1,14 +1,14 @@
 [
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/01340_08_im.jpg"
     },
     {
-        "caption": "xue is left of the ego car.",
+        "caption": "xue is right of the ego car.",
         "image_file": "train/01340_08_im.jpg"
     },
     {
-        "caption": "pidgin is left of the ego car.",
+        "caption": "pidgin is right of the ego car.",
         "image_file": "train/01340_08_im.jpg"
     },
     {

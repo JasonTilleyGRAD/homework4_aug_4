@@ -1,14 +1,14 @@
 [
     {
-        "caption": "suzanne is behind the ego car.",
+        "caption": "suzanne is in front of the ego car.",
         "image_file": "train/003be_02_im.jpg"
     },
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/003be_02_im.jpg"
     },
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/003be_02_im.jpg"
     },
     {

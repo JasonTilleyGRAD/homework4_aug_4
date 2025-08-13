@@ -1,10 +1,10 @@
 [
     {
-        "caption": "hexley is behind the ego car.",
+        "caption": "hexley is in front of the ego car.",
         "image_file": "train/000b4_06_im.jpg"
     },
     {
-        "caption": "gavroche is in front of the ego car.",
+        "caption": "gavroche is behind the ego car.",
         "image_file": "train/000b4_06_im.jpg"
     },
     {

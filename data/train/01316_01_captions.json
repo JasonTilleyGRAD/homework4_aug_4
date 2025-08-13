@@ -1,10 +1,10 @@
 [
     {
-        "caption": "sara_the_racer is in front of the ego car.",
+        "caption": "sara_the_racer is behind the ego car.",
         "image_file": "train/01316_01_im.jpg"
     },
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/01316_01_im.jpg"
     },
     {

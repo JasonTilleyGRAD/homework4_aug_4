@@ -1,14 +1,14 @@
 [
     {
-        "caption": "pidgin is in front of the ego car.",
+        "caption": "pidgin is behind the ego car.",
         "image_file": "train/00a9c_05_im.jpg"
     },
     {
-        "caption": "beastie is right of the ego car.",
+        "caption": "beastie is left of the ego car.",
         "image_file": "train/00a9c_05_im.jpg"
     },
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00a9c_05_im.jpg"
     },
     {

@@ -1,10 +1,10 @@
 [
     {
-        "caption": "kiki is left of the ego car.",
+        "caption": "kiki is right of the ego car.",
         "image_file": "train/00386_09_im.jpg"
     },
     {
-        "caption": "konqi is in front of the ego car.",
+        "caption": "konqi is behind the ego car.",
         "image_file": "train/00386_09_im.jpg"
     },
     {

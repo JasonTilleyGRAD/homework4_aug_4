@@ -1,10 +1,10 @@
 [
     {
-        "caption": "adiumy is in front of the ego car.",
+        "caption": "adiumy is behind the ego car.",
         "image_file": "train/00f92_04_im.jpg"
     },
     {
-        "caption": "amanda is right of the ego car.",
+        "caption": "amanda is left of the ego car.",
         "image_file": "train/00f92_04_im.jpg"
     },
     {

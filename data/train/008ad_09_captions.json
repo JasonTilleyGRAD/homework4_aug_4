@@ -1,10 +1,10 @@
 [
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "train/008ad_09_im.jpg"
     },
     {
-        "caption": "sara_the_racer is right of the ego car.",
+        "caption": "sara_the_racer is left of the ego car.",
         "image_file": "train/008ad_09_im.jpg"
     },
     {

@@ -1,10 +1,10 @@
 [
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "train/011fc_00_im.jpg"
     },
     {
-        "caption": "gavroche is behind the ego car.",
+        "caption": "gavroche is in front of the ego car.",
         "image_file": "train/011fc_00_im.jpg"
     },
     {

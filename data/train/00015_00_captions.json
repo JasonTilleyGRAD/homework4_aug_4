@@ -1,14 +1,14 @@
 [
     {
-        "caption": "konqi is in front of the ego car.",
+        "caption": "konqi is behind the ego car.",
         "image_file": "train/00015_00_im.jpg"
     },
     {
-        "caption": "tux is left of the ego car.",
+        "caption": "tux is right of the ego car.",
         "image_file": "train/00015_00_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/00015_00_im.jpg"
     },
     {

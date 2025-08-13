@@ -1,22 +1,22 @@
 [
     {
-        "caption": "tux is behind the ego car.",
+        "caption": "tux is in front of the ego car.",
         "image_file": "train/00a99_00_im.jpg"
     },
     {
-        "caption": "adiumy is left of the ego car.",
+        "caption": "adiumy is right of the ego car.",
         "image_file": "train/00a99_00_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/00a99_00_im.jpg"
     },
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00a99_00_im.jpg"
     },
     {
-        "caption": "emule is right of the ego car.",
+        "caption": "emule is left of the ego car.",
         "image_file": "train/00a99_00_im.jpg"
     },
     {

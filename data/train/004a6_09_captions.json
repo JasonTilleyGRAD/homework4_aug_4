@@ -1,14 +1,14 @@
 [
     {
-        "caption": "wilber is left of the ego car.",
+        "caption": "wilber is right of the ego car.",
         "image_file": "train/004a6_09_im.jpg"
     },
     {
-        "caption": "adiumy is behind the ego car.",
+        "caption": "adiumy is in front of the ego car.",
         "image_file": "train/004a6_09_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is left of the ego car.",
+        "caption": "sara_the_wizard is right of the ego car.",
         "image_file": "train/004a6_09_im.jpg"
     },
     {

@@ -1,14 +1,14 @@
 [
     {
-        "caption": "sara_the_racer is in front of the ego car.",
+        "caption": "sara_the_racer is behind the ego car.",
         "image_file": "train/011ac_02_im.jpg"
     },
     {
-        "caption": "konqi is left of the ego car.",
+        "caption": "konqi is right of the ego car.",
         "image_file": "train/011ac_02_im.jpg"
     },
     {
-        "caption": "tux is right of the ego car.",
+        "caption": "tux is left of the ego car.",
         "image_file": "train/011ac_02_im.jpg"
     },
     {

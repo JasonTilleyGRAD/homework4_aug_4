@@ -1,14 +1,14 @@
 [
     {
-        "caption": "wilber is left of the ego car.",
+        "caption": "wilber is right of the ego car.",
         "image_file": "train/00faf_07_im.jpg"
     },
     {
-        "caption": "gavroche is left of the ego car.",
+        "caption": "gavroche is right of the ego car.",
         "image_file": "train/00faf_07_im.jpg"
     },
     {
-        "caption": "puffy is in front of the ego car.",
+        "caption": "puffy is behind the ego car.",
         "image_file": "train/00faf_07_im.jpg"
     },
     {

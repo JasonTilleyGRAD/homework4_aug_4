@@ -1,18 +1,18 @@
 [
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "train/002e3_03_im.jpg"
     },
     {
-        "caption": "amanda is left of the ego car.",
+        "caption": "amanda is right of the ego car.",
         "image_file": "train/002e3_03_im.jpg"
     },
     {
-        "caption": "xue is right of the ego car.",
+        "caption": "xue is left of the ego car.",
         "image_file": "train/002e3_03_im.jpg"
     },
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/002e3_03_im.jpg"
     },
     {

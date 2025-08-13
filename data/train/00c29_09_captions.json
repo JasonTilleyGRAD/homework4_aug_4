@@ -1,14 +1,14 @@
 [
     {
-        "caption": "sara_the_wizard is left of the ego car.",
+        "caption": "sara_the_wizard is right of the ego car.",
         "image_file": "train/00c29_09_im.jpg"
     },
     {
-        "caption": "puffy is left of the ego car.",
+        "caption": "puffy is right of the ego car.",
         "image_file": "train/00c29_09_im.jpg"
     },
     {
-        "caption": "kiki is behind the ego car.",
+        "caption": "kiki is in front of the ego car.",
         "image_file": "train/00c29_09_im.jpg"
     },
     {

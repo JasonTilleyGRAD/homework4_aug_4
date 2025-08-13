@@ -1,18 +1,18 @@
 [
     {
-        "caption": "xue is behind the ego car.",
+        "caption": "xue is in front of the ego car.",
         "image_file": "train/005cd_00_im.jpg"
     },
     {
-        "caption": "kiki is behind the ego car.",
+        "caption": "kiki is in front of the ego car.",
         "image_file": "train/005cd_00_im.jpg"
     },
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "train/005cd_00_im.jpg"
     },
     {
-        "caption": "beastie is behind the ego car.",
+        "caption": "beastie is in front of the ego car.",
         "image_file": "train/005cd_00_im.jpg"
     },
     {

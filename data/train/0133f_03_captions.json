@@ -1,14 +1,14 @@
 [
     {
-        "caption": "tux is right of the ego car.",
+        "caption": "tux is left of the ego car.",
         "image_file": "train/0133f_03_im.jpg"
     },
     {
-        "caption": "suzanne is left of the ego car.",
+        "caption": "suzanne is right of the ego car.",
         "image_file": "train/0133f_03_im.jpg"
     },
     {
-        "caption": "emule is behind the ego car.",
+        "caption": "emule is in front of the ego car.",
         "image_file": "train/0133f_03_im.jpg"
     },
     {

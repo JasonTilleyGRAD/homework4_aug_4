@@ -1,22 +1,22 @@
 [
     {
-        "caption": "pidgin is left of the ego car.",
+        "caption": "pidgin is right of the ego car.",
         "image_file": "train/00eb5_06_im.jpg"
     },
     {
-        "caption": "beastie is in front of the ego car.",
+        "caption": "beastie is behind the ego car.",
         "image_file": "train/00eb5_06_im.jpg"
     },
     {
-        "caption": "puffy is in front of the ego car.",
+        "caption": "puffy is behind the ego car.",
         "image_file": "train/00eb5_06_im.jpg"
     },
     {
-        "caption": "nolok is left of the ego car.",
+        "caption": "nolok is right of the ego car.",
         "image_file": "train/00eb5_06_im.jpg"
     },
     {
-        "caption": "hexley is right of the ego car.",
+        "caption": "hexley is left of the ego car.",
         "image_file": "train/00eb5_06_im.jpg"
     },
     {

@@ -1,22 +1,22 @@
 [
     {
-        "caption": "wilber is behind the ego car.",
+        "caption": "wilber is in front of the ego car.",
         "image_file": "train/00f2b_09_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/00f2b_09_im.jpg"
     },
     {
-        "caption": "puffy is in front of the ego car.",
+        "caption": "puffy is behind the ego car.",
         "image_file": "train/00f2b_09_im.jpg"
     },
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "train/00f2b_09_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is behind the ego car.",
+        "caption": "sara_the_wizard is in front of the ego car.",
         "image_file": "train/00f2b_09_im.jpg"
     },
     {

@@ -1,18 +1,18 @@
 [
     {
-        "caption": "puffy is left of the ego car.",
+        "caption": "puffy is right of the ego car.",
         "image_file": "train/01063_06_im.jpg"
     },
     {
-        "caption": "suzanne is left of the ego car.",
+        "caption": "suzanne is right of the ego car.",
         "image_file": "train/01063_06_im.jpg"
     },
     {
-        "caption": "beastie is in front of the ego car.",
+        "caption": "beastie is behind the ego car.",
         "image_file": "train/01063_06_im.jpg"
     },
     {
-        "caption": "gavroche is behind the ego car.",
+        "caption": "gavroche is in front of the ego car.",
         "image_file": "train/01063_06_im.jpg"
     },
     {

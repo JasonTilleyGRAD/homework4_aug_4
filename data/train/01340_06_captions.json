@@ -1,22 +1,22 @@
 [
     {
-        "caption": "wilber is left of the ego car.",
+        "caption": "wilber is right of the ego car.",
         "image_file": "train/01340_06_im.jpg"
     },
     {
-        "caption": "konqi is behind the ego car.",
+        "caption": "konqi is in front of the ego car.",
         "image_file": "train/01340_06_im.jpg"
     },
     {
-        "caption": "emule is right of the ego car.",
+        "caption": "emule is left of the ego car.",
         "image_file": "train/01340_06_im.jpg"
     },
     {
-        "caption": "pidgin is right of the ego car.",
+        "caption": "pidgin is left of the ego car.",
         "image_file": "train/01340_06_im.jpg"
     },
     {
-        "caption": "sara_the_racer is right of the ego car.",
+        "caption": "sara_the_racer is left of the ego car.",
         "image_file": "train/01340_06_im.jpg"
     },
     {

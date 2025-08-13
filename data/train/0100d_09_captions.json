@@ -1,14 +1,14 @@
 [
     {
-        "caption": "kiki is right of the ego car.",
+        "caption": "kiki is left of the ego car.",
         "image_file": "train/0100d_09_im.jpg"
     },
     {
-        "caption": "sara_the_racer is behind the ego car.",
+        "caption": "sara_the_racer is in front of the ego car.",
         "image_file": "train/0100d_09_im.jpg"
     },
     {
-        "caption": "emule is behind the ego car.",
+        "caption": "emule is in front of the ego car.",
         "image_file": "train/0100d_09_im.jpg"
     },
     {

@@ -1,10 +1,10 @@
 [
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/0002e_04_im.jpg"
     },
     {
-        "caption": "nolok is right of the ego car.",
+        "caption": "nolok is left of the ego car.",
         "image_file": "train/0002e_04_im.jpg"
     },
     {

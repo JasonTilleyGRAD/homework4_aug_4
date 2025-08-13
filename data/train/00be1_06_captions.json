@@ -1,22 +1,22 @@
 [
     {
-        "caption": "konqi is behind the ego car.",
+        "caption": "konqi is in front of the ego car.",
         "image_file": "train/00be1_06_im.jpg"
     },
     {
-        "caption": "beastie is right of the ego car.",
+        "caption": "beastie is left of the ego car.",
         "image_file": "train/00be1_06_im.jpg"
     },
     {
-        "caption": "gavroche is behind the ego car.",
+        "caption": "gavroche is in front of the ego car.",
         "image_file": "train/00be1_06_im.jpg"
     },
     {
-        "caption": "gnu is left of the ego car.",
+        "caption": "gnu is right of the ego car.",
         "image_file": "train/00be1_06_im.jpg"
     },
     {
-        "caption": "hexley is right of the ego car.",
+        "caption": "hexley is left of the ego car.",
         "image_file": "train/00be1_06_im.jpg"
     },
     {

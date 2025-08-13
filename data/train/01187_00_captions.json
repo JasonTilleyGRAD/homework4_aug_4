@@ -1,18 +1,18 @@
 [
     {
-        "caption": "amanda is right of the ego car.",
+        "caption": "amanda is left of the ego car.",
         "image_file": "train/01187_00_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is behind the ego car.",
+        "caption": "sara_the_wizard is in front of the ego car.",
         "image_file": "train/01187_00_im.jpg"
     },
     {
-        "caption": "puffy is right of the ego car.",
+        "caption": "puffy is left of the ego car.",
         "image_file": "train/01187_00_im.jpg"
     },
     {
-        "caption": "tux is behind the ego car.",
+        "caption": "tux is in front of the ego car.",
         "image_file": "train/01187_00_im.jpg"
     },
     {

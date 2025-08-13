@@ -1,22 +1,22 @@
 [
     {
-        "caption": "beastie is left of the ego car.",
+        "caption": "beastie is right of the ego car.",
         "image_file": "train/01056_09_im.jpg"
     },
     {
-        "caption": "konqi is right of the ego car.",
+        "caption": "konqi is left of the ego car.",
         "image_file": "train/01056_09_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is right of the ego car.",
+        "caption": "sara_the_wizard is left of the ego car.",
         "image_file": "train/01056_09_im.jpg"
     },
     {
-        "caption": "tux is right of the ego car.",
+        "caption": "tux is left of the ego car.",
         "image_file": "train/01056_09_im.jpg"
     },
     {
-        "caption": "xue is in front of the ego car.",
+        "caption": "xue is behind the ego car.",
         "image_file": "train/01056_09_im.jpg"
     },
     {

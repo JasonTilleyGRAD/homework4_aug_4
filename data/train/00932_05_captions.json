@@ -1,18 +1,18 @@
 [
     {
-        "caption": "emule is left of the ego car.",
+        "caption": "emule is right of the ego car.",
         "image_file": "train/00932_05_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is in front of the ego car.",
+        "caption": "sara_the_wizard is behind the ego car.",
         "image_file": "train/00932_05_im.jpg"
     },
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "train/00932_05_im.jpg"
     },
     {
-        "caption": "gnu is right of the ego car.",
+        "caption": "gnu is left of the ego car.",
         "image_file": "train/00932_05_im.jpg"
     },
     {

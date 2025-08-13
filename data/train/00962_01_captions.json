@@ -1,14 +1,14 @@
 [
     {
-        "caption": "tux is in front of the ego car.",
+        "caption": "tux is behind the ego car.",
         "image_file": "train/00962_01_im.jpg"
     },
     {
-        "caption": "pidgin is left of the ego car.",
+        "caption": "pidgin is right of the ego car.",
         "image_file": "train/00962_01_im.jpg"
     },
     {
-        "caption": "nolok is behind the ego car.",
+        "caption": "nolok is in front of the ego car.",
         "image_file": "train/00962_01_im.jpg"
     },
     {

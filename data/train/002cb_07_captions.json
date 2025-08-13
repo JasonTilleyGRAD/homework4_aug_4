@@ -1,10 +1,10 @@
 [
     {
-        "caption": "pidgin is in front of the ego car.",
+        "caption": "pidgin is behind the ego car.",
         "image_file": "train/002cb_07_im.jpg"
     },
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "train/002cb_07_im.jpg"
     },
     {

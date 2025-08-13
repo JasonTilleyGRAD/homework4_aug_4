@@ -1,18 +1,18 @@
 [
     {
-        "caption": "sara_the_wizard is behind the ego car.",
+        "caption": "sara_the_wizard is in front of the ego car.",
         "image_file": "train/00e72_07_im.jpg"
     },
     {
-        "caption": "pidgin is left of the ego car.",
+        "caption": "pidgin is right of the ego car.",
         "image_file": "train/00e72_07_im.jpg"
     },
     {
-        "caption": "xue is behind the ego car.",
+        "caption": "xue is in front of the ego car.",
         "image_file": "train/00e72_07_im.jpg"
     },
     {
-        "caption": "gnu is behind the ego car.",
+        "caption": "gnu is in front of the ego car.",
         "image_file": "train/00e72_07_im.jpg"
     },
     {

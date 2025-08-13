@@ -1,18 +1,18 @@
 [
     {
-        "caption": "gavroche is right of the ego car.",
+        "caption": "gavroche is left of the ego car.",
         "image_file": "train/00668_01_im.jpg"
     },
     {
-        "caption": "amanda is behind the ego car.",
+        "caption": "amanda is in front of the ego car.",
         "image_file": "train/00668_01_im.jpg"
     },
     {
-        "caption": "nolok is right of the ego car.",
+        "caption": "nolok is left of the ego car.",
         "image_file": "train/00668_01_im.jpg"
     },
     {
-        "caption": "kiki is in front of the ego car.",
+        "caption": "kiki is behind the ego car.",
         "image_file": "train/00668_01_im.jpg"
     },
     {

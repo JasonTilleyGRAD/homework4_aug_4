@@ -1,10 +1,10 @@
 [
     {
-        "caption": "nolok is in front of the ego car.",
+        "caption": "nolok is behind the ego car.",
         "image_file": "train/00763_00_im.jpg"
     },
     {
-        "caption": "sara_the_racer is left of the ego car.",
+        "caption": "sara_the_racer is right of the ego car.",
         "image_file": "train/00763_00_im.jpg"
     },
     {
