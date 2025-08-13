@@ -185,6 +185,9 @@ class CLIP(nn.Module):
         image_features = image_output.last_hidden_state.mean(dim=1)
         text_features = text_output.last_hidden_state.mean(dim=1)
 
+        image_features = self.image_projection(image_features)  
+        text_features = self.text_projection(text_features)
+
         image_features = image_features / image_features.norm(dim=-1, keepdim=True)
         text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
