@@ -1,6 +1,6 @@
 [
     {
-        "caption": "amanda is behind the ego car.",
+        "caption": "amanda is in front of the ego car.",
         "image_file": "train/011ef_07_im.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "image_file": "train/011ef_07_im.jpg"
     },
     {
-        "caption": "puffy is in front of the ego car.",
+        "caption": "puffy is behind the ego car.",
         "image_file": "train/011ef_07_im.jpg"
     },
     {

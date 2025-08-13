@@ -1,6 +1,6 @@
 [
     {
-        "caption": "pidgin is in front of the ego car.",
+        "caption": "pidgin is behind the ego car.",
         "image_file": "train/0009e_08_im.jpg"
     },
     {
@@ -8,7 +8,7 @@
         "image_file": "train/0009e_08_im.jpg"
     },
     {
-        "caption": "nolok is in front of the ego car.",
+        "caption": "nolok is behind the ego car.",
         "image_file": "train/0009e_08_im.jpg"
     },
     {

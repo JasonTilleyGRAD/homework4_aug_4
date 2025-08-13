@@ -191,23 +191,25 @@ class CLIP(nn.Module):
         image_hidden = image_output.last_hidden_state
         text_hidden = text_output.last_hidden_state
 
+        image_features = image_hidden.mean(dim=1)
+        text_features = text_hidden.mean(dim=1)
+
         if not hasattr(self, 'image_projection'):
-            self.image_projection = nn.Linear(image_hidden.shape[-1], self.proj_dim).to(image_features.device)
+            self.image_projection = nn.Linear(image_features.shape[-1], self.proj_dim).to(pixel_values.device)
         if not hasattr(self, 'text_projection'):
-            self.text_projection = nn.Linear(text_hidden.shape[-1], self.proj_dim).to(text_features.device)
+            self.text_projection = nn.Linear(text_features.shape[-1], self.proj_dim).to(pixel_values.device)
 
         image_features = self.image_projection(image_features)
         text_features = self.text_projection(text_features)
 
         image_features = image_features / image_features.norm(dim=-1, keepdim=True)
-
         text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
         logits_per_image = image_features @ text_features.T * self.temperature
-
         logits_per_text = logits_per_image.T
 
         return logits_per_image, logits_per_text, labels
+
 
 
 

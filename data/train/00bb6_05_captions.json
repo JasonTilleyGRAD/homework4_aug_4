@@ -4,11 +4,11 @@
         "image_file": "train/00bb6_05_im.jpg"
     },
     {
-        "caption": "hexley is behind the ego car.",
+        "caption": "hexley is in front of the ego car.",
         "image_file": "train/00bb6_05_im.jpg"
     },
     {
-        "caption": "adiumy is in front of the ego car.",
+        "caption": "adiumy is behind the ego car.",
         "image_file": "train/00bb6_05_im.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "image_file": "train/00bb6_05_im.jpg"
     },
     {
-        "caption": "sara_the_wizard is in front of the ego car.",
+        "caption": "sara_the_wizard is behind the ego car.",
         "image_file": "train/00bb6_05_im.jpg"
     },
     {
