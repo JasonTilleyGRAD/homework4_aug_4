@@ -102,6 +102,8 @@ class CLIP(nn.Module):
         self.vision_encoder = vision_encoder
         self.text_encoder = text_encoder
         self.temperature = temperature
+        self.image_projection = nn.Linear(image_hidden_dim, proj_dim)
+        self.text_projection = nn.Linear(text_hidden_dim, proj_dim)
 
     def encode_image(self, image: torch.Tensor) -> torch.Tensor:
         return self.vision_encoder(image)
@@ -184,14 +186,13 @@ class CLIP(nn.Module):
 
         image_features = image_output.last_hidden_state.mean(dim=1)
         text_features = text_output.last_hidden_state.mean(dim=1)
-
         image_features = self.image_projection(image_features)  
         text_features = self.text_projection(text_features)
 
         image_features = image_features / image_features.norm(dim=-1, keepdim=True)
         text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-
         logits_per_image = (image_features @ text_features.T) * self.temperature
+        
         logits_per_text = logits_per_image.T
 
         return logits_per_image, logits_per_text, labels
