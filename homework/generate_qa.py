@@ -342,39 +342,36 @@ def check_qa_pairs(info_file: str, view_index: int):
         print(f"A: {qa['answer']}")
         print("-" * 50)
 
-from pathlib import Path
-import json
 
 def generate():
     main_path = Path("../data/train/")
 
     for file_path in main_path.glob("*_info.json"):
-        generations = []
-
         base_name = file_path.stem.replace("_info", "")
 
-        for j in range(9):
+        for j in range(10):
             try:
                 image_files = list(file_path.parent.glob(f"{base_name}_{j:02d}_im.jpg"))
                 if not image_files:
                     raise IndexError(f"No image file found for {base_name}_{j:02d}_im.jpg")
-                image_file = image_files[0]
+                image_file = f"{base_name}_{j:02d}_im.jpg"
 
                 qa_pairs = generate_qa_pairs(file_path, j)
-                qa_pairs.append({"image_file": str(image_file)})
-                generations.append(qa_pairs)
-              
+                for qa in qa_pairs:
+                    qa["image_file"] = str(image_file)
+
+                new_filename = f"{base_name}_{j:02d}_qa_pairs.json"
+                new_file_path = main_path / new_filename
+                with open(new_file_path, "w") as f:
+                    json.dump(qa_pairs, f, indent=4)
 
             except ValueError:
                 print(f"No {j} generation for {file_path.name}")
             except IndexError as e:
                 print(e)
 
-        new_filename = base_name + "_qa_pairs.json"
-        new_file_path = main_path / new_filename
-        with open(new_file_path, "w") as f:
-            json.dump(generations, f, indent=4)
-            print(f"Saved to: {new_file_path}")
+    print("Done.")
+
 
             
 

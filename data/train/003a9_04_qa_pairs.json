@@ -1,0 +1,127 @@
+[
+    {
+        "question": "Is wilber to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is wilber in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Where is wilber relative to the ego car?",
+        "answer": "(np.float64(241.5), np.float64(-127.5))",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is tux to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is tux in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Where is tux relative to the ego car?",
+        "answer": "(np.float64(225.0), np.float64(-125.0))",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is beastie to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is beastie in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Where is beastie relative to the ego car?",
+        "answer": "(np.float64(214.0), np.float64(-63.0))",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is hexley to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is hexley in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Where is hexley relative to the ego car?",
+        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is adiumy to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is adiumy in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Where is adiumy relative to the ego car?",
+        "answer": "(np.float64(239.0), np.float64(-126.5))",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is gnu to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Is gnu in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "Where is gnu relative to the ego car?",
+        "answer": "(np.float64(233.5), np.float64(-126.0))",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "What kart is the ego car?",
+        "answer": "hexley",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "How many karts are there in the scenario?",
+        "answer": 6,
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "What track is this?",
+        "answer": "sandtrack",
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "How many karts are to the left of the ego car?",
+        "answer": 1,
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "How many karts are to the right of the ego car?",
+        "answer": 5,
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "How many karts are in front of the ego car?",
+        "answer": 0,
+        "image_file": "003a9_04_im.jpg"
+    },
+    {
+        "question": "How many karts are behind the ego car?",
+        "answer": 6,
+        "image_file": "003a9_04_im.jpg"
+    }
+]

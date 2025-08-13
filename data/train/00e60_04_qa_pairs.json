@@ -1,0 +1,172 @@
+[
+    {
+        "question": "Is nolok to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is nolok in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is nolok relative to the ego car?",
+        "answer": "(np.float64(258.5), np.float64(-101.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is sara_the_racer to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is sara_the_racer in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is sara_the_racer relative to the ego car?",
+        "answer": "(np.float64(230.5), np.float64(-108.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is emule to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is emule in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is emule relative to the ego car?",
+        "answer": "(np.float64(186.0), np.float64(-126.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is adiumy to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is adiumy in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is adiumy relative to the ego car?",
+        "answer": "(np.float64(179.5), np.float64(-125.5))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is gavroche to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is gavroche in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is gavroche relative to the ego car?",
+        "answer": "(np.float64(0.0), np.float64(0.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is konqi to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is konqi in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is konqi relative to the ego car?",
+        "answer": "(np.float64(141.5), np.float64(-64.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is amanda to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is amanda in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is amanda relative to the ego car?",
+        "answer": "(np.float64(269.5), np.float64(-104.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is xue to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is xue in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is xue relative to the ego car?",
+        "answer": "(np.float64(195.0), np.float64(-127.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is sara_the_wizard to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Is sara_the_wizard in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "Where is sara_the_wizard relative to the ego car?",
+        "answer": "(np.float64(137.0), np.float64(-65.0))",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "What kart is the ego car?",
+        "answer": "gavroche",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "How many karts are there in the scenario?",
+        "answer": 9,
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "What track is this?",
+        "answer": "minigolf",
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "How many karts are to the left of the ego car?",
+        "answer": 1,
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "How many karts are to the right of the ego car?",
+        "answer": 8,
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "How many karts are in front of the ego car?",
+        "answer": 0,
+        "image_file": "00e60_04_im.jpg"
+    },
+    {
+        "question": "How many karts are behind the ego car?",
+        "answer": 9,
+        "image_file": "00e60_04_im.jpg"
+    }
+]
