@@ -227,8 +227,8 @@ def compute_clip_loss(
         The loss for the CLIP model.
     """
     logits_per_image, logits_per_text, _ = outputs
-
-    labels = np.arange(num_items_in_batch)
+    
+    labels = torch.arange(num_items_in_batch, device=logits_per_image.device)
 
     CEL = nn.CrossEntropyLoss()
     loss_i = CEL(logits_per_image, labels) 
