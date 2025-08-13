@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/00217_03_im.jpg"
+    },
+    {
+        "caption": "beastie is left of the ego car.",
+        "image_file": "train/00217_03_im.jpg"
+    },
+    {
+        "caption": "gavroche is left of the ego car.",
+        "image_file": "train/00217_03_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/00217_03_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "train/00217_03_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/00217_03_im.jpg"
+    },
+    {
+        "caption": "The track is hacienda.",
+        "image_file": "train/00217_03_im.jpg"
+    }
+]

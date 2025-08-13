@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "nolok is right of the ego car.",
+        "image_file": "valid/000df_00_im.jpg"
+    },
+    {
+        "caption": "adiumy is right of the ego car.",
+        "image_file": "valid/000df_00_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "valid/000df_00_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000df_00_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "valid/000df_00_im.jpg"
+    }
+]

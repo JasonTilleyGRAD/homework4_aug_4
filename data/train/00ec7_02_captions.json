@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "puffy is right of the ego car.",
+        "image_file": "train/00ec7_02_im.jpg"
+    },
+    {
+        "caption": "kiki is in front of the ego car.",
+        "image_file": "train/00ec7_02_im.jpg"
+    },
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/00ec7_02_im.jpg"
+    },
+    {
+        "caption": "hexley is the ego car.",
+        "image_file": "train/00ec7_02_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00ec7_02_im.jpg"
+    },
+    {
+        "caption": "The track is ravenbridge_mansion.",
+        "image_file": "train/00ec7_02_im.jpg"
+    }
+]

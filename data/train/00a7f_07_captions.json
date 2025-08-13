@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "train/00a7f_07_im.jpg"
+    },
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "train/00a7f_07_im.jpg"
+    },
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/00a7f_07_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/00a7f_07_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00a7f_07_im.jpg"
+    },
+    {
+        "caption": "The track is fortmagma.",
+        "image_file": "train/00a7f_07_im.jpg"
+    }
+]

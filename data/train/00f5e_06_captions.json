@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "train/00f5e_06_im.jpg"
+    },
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/00f5e_06_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "train/00f5e_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00f5e_06_im.jpg"
+    },
+    {
+        "caption": "The track is fortmagma.",
+        "image_file": "train/00f5e_06_im.jpg"
+    }
+]

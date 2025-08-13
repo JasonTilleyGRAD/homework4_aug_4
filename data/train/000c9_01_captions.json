@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "kiki is left of the ego car.",
+        "image_file": "train/000c9_01_im.jpg"
+    },
+    {
+        "caption": "beastie is left of the ego car.",
+        "image_file": "train/000c9_01_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/000c9_01_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "train/000c9_01_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/000c9_01_im.jpg"
+    },
+    {
+        "caption": "The track is black_forest.",
+        "image_file": "train/000c9_01_im.jpg"
+    }
+]

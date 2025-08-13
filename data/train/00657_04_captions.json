@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/00657_04_im.jpg"
+    },
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "train/00657_04_im.jpg"
+    },
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/00657_04_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "train/00657_04_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00657_04_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "train/00657_04_im.jpg"
+    }
+]

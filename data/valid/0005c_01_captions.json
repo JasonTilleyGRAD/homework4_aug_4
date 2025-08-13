@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "valid/0005c_01_im.jpg"
+    },
+    {
+        "caption": "beastie is right of the ego car.",
+        "image_file": "valid/0005c_01_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is in front of the ego car.",
+        "image_file": "valid/0005c_01_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "valid/0005c_01_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "valid/0005c_01_im.jpg"
+    },
+    {
+        "caption": "The track is hacienda.",
+        "image_file": "valid/0005c_01_im.jpg"
+    }
+]

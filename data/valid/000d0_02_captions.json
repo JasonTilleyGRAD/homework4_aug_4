@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "konqi is in front of the ego car.",
+        "image_file": "valid/000d0_02_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is right of the ego car.",
+        "image_file": "valid/000d0_02_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "valid/000d0_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000d0_02_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "valid/000d0_02_im.jpg"
+    }
+]

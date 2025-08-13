@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "adiumy is in front of the ego car.",
+        "image_file": "train/008d3_04_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/008d3_04_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/008d3_04_im.jpg"
+    },
+    {
+        "caption": "The track is minigolf.",
+        "image_file": "train/008d3_04_im.jpg"
+    }
+]

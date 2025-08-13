@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "valid/00095_01_im.jpg"
+    },
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "valid/00095_01_im.jpg"
+    },
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "valid/00095_01_im.jpg"
+    },
+    {
+        "caption": "hexley is the ego car.",
+        "image_file": "valid/00095_01_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "valid/00095_01_im.jpg"
+    },
+    {
+        "caption": "The track is hacienda.",
+        "image_file": "valid/00095_01_im.jpg"
+    }
+]

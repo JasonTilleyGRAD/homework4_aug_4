@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/0016a_02_im.jpg"
+    },
+    {
+        "caption": "konqi is in front of the ego car.",
+        "image_file": "train/0016a_02_im.jpg"
+    },
+    {
+        "caption": "nolok is behind the ego car.",
+        "image_file": "train/0016a_02_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/0016a_02_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/0016a_02_im.jpg"
+    },
+    {
+        "caption": "The track is xr591.",
+        "image_file": "train/0016a_02_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/01325_09_im.jpg"
+    },
+    {
+        "caption": "amanda is left of the ego car.",
+        "image_file": "train/01325_09_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/01325_09_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/01325_09_im.jpg"
+    },
+    {
+        "caption": "The track is overworld.",
+        "image_file": "train/01325_09_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/009e7_04_im.jpg"
+    },
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "train/009e7_04_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/009e7_04_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/009e7_04_im.jpg"
+    },
+    {
+        "caption": "The track is minigolf.",
+        "image_file": "train/009e7_04_im.jpg"
+    }
+]

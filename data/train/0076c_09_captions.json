@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "adiumy is in front of the ego car.",
+        "image_file": "train/0076c_09_im.jpg"
+    },
+    {
+        "caption": "konqi is in front of the ego car.",
+        "image_file": "train/0076c_09_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/0076c_09_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/0076c_09_im.jpg"
+    },
+    {
+        "caption": "The track is black_forest.",
+        "image_file": "train/0076c_09_im.jpg"
+    }
+]

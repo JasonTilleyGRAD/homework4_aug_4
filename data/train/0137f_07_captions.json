@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "puffy is left of the ego car.",
+        "image_file": "train/0137f_07_im.jpg"
+    },
+    {
+        "caption": "hexley is behind the ego car.",
+        "image_file": "train/0137f_07_im.jpg"
+    },
+    {
+        "caption": "tux is in front of the ego car.",
+        "image_file": "train/0137f_07_im.jpg"
+    },
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/0137f_07_im.jpg"
+    },
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/0137f_07_im.jpg"
+    },
+    {
+        "caption": "suzanne is the ego car.",
+        "image_file": "train/0137f_07_im.jpg"
+    },
+    {
+        "caption": "There are 6 karts in the scene.",
+        "image_file": "train/0137f_07_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/0137f_07_im.jpg"
+    }
+]

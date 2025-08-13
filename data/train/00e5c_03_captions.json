@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "adiumy is right of the ego car.",
+        "image_file": "train/00e5c_03_im.jpg"
+    },
+    {
+        "caption": "kiki is left of the ego car.",
+        "image_file": "train/00e5c_03_im.jpg"
+    },
+    {
+        "caption": "suzanne is right of the ego car.",
+        "image_file": "train/00e5c_03_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/00e5c_03_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00e5c_03_im.jpg"
+    },
+    {
+        "caption": "The track is volcano_island.",
+        "image_file": "train/00e5c_03_im.jpg"
+    }
+]

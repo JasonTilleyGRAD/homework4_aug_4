@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "tux is in front of the ego car.",
+        "image_file": "train/007f2_01_im.jpg"
+    },
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "train/007f2_01_im.jpg"
+    },
+    {
+        "caption": "nolok is right of the ego car.",
+        "image_file": "train/007f2_01_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/007f2_01_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/007f2_01_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/007f2_01_im.jpg"
+    }
+]

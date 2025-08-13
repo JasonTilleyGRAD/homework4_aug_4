@@ -1,5 +1,6 @@
-from pathlib import Path
+#Ai used to help write data validation functions
 
+from pathlib import Path
 import fire
 from matplotlib import pyplot as plt
 import json
@@ -15,14 +16,16 @@ def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_
         file = json.load(f)
     track_name = extract_track_info(file)
 
-    karts = extract_kart_objects(file,view_index,img_width,img_height)
+    karts = extract_kart_objects(file, view_index, img_width, img_height)
 
     ego_kart_name = None
-    ego_kart_center = None
+    ego_kart_center = [0, 0]
+
     for kart in karts:
         if kart.get("is_center_kart", False):
-            ego_kart_name = kart.get("kart_name")
-            ego_kart_center = kart.get("center", [0, 0])
+            ego_kart_name = str(kart.get("kart_name", "unknown"))
+            center = kart.get("center", [0, 0])
+            ego_kart_center = [float(center[0]), float(center[1])]
             break
 
     captions =[]
@@ -37,23 +40,23 @@ def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_
 
     
         if abs(offset_x) > abs(offset_y):
-            if offset_x > 0:
-                position = "right"
+            if offset_x < 0:
+                position = "right of"
             else:
-                position = "left"
+                position = "left of"
         else:
-            if offset_y < 0:
-                position = "front"
+            if offset_y > 0:
+                position = "in front of"
             else:
-                position = "back"
-        captions.append({"caption":  str(kart["kart_name"]) + ": is " + str(position) +" of the ego car." })
+                position = "behind"
+        captions.append({"caption":  str(kart["kart_name"]) + " is " + str(position) +" the ego car." })
 
     
 
     
     captions.append({"caption": str(ego_kart_name)+  " is the ego car."})
-    captions.append({"caption": "There are " +  str(len(karts)) + " karts in the scenario."})
-    captions.append({"caption": "The track is " + str(track_name) +" ."})
+    captions.append({"caption": "There are " +  str(len(karts)) + " karts in the scene."})
+    captions.append({"caption": "The track is " + str(track_name) +"."})
         
     return captions
 
@@ -113,6 +116,60 @@ def generate():
     print("Done.")
 
 
+def compare_valid_train(valid_balanced_path="data/valid_grader/all_mc_qas.json", train_dir="data/train",valid_dir="data/valid"):
+
+    with open(valid_balanced_path, "r") as f:
+        valid_entries = json.load(f) 
+
+    mismatches = []
+
+    for entry in valid_entries:
+        image_file = entry.get("image_file")
+        if not image_file:
+            continue
+
+        caption_file = Path(image_file).stem.replace("_im", "") + "_captions.json"
+        train_qa_path = Path(train_dir) / caption_file
+        valid_qa_path = Path(valid_dir) / caption_file
+
+        train_exists = train_qa_path.exists()
+        valid_exists = valid_qa_path.exists()
+
+        if not train_exists and not valid_exists:
+            mismatches.append({
+                "image_file": image_file,
+                "reason": "No matching train or valid QA file"
+            })
+            continue
+
+        caption_path = train_qa_path if train_exists else valid_qa_path
+        with open(caption_path, "r") as f:
+            generated_entries = json.load(f)  
+
+        correct_index = entry.get("correct_index")
+        correct_caption = entry.get("candidates", [])[correct_index]
+
+        found = False
+        
+
+        
+        for gen_entry in generated_entries:
+            if correct_caption == gen_entry.get("caption", []):
+                found = True
+                break
+
+        if not found:
+            mismatches.append({
+                "image_file": image_file,
+                "correct caption": correct_caption 
+            })
+
+
+    print(f"Total: {len(mismatches)}/{len(valid_entries)}")
+    return mismatches
+
+
+
 """
 Usage Example: Visualize QA pairs for a specific file and view:
    python generate_captions.py check --info_file ../data/valid/00000_info.json --view_index 0
@@ -122,7 +179,9 @@ You probably need to add additional commands to Fire below.
 
 
 def main():
-    fire.Fire({"check": check_caption, "generate": generate})
+    fire.Fire({"check": check_caption, 
+               "generate": generate,
+               "checker": compare_valid_train})
 
 
 if __name__ == "__main__":

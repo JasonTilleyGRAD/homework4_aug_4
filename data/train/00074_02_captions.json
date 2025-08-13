@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "nolok is in front of the ego car.",
+        "image_file": "train/00074_02_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/00074_02_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/00074_02_im.jpg"
+    },
+    {
+        "caption": "The track is black_forest.",
+        "image_file": "train/00074_02_im.jpg"
+    }
+]

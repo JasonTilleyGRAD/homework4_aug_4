@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "xue is behind the ego car.",
+        "image_file": "valid/00028_07_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "valid/00028_07_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "valid/00028_07_im.jpg"
+    },
+    {
+        "caption": "The track is hacienda.",
+        "image_file": "valid/00028_07_im.jpg"
+    }
+]

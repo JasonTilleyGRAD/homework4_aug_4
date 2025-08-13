@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/001d0_09_im.jpg"
+    },
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/001d0_09_im.jpg"
+    },
+    {
+        "caption": "amanda is left of the ego car.",
+        "image_file": "train/001d0_09_im.jpg"
+    },
+    {
+        "caption": "adiumy is in front of the ego car.",
+        "image_file": "train/001d0_09_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/001d0_09_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/001d0_09_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/001d0_09_im.jpg"
+    }
+]

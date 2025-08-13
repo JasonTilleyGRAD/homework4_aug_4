@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "pidgin is in front of the ego car.",
+        "image_file": "train/01304_05_im.jpg"
+    },
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/01304_05_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/01304_05_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/01304_05_im.jpg"
+    },
+    {
+        "caption": "The track is scotland.",
+        "image_file": "train/01304_05_im.jpg"
+    }
+]

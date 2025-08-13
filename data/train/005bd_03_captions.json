@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/005bd_03_im.jpg"
+    },
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/005bd_03_im.jpg"
+    },
+    {
+        "caption": "hexley is the ego car.",
+        "image_file": "train/005bd_03_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/005bd_03_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "train/005bd_03_im.jpg"
+    }
+]

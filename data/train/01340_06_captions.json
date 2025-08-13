@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "train/01340_06_im.jpg"
+    },
+    {
+        "caption": "konqi is behind the ego car.",
+        "image_file": "train/01340_06_im.jpg"
+    },
+    {
+        "caption": "emule is right of the ego car.",
+        "image_file": "train/01340_06_im.jpg"
+    },
+    {
+        "caption": "pidgin is right of the ego car.",
+        "image_file": "train/01340_06_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is right of the ego car.",
+        "image_file": "train/01340_06_im.jpg"
+    },
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "train/01340_06_im.jpg"
+    },
+    {
+        "caption": "There are 6 karts in the scene.",
+        "image_file": "train/01340_06_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "train/01340_06_im.jpg"
+    }
+]

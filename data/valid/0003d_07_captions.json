@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "konqi is right of the ego car.",
+        "image_file": "valid/0003d_07_im.jpg"
+    },
+    {
+        "caption": "pidgin is in front of the ego car.",
+        "image_file": "valid/0003d_07_im.jpg"
+    },
+    {
+        "caption": "xue is in front of the ego car.",
+        "image_file": "valid/0003d_07_im.jpg"
+    },
+    {
+        "caption": "suzanne is the ego car.",
+        "image_file": "valid/0003d_07_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "valid/0003d_07_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "valid/0003d_07_im.jpg"
+    }
+]

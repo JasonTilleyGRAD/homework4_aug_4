@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "adiumy is in front of the ego car.",
+        "image_file": "train/000a9_03_im.jpg"
+    },
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "train/000a9_03_im.jpg"
+    },
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "train/000a9_03_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/000a9_03_im.jpg"
+    },
+    {
+        "caption": "The track is fortmagma.",
+        "image_file": "train/000a9_03_im.jpg"
+    }
+]

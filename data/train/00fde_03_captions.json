@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "nolok is in front of the ego car.",
+        "image_file": "train/00fde_03_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "train/00fde_03_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/00fde_03_im.jpg"
+    },
+    {
+        "caption": "The track is hacienda.",
+        "image_file": "train/00fde_03_im.jpg"
+    }
+]

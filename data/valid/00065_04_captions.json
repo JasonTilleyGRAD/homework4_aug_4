@@ -1,0 +1,38 @@
+[
+    {
+        "caption": "konqi is behind the ego car.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "puffy is in front of the ego car.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "amanda is left of the ego car.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is right of the ego car.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "beastie is in front of the ego car.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "nolok is right of the ego car.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "There are 7 karts in the scene.",
+        "image_file": "valid/00065_04_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "valid/00065_04_im.jpg"
+    }
+]

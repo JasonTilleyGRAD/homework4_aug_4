@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "train/01166_00_im.jpg"
+    },
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/01166_00_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/01166_00_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/01166_00_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "train/01166_00_im.jpg"
+    }
+]

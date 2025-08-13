@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "konqi is behind the ego car.",
+        "image_file": "train/00be1_06_im.jpg"
+    },
+    {
+        "caption": "beastie is right of the ego car.",
+        "image_file": "train/00be1_06_im.jpg"
+    },
+    {
+        "caption": "gavroche is behind the ego car.",
+        "image_file": "train/00be1_06_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/00be1_06_im.jpg"
+    },
+    {
+        "caption": "hexley is right of the ego car.",
+        "image_file": "train/00be1_06_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/00be1_06_im.jpg"
+    },
+    {
+        "caption": "There are 6 karts in the scene.",
+        "image_file": "train/00be1_06_im.jpg"
+    },
+    {
+        "caption": "The track is scotland.",
+        "image_file": "train/00be1_06_im.jpg"
+    }
+]

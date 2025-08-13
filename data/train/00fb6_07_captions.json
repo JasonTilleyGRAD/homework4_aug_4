@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "nolok is behind the ego car.",
+        "image_file": "train/00fb6_07_im.jpg"
+    },
+    {
+        "caption": "beastie is left of the ego car.",
+        "image_file": "train/00fb6_07_im.jpg"
+    },
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/00fb6_07_im.jpg"
+    },
+    {
+        "caption": "adiumy is in front of the ego car.",
+        "image_file": "train/00fb6_07_im.jpg"
+    },
+    {
+        "caption": "puffy is the ego car.",
+        "image_file": "train/00fb6_07_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/00fb6_07_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/00fb6_07_im.jpg"
+    }
+]

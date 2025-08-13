@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "hexley is behind the ego car.",
+        "image_file": "train/00b75_05_im.jpg"
+    },
+    {
+        "caption": "amanda is in front of the ego car.",
+        "image_file": "train/00b75_05_im.jpg"
+    },
+    {
+        "caption": "konqi is in front of the ego car.",
+        "image_file": "train/00b75_05_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/00b75_05_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00b75_05_im.jpg"
+    },
+    {
+        "caption": "The track is cornfield_crossing.",
+        "image_file": "train/00b75_05_im.jpg"
+    }
+]

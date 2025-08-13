@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/01342_04_im.jpg"
+    },
+    {
+        "caption": "gavroche is left of the ego car.",
+        "image_file": "train/01342_04_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "train/01342_04_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/01342_04_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/01342_04_im.jpg"
+    }
+]

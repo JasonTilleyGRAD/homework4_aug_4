@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "valid/00021_07_im.jpg"
+    },
+    {
+        "caption": "beastie is in front of the ego car.",
+        "image_file": "valid/00021_07_im.jpg"
+    },
+    {
+        "caption": "adiumy is behind the ego car.",
+        "image_file": "valid/00021_07_im.jpg"
+    },
+    {
+        "caption": "puffy is the ego car.",
+        "image_file": "valid/00021_07_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "valid/00021_07_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "valid/00021_07_im.jpg"
+    }
+]

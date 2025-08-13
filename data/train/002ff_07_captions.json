@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "sara_the_wizard is in front of the ego car.",
+        "image_file": "train/002ff_07_im.jpg"
+    },
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/002ff_07_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/002ff_07_im.jpg"
+    },
+    {
+        "caption": "emule is the ego car.",
+        "image_file": "train/002ff_07_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/002ff_07_im.jpg"
+    },
+    {
+        "caption": "The track is hacienda.",
+        "image_file": "train/002ff_07_im.jpg"
+    }
+]

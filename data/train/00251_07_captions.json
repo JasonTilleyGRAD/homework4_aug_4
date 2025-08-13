@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "tux is behind the ego car.",
+        "image_file": "train/00251_07_im.jpg"
+    },
+    {
+        "caption": "gavroche is behind the ego car.",
+        "image_file": "train/00251_07_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/00251_07_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00251_07_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "train/00251_07_im.jpg"
+    }
+]

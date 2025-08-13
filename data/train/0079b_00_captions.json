@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "beastie is behind the ego car.",
+        "image_file": "train/0079b_00_im.jpg"
+    },
+    {
+        "caption": "tux is behind the ego car.",
+        "image_file": "train/0079b_00_im.jpg"
+    },
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/0079b_00_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "train/0079b_00_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/0079b_00_im.jpg"
+    },
+    {
+        "caption": "The track is cornfield_crossing.",
+        "image_file": "train/0079b_00_im.jpg"
+    }
+]

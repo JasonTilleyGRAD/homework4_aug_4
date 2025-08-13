@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "xue is behind the ego car.",
+        "image_file": "valid/00068_03_im.jpg"
+    },
+    {
+        "caption": "puffy is the ego car.",
+        "image_file": "valid/00068_03_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "valid/00068_03_im.jpg"
+    },
+    {
+        "caption": "The track is volcano_island.",
+        "image_file": "valid/00068_03_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/00cb2_08_im.jpg"
+    },
+    {
+        "caption": "wilber is right of the ego car.",
+        "image_file": "train/00cb2_08_im.jpg"
+    },
+    {
+        "caption": "emule is the ego car.",
+        "image_file": "train/00cb2_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00cb2_08_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "train/00cb2_08_im.jpg"
+    }
+]

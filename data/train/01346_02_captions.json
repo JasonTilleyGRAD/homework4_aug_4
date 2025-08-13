@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "train/01346_02_im.jpg"
+    },
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/01346_02_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "train/01346_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/01346_02_im.jpg"
+    },
+    {
+        "caption": "The track is ravenbridge_mansion.",
+        "image_file": "train/01346_02_im.jpg"
+    }
+]

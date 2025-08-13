@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "train/00902_08_im.jpg"
+    },
+    {
+        "caption": "beastie is in front of the ego car.",
+        "image_file": "train/00902_08_im.jpg"
+    },
+    {
+        "caption": "emule is the ego car.",
+        "image_file": "train/00902_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00902_08_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "train/00902_08_im.jpg"
+    }
+]

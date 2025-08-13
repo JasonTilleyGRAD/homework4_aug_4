@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "tux is behind the ego car.",
+        "image_file": "train/00339_08_im.jpg"
+    },
+    {
+        "caption": "pidgin is behind the ego car.",
+        "image_file": "train/00339_08_im.jpg"
+    },
+    {
+        "caption": "wilber is right of the ego car.",
+        "image_file": "train/00339_08_im.jpg"
+    },
+    {
+        "caption": "nolok is in front of the ego car.",
+        "image_file": "train/00339_08_im.jpg"
+    },
+    {
+        "caption": "adiumy is right of the ego car.",
+        "image_file": "train/00339_08_im.jpg"
+    },
+    {
+        "caption": "suzanne is the ego car.",
+        "image_file": "train/00339_08_im.jpg"
+    },
+    {
+        "caption": "There are 6 karts in the scene.",
+        "image_file": "train/00339_08_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/00339_08_im.jpg"
+    }
+]

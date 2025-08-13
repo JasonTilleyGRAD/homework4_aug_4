@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "nolok is right of the ego car.",
+        "image_file": "train/00da2_06_im.jpg"
+    },
+    {
+        "caption": "kiki is behind the ego car.",
+        "image_file": "train/00da2_06_im.jpg"
+    },
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/00da2_06_im.jpg"
+    },
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/00da2_06_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "train/00da2_06_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/00da2_06_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/00da2_06_im.jpg"
+    }
+]

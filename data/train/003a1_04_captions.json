@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/003a1_04_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/003a1_04_im.jpg"
+    },
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/003a1_04_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/003a1_04_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/003a1_04_im.jpg"
+    },
+    {
+        "caption": "The track is xr591.",
+        "image_file": "train/003a1_04_im.jpg"
+    }
+]

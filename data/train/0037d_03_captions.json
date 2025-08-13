@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "train/0037d_03_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/0037d_03_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/0037d_03_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/0037d_03_im.jpg"
+    }
+]

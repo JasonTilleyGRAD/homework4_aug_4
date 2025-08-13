@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "amanda is behind the ego car.",
+        "image_file": "train/00c35_02_im.jpg"
+    },
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/00c35_02_im.jpg"
+    },
+    {
+        "caption": "xue is behind the ego car.",
+        "image_file": "train/00c35_02_im.jpg"
+    },
+    {
+        "caption": "emule is behind the ego car.",
+        "image_file": "train/00c35_02_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/00c35_02_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/00c35_02_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "train/00c35_02_im.jpg"
+    }
+]

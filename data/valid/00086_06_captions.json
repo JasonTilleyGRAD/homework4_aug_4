@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gnu is right of the ego car.",
+        "image_file": "valid/00086_06_im.jpg"
+    },
+    {
+        "caption": "konqi is in front of the ego car.",
+        "image_file": "valid/00086_06_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "valid/00086_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/00086_06_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "valid/00086_06_im.jpg"
+    }
+]

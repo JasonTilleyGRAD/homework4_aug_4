@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/00299_02_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is right of the ego car.",
+        "image_file": "train/00299_02_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "train/00299_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00299_02_im.jpg"
+    },
+    {
+        "caption": "The track is volcano_island.",
+        "image_file": "train/00299_02_im.jpg"
+    }
+]

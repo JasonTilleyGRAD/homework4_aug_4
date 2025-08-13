@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "tux is behind the ego car.",
+        "image_file": "train/0146d_04_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/0146d_04_im.jpg"
+    },
+    {
+        "caption": "wilber is in front of the ego car.",
+        "image_file": "train/0146d_04_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/0146d_04_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "train/0146d_04_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/0146d_04_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/0146d_04_im.jpg"
+    }
+]

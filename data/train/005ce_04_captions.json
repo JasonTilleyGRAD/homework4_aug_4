@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "amanda is right of the ego car.",
+        "image_file": "train/005ce_04_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/005ce_04_im.jpg"
+    },
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "train/005ce_04_im.jpg"
+    },
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "train/005ce_04_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/005ce_04_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/005ce_04_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "train/005ce_04_im.jpg"
+    }
+]

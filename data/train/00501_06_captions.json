@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "puffy is in front of the ego car.",
+        "image_file": "train/00501_06_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/00501_06_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "train/00501_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00501_06_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "train/00501_06_im.jpg"
+    }
+]

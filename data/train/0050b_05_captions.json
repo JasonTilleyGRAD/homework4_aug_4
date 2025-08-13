@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/0050b_05_im.jpg"
+    },
+    {
+        "caption": "adiumy is right of the ego car.",
+        "image_file": "train/0050b_05_im.jpg"
+    },
+    {
+        "caption": "konqi is the ego car.",
+        "image_file": "train/0050b_05_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/0050b_05_im.jpg"
+    },
+    {
+        "caption": "The track is fortmagma.",
+        "image_file": "train/0050b_05_im.jpg"
+    }
+]

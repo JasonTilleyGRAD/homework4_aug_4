@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/00dee_02_im.jpg"
+    },
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/00dee_02_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/00dee_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00dee_02_im.jpg"
+    },
+    {
+        "caption": "The track is xr591.",
+        "image_file": "train/00dee_02_im.jpg"
+    }
+]

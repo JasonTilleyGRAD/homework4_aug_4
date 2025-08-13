@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "train/0133e_04_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is right of the ego car.",
+        "image_file": "train/0133e_04_im.jpg"
+    },
+    {
+        "caption": "wilber is right of the ego car.",
+        "image_file": "train/0133e_04_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/0133e_04_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/0133e_04_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/0133e_04_im.jpg"
+    }
+]

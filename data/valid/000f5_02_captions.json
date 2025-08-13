@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "amanda is left of the ego car.",
+        "image_file": "valid/000f5_02_im.jpg"
+    },
+    {
+        "caption": "puffy is right of the ego car.",
+        "image_file": "valid/000f5_02_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "valid/000f5_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000f5_02_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "valid/000f5_02_im.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "konqi is right of the ego car.",
+        "image_file": "valid/00071_08_im.jpg"
+    },
+    {
+        "caption": "pidgin is right of the ego car.",
+        "image_file": "valid/00071_08_im.jpg"
+    },
+    {
+        "caption": "nolok is in front of the ego car.",
+        "image_file": "valid/00071_08_im.jpg"
+    },
+    {
+        "caption": "adiumy is right of the ego car.",
+        "image_file": "valid/00071_08_im.jpg"
+    },
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "valid/00071_08_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "valid/00071_08_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "valid/00071_08_im.jpg"
+    }
+]

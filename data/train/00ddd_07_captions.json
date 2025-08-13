@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "kiki is right of the ego car.",
+        "image_file": "train/00ddd_07_im.jpg"
+    },
+    {
+        "caption": "amanda is right of the ego car.",
+        "image_file": "train/00ddd_07_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/00ddd_07_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00ddd_07_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/00ddd_07_im.jpg"
+    }
+]

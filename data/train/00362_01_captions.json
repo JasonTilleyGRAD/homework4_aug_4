@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/00362_01_im.jpg"
+    },
+    {
+        "caption": "puffy is left of the ego car.",
+        "image_file": "train/00362_01_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/00362_01_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00362_01_im.jpg"
+    },
+    {
+        "caption": "The track is cocoa_temple.",
+        "image_file": "train/00362_01_im.jpg"
+    }
+]

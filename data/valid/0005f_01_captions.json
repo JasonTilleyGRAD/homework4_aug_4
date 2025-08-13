@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "valid/0005f_01_im.jpg"
+    },
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "valid/0005f_01_im.jpg"
+    },
+    {
+        "caption": "puffy is the ego car.",
+        "image_file": "valid/0005f_01_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/0005f_01_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "valid/0005f_01_im.jpg"
+    }
+]

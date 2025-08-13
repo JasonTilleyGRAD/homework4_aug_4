@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "kiki is right of the ego car.",
+        "image_file": "valid/00077_02_im.jpg"
+    },
+    {
+        "caption": "hexley is in front of the ego car.",
+        "image_file": "valid/00077_02_im.jpg"
+    },
+    {
+        "caption": "adiumy is left of the ego car.",
+        "image_file": "valid/00077_02_im.jpg"
+    },
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "valid/00077_02_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "valid/00077_02_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "valid/00077_02_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "valid/00077_02_im.jpg"
+    }
+]

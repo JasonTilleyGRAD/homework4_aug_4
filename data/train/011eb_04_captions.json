@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "konqi is right of the ego car.",
+        "image_file": "train/011eb_04_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/011eb_04_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/011eb_04_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "train/011eb_04_im.jpg"
+    }
+]

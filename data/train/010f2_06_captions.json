@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/010f2_06_im.jpg"
+    },
+    {
+        "caption": "beastie is left of the ego car.",
+        "image_file": "train/010f2_06_im.jpg"
+    },
+    {
+        "caption": "kiki is left of the ego car.",
+        "image_file": "train/010f2_06_im.jpg"
+    },
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/010f2_06_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/010f2_06_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/010f2_06_im.jpg"
+    },
+    {
+        "caption": "The track is xr591.",
+        "image_file": "train/010f2_06_im.jpg"
+    }
+]

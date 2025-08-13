@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/01349_05_im.jpg"
+    },
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/01349_05_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/01349_05_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/01349_05_im.jpg"
+    },
+    {
+        "caption": "The track is ravenbridge_mansion.",
+        "image_file": "train/01349_05_im.jpg"
+    }
+]

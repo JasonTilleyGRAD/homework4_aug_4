@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/00d14_00_im.jpg"
+    },
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "train/00d14_00_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/00d14_00_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00d14_00_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/00d14_00_im.jpg"
+    }
+]

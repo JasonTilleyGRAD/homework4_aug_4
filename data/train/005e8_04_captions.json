@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "train/005e8_04_im.jpg"
+    },
+    {
+        "caption": "emule is behind the ego car.",
+        "image_file": "train/005e8_04_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "train/005e8_04_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/005e8_04_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "train/005e8_04_im.jpg"
+    }
+]

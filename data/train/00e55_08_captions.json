@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "adiumy is left of the ego car.",
+        "image_file": "train/00e55_08_im.jpg"
+    },
+    {
+        "caption": "puffy is in front of the ego car.",
+        "image_file": "train/00e55_08_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/00e55_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00e55_08_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "train/00e55_08_im.jpg"
+    }
+]

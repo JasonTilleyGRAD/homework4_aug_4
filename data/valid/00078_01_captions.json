@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "valid/00078_01_im.jpg"
+    },
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "valid/00078_01_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "valid/00078_01_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/00078_01_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "valid/00078_01_im.jpg"
+    }
+]

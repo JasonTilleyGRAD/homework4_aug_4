@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "train/00590_07_im.jpg"
+    },
+    {
+        "caption": "konqi is behind the ego car.",
+        "image_file": "train/00590_07_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/00590_07_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00590_07_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "train/00590_07_im.jpg"
+    }
+]

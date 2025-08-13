@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "hexley is right of the ego car.",
+        "image_file": "train/01052_02_im.jpg"
+    },
+    {
+        "caption": "suzanne is right of the ego car.",
+        "image_file": "train/01052_02_im.jpg"
+    },
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/01052_02_im.jpg"
+    },
+    {
+        "caption": "beastie is right of the ego car.",
+        "image_file": "train/01052_02_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/01052_02_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/01052_02_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/01052_02_im.jpg"
+    }
+]

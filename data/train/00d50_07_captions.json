@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "puffy is left of the ego car.",
+        "image_file": "train/00d50_07_im.jpg"
+    },
+    {
+        "caption": "suzanne is right of the ego car.",
+        "image_file": "train/00d50_07_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/00d50_07_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00d50_07_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/00d50_07_im.jpg"
+    }
+]

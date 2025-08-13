@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "konqi is in front of the ego car.",
+        "image_file": "train/011b8_05_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "train/011b8_05_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/011b8_05_im.jpg"
+    },
+    {
+        "caption": "The track is fortmagma.",
+        "image_file": "train/011b8_05_im.jpg"
+    }
+]

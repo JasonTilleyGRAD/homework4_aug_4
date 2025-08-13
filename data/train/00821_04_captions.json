@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/00821_04_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is left of the ego car.",
+        "image_file": "train/00821_04_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/00821_04_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00821_04_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "train/00821_04_im.jpg"
+    }
+]

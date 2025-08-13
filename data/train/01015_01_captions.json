@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "sara_the_racer is in front of the ego car.",
+        "image_file": "train/01015_01_im.jpg"
+    },
+    {
+        "caption": "pidgin is left of the ego car.",
+        "image_file": "train/01015_01_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/01015_01_im.jpg"
+    },
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "train/01015_01_im.jpg"
+    },
+    {
+        "caption": "konqi is the ego car.",
+        "image_file": "train/01015_01_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/01015_01_im.jpg"
+    },
+    {
+        "caption": "The track is scotland.",
+        "image_file": "train/01015_01_im.jpg"
+    }
+]

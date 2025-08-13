@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "puffy is right of the ego car.",
+        "image_file": "valid/00096_03_im.jpg"
+    },
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "valid/00096_03_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "valid/00096_03_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/00096_03_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "valid/00096_03_im.jpg"
+    }
+]

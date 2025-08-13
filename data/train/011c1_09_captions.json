@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "tux is in front of the ego car.",
+        "image_file": "train/011c1_09_im.jpg"
+    },
+    {
+        "caption": "xue is in front of the ego car.",
+        "image_file": "train/011c1_09_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/011c1_09_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/011c1_09_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "train/011c1_09_im.jpg"
+    }
+]

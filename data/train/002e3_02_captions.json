@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "pidgin is left of the ego car.",
+        "image_file": "train/002e3_02_im.jpg"
+    },
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/002e3_02_im.jpg"
+    },
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "train/002e3_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/002e3_02_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "train/002e3_02_im.jpg"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/00c21_06_im.jpg"
+    },
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "train/00c21_06_im.jpg"
+    },
+    {
+        "caption": "adiumy is left of the ego car.",
+        "image_file": "train/00c21_06_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/00c21_06_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00c21_06_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/00c21_06_im.jpg"
+    }
+]

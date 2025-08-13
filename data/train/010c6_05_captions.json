@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gavroche is left of the ego car.",
+        "image_file": "train/010c6_05_im.jpg"
+    },
+    {
+        "caption": "pidgin is behind the ego car.",
+        "image_file": "train/010c6_05_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "train/010c6_05_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/010c6_05_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/010c6_05_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/008ad_00_im.jpg"
+    },
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/008ad_00_im.jpg"
+    },
+    {
+        "caption": "konqi is the ego car.",
+        "image_file": "train/008ad_00_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/008ad_00_im.jpg"
+    },
+    {
+        "caption": "The track is scotland.",
+        "image_file": "train/008ad_00_im.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "emule is right of the ego car.",
+        "image_file": "train/010c5_09_im.jpg"
+    },
+    {
+        "caption": "amanda is left of the ego car.",
+        "image_file": "train/010c5_09_im.jpg"
+    },
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/010c5_09_im.jpg"
+    },
+    {
+        "caption": "hexley is right of the ego car.",
+        "image_file": "train/010c5_09_im.jpg"
+    },
+    {
+        "caption": "konqi is the ego car.",
+        "image_file": "train/010c5_09_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/010c5_09_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "train/010c5_09_im.jpg"
+    }
+]

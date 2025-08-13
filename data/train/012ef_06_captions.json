@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "amanda is behind the ego car.",
+        "image_file": "train/012ef_06_im.jpg"
+    },
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "train/012ef_06_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "train/012ef_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/012ef_06_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/012ef_06_im.jpg"
+    }
+]

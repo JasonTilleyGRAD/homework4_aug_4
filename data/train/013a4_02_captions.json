@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "sara_the_wizard is in front of the ego car.",
+        "image_file": "train/013a4_02_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/013a4_02_im.jpg"
+    },
+    {
+        "caption": "konqi is the ego car.",
+        "image_file": "train/013a4_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/013a4_02_im.jpg"
+    },
+    {
+        "caption": "The track is fortmagma.",
+        "image_file": "train/013a4_02_im.jpg"
+    }
+]

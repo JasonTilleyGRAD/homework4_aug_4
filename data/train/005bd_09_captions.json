@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "hexley is right of the ego car.",
+        "image_file": "train/005bd_09_im.jpg"
+    },
+    {
+        "caption": "adiumy is behind the ego car.",
+        "image_file": "train/005bd_09_im.jpg"
+    },
+    {
+        "caption": "gnu is right of the ego car.",
+        "image_file": "train/005bd_09_im.jpg"
+    },
+    {
+        "caption": "gavroche is behind the ego car.",
+        "image_file": "train/005bd_09_im.jpg"
+    },
+    {
+        "caption": "emule is the ego car.",
+        "image_file": "train/005bd_09_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/005bd_09_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "train/005bd_09_im.jpg"
+    }
+]

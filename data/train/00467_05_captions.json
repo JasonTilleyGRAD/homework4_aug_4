@@ -1,0 +1,38 @@
+[
+    {
+        "caption": "amanda is right of the ego car.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "tux is behind the ego car.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "emule is right of the ego car.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is right of the ego car.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "gnu is right of the ego car.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "wilber is right of the ego car.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "There are 7 karts in the scene.",
+        "image_file": "train/00467_05_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/00467_05_im.jpg"
+    }
+]

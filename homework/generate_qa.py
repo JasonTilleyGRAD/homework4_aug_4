@@ -1,3 +1,5 @@
+
+#Ai used to help write data validation functions
 import json
 from pathlib import Path
 
@@ -397,7 +399,7 @@ def generate():
 
 
 def compare_valid_train(valid_balanced_path = "../data/valid_grader/balanced_qa_pairs.json", train_dir = "../data/train/", valid_dir = "../data/valid/"):
-    # Load valid grader file
+   
     with open(valid_balanced_path, "r") as f:
         valid_entries = json.load(f)
 
@@ -434,7 +436,6 @@ def compare_valid_train(valid_balanced_path = "../data/valid_grader/balanced_qa_
             with open(valid_qa_path, "r") as f:
                 qas = json.load(f)
 
-        # Search for question-answer match
         found = False
     
         for qa in qas:
@@ -451,19 +452,37 @@ def compare_valid_train(valid_balanced_path = "../data/valid_grader/balanced_qa_
                     
             })
 
-    # Output results
-    print(f"Matches found: {len(matches)}")
-    print(f"Mismatches found: {len(mismatches)}")
 
-    # Save mismatches for review
     with open("mismatches.json", "w") as f:
         json.dump(mismatches, f, indent=4)
 
     return mismatches
-    # print(matches)
 
 
-            
+
+def check_json_serializable():
+    root_data_dir = Path("../data")
+    paths = [root_data_dir / "train", root_data_dir / "valid"]
+
+    for main_path in paths:
+        for json_file in main_path.glob("*_qa_pairs.json"):
+            with open(json_file, "r") as f:
+                try:
+                    data = json.load(f)
+                except json.JSONDecodeError as e:
+                    print(f"Invalid JSON in {json_file}: {e}")
+                    continue
+
+            for i, item in enumerate(data):
+                try:
+                    json.dumps(item)
+                except (TypeError, OverflowError) as e:
+                    print(f"Non-serializable item in {json_file}, index {i}: {item} ({e})")
+
+    print("Check complete.")
+
+check_json_serializable()
+
 
 
     
@@ -478,7 +497,8 @@ You probably need to add additional commands to Fire below.
 def main():
     fire.Fire({"check": check_qa_pairs, 
                "generate": generate,
-               "check_correct": compare_valid_train})
+               "check_correct": compare_valid_train,
+               "serial": check_json_serializable})
 
 
 if __name__ == "__main__":

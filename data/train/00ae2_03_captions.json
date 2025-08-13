@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "nolok is right of the ego car.",
+        "image_file": "train/00ae2_03_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is behind the ego car.",
+        "image_file": "train/00ae2_03_im.jpg"
+    },
+    {
+        "caption": "emule is right of the ego car.",
+        "image_file": "train/00ae2_03_im.jpg"
+    },
+    {
+        "caption": "gavroche is left of the ego car.",
+        "image_file": "train/00ae2_03_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "train/00ae2_03_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/00ae2_03_im.jpg"
+    },
+    {
+        "caption": "The track is minigolf.",
+        "image_file": "train/00ae2_03_im.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/0048f_05_im.jpg"
+    },
+    {
+        "caption": "wilber is right of the ego car.",
+        "image_file": "train/0048f_05_im.jpg"
+    },
+    {
+        "caption": "nolok is in front of the ego car.",
+        "image_file": "train/0048f_05_im.jpg"
+    },
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/0048f_05_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/0048f_05_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/0048f_05_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "train/0048f_05_im.jpg"
+    }
+]

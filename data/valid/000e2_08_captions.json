@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gavroche is right of the ego car.",
+        "image_file": "valid/000e2_08_im.jpg"
+    },
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "valid/000e2_08_im.jpg"
+    },
+    {
+        "caption": "wilber is the ego car.",
+        "image_file": "valid/000e2_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000e2_08_im.jpg"
+    },
+    {
+        "caption": "The track is black_forest.",
+        "image_file": "valid/000e2_08_im.jpg"
+    }
+]

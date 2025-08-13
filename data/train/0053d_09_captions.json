@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/0053d_09_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/0053d_09_im.jpg"
+    },
+    {
+        "caption": "beastie is left of the ego car.",
+        "image_file": "train/0053d_09_im.jpg"
+    },
+    {
+        "caption": "puffy is in front of the ego car.",
+        "image_file": "train/0053d_09_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "train/0053d_09_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/0053d_09_im.jpg"
+    },
+    {
+        "caption": "The track is zengarden.",
+        "image_file": "train/0053d_09_im.jpg"
+    }
+]

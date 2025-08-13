@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "kiki is left of the ego car.",
+        "image_file": "valid/000c5_09_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is in front of the ego car.",
+        "image_file": "valid/000c5_09_im.jpg"
+    },
+    {
+        "caption": "suzanne is the ego car.",
+        "image_file": "valid/000c5_09_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000c5_09_im.jpg"
+    },
+    {
+        "caption": "The track is overworld.",
+        "image_file": "valid/000c5_09_im.jpg"
+    }
+]

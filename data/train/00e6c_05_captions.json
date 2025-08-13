@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "adiumy is right of the ego car.",
+        "image_file": "train/00e6c_05_im.jpg"
+    },
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "train/00e6c_05_im.jpg"
+    },
+    {
+        "caption": "wilber is the ego car.",
+        "image_file": "train/00e6c_05_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00e6c_05_im.jpg"
+    },
+    {
+        "caption": "The track is overworld.",
+        "image_file": "train/00e6c_05_im.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/007d6_04_im.jpg"
+    },
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "train/007d6_04_im.jpg"
+    },
+    {
+        "caption": "nolok is in front of the ego car.",
+        "image_file": "train/007d6_04_im.jpg"
+    },
+    {
+        "caption": "gavroche is left of the ego car.",
+        "image_file": "train/007d6_04_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "train/007d6_04_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/007d6_04_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "train/007d6_04_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "sara_the_racer is left of the ego car.",
+        "image_file": "train/001cb_08_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/001cb_08_im.jpg"
+    },
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "train/001cb_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/001cb_08_im.jpg"
+    },
+    {
+        "caption": "The track is scotland.",
+        "image_file": "train/001cb_08_im.jpg"
+    }
+]

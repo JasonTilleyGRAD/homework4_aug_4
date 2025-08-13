@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "train/0123c_08_im.jpg"
+    },
+    {
+        "caption": "gavroche is right of the ego car.",
+        "image_file": "train/0123c_08_im.jpg"
+    },
+    {
+        "caption": "kiki is right of the ego car.",
+        "image_file": "train/0123c_08_im.jpg"
+    },
+    {
+        "caption": "hexley is in front of the ego car.",
+        "image_file": "train/0123c_08_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/0123c_08_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/0123c_08_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "train/0123c_08_im.jpg"
+    }
+]

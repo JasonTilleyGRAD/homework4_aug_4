@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "amanda is left of the ego car.",
+        "image_file": "valid/000df_08_im.jpg"
+    },
+    {
+        "caption": "adiumy is in front of the ego car.",
+        "image_file": "valid/000df_08_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "valid/000df_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000df_08_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "valid/000df_08_im.jpg"
+    }
+]

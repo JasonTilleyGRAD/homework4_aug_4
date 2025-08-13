@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "suzanne is right of the ego car.",
+        "image_file": "train/0010a_03_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "train/0010a_03_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/0010a_03_im.jpg"
+    },
+    {
+        "caption": "The track is cocoa_temple.",
+        "image_file": "train/0010a_03_im.jpg"
+    }
+]

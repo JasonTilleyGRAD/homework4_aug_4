@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "gavroche is left of the ego car.",
+        "image_file": "train/00751_03_im.jpg"
+    },
+    {
+        "caption": "kiki is right of the ego car.",
+        "image_file": "train/00751_03_im.jpg"
+    },
+    {
+        "caption": "hexley is right of the ego car.",
+        "image_file": "train/00751_03_im.jpg"
+    },
+    {
+        "caption": "konqi is the ego car.",
+        "image_file": "train/00751_03_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00751_03_im.jpg"
+    },
+    {
+        "caption": "The track is xr591.",
+        "image_file": "train/00751_03_im.jpg"
+    }
+]

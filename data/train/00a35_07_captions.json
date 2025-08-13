@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/00a35_07_im.jpg"
+    },
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "train/00a35_07_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/00a35_07_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00a35_07_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "train/00a35_07_im.jpg"
+    }
+]

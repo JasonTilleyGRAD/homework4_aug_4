@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "nolok is right of the ego car.",
+        "image_file": "train/0054d_00_im.jpg"
+    },
+    {
+        "caption": "gnu is right of the ego car.",
+        "image_file": "train/0054d_00_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "train/0054d_00_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/0054d_00_im.jpg"
+    },
+    {
+        "caption": "The track is cornfield_crossing.",
+        "image_file": "train/0054d_00_im.jpg"
+    }
+]

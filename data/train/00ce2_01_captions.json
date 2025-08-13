@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "emule is right of the ego car.",
+        "image_file": "train/00ce2_01_im.jpg"
+    },
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/00ce2_01_im.jpg"
+    },
+    {
+        "caption": "adiumy is left of the ego car.",
+        "image_file": "train/00ce2_01_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/00ce2_01_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00ce2_01_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/00ce2_01_im.jpg"
+    }
+]

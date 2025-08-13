@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "suzanne is left of the ego car.",
+        "image_file": "train/00a7e_01_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "train/00a7e_01_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/00a7e_01_im.jpg"
+    },
+    {
+        "caption": "The track is overworld.",
+        "image_file": "train/00a7e_01_im.jpg"
+    }
+]

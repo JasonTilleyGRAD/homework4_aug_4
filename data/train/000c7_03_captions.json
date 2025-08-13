@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "pidgin is in front of the ego car.",
+        "image_file": "train/000c7_03_im.jpg"
+    },
+    {
+        "caption": "suzanne is the ego car.",
+        "image_file": "train/000c7_03_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/000c7_03_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/000c7_03_im.jpg"
+    }
+]

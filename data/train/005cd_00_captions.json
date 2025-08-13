@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "xue is behind the ego car.",
+        "image_file": "train/005cd_00_im.jpg"
+    },
+    {
+        "caption": "kiki is behind the ego car.",
+        "image_file": "train/005cd_00_im.jpg"
+    },
+    {
+        "caption": "pidgin is right of the ego car.",
+        "image_file": "train/005cd_00_im.jpg"
+    },
+    {
+        "caption": "beastie is behind the ego car.",
+        "image_file": "train/005cd_00_im.jpg"
+    },
+    {
+        "caption": "suzanne is the ego car.",
+        "image_file": "train/005cd_00_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/005cd_00_im.jpg"
+    },
+    {
+        "caption": "The track is cocoa_temple.",
+        "image_file": "train/005cd_00_im.jpg"
+    }
+]

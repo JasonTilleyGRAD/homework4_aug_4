@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/01050_03_im.jpg"
+    },
+    {
+        "caption": "gavroche is right of the ego car.",
+        "image_file": "train/01050_03_im.jpg"
+    },
+    {
+        "caption": "suzanne is the ego car.",
+        "image_file": "train/01050_03_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/01050_03_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/01050_03_im.jpg"
+    }
+]

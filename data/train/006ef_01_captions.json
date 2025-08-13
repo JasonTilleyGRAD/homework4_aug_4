@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "wilber is in front of the ego car.",
+        "image_file": "train/006ef_01_im.jpg"
+    },
+    {
+        "caption": "suzanne is right of the ego car.",
+        "image_file": "train/006ef_01_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "train/006ef_01_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/006ef_01_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "train/006ef_01_im.jpg"
+    }
+]

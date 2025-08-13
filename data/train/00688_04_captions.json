@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "adiumy is behind the ego car.",
+        "image_file": "train/00688_04_im.jpg"
+    },
+    {
+        "caption": "amanda is right of the ego car.",
+        "image_file": "train/00688_04_im.jpg"
+    },
+    {
+        "caption": "tux is in front of the ego car.",
+        "image_file": "train/00688_04_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/00688_04_im.jpg"
+    },
+    {
+        "caption": "kiki is right of the ego car.",
+        "image_file": "train/00688_04_im.jpg"
+    },
+    {
+        "caption": "nolok is the ego car.",
+        "image_file": "train/00688_04_im.jpg"
+    },
+    {
+        "caption": "There are 6 karts in the scene.",
+        "image_file": "train/00688_04_im.jpg"
+    },
+    {
+        "caption": "The track is volcano_island.",
+        "image_file": "train/00688_04_im.jpg"
+    }
+]

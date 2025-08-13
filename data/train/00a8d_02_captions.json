@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/00a8d_02_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "train/00a8d_02_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/00a8d_02_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "train/00a8d_02_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "valid/00093_07_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "valid/00093_07_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "valid/00093_07_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/00093_07_im.jpg"
+    },
+    {
+        "caption": "The track is volcano_island.",
+        "image_file": "valid/00093_07_im.jpg"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/00273_04_im.jpg"
+    },
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/00273_04_im.jpg"
+    },
+    {
+        "caption": "wilber is right of the ego car.",
+        "image_file": "train/00273_04_im.jpg"
+    },
+    {
+        "caption": "emule is the ego car.",
+        "image_file": "train/00273_04_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00273_04_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/00273_04_im.jpg"
+    }
+]

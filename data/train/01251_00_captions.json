@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "suzanne is in front of the ego car.",
+        "image_file": "train/01251_00_im.jpg"
+    },
+    {
+        "caption": "kiki is left of the ego car.",
+        "image_file": "train/01251_00_im.jpg"
+    },
+    {
+        "caption": "adiumy is in front of the ego car.",
+        "image_file": "train/01251_00_im.jpg"
+    },
+    {
+        "caption": "emule is the ego car.",
+        "image_file": "train/01251_00_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/01251_00_im.jpg"
+    },
+    {
+        "caption": "The track is ravenbridge_mansion.",
+        "image_file": "train/01251_00_im.jpg"
+    }
+]

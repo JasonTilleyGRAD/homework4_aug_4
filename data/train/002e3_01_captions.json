@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "pidgin is right of the ego car.",
+        "image_file": "train/002e3_01_im.jpg"
+    },
+    {
+        "caption": "xue is right of the ego car.",
+        "image_file": "train/002e3_01_im.jpg"
+    },
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/002e3_01_im.jpg"
+    },
+    {
+        "caption": "gavroche is right of the ego car.",
+        "image_file": "train/002e3_01_im.jpg"
+    },
+    {
+        "caption": "emule is right of the ego car.",
+        "image_file": "train/002e3_01_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "train/002e3_01_im.jpg"
+    },
+    {
+        "caption": "There are 6 karts in the scene.",
+        "image_file": "train/002e3_01_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "train/002e3_01_im.jpg"
+    }
+]

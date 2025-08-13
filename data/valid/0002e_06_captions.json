@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "emule is behind the ego car.",
+        "image_file": "valid/0002e_06_im.jpg"
+    },
+    {
+        "caption": "amanda is behind the ego car.",
+        "image_file": "valid/0002e_06_im.jpg"
+    },
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "valid/0002e_06_im.jpg"
+    },
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "valid/0002e_06_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "valid/0002e_06_im.jpg"
+    },
+    {
+        "caption": "The track is black_forest.",
+        "image_file": "valid/0002e_06_im.jpg"
+    }
+]

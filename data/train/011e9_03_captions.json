@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "train/011e9_03_im.jpg"
+    },
+    {
+        "caption": "beastie is right of the ego car.",
+        "image_file": "train/011e9_03_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/011e9_03_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/011e9_03_im.jpg"
+    },
+    {
+        "caption": "The track is ravenbridge_mansion.",
+        "image_file": "train/011e9_03_im.jpg"
+    }
+]

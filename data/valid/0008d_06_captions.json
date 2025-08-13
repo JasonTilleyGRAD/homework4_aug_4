@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "valid/0008d_06_im.jpg"
+    },
+    {
+        "caption": "tux is in front of the ego car.",
+        "image_file": "valid/0008d_06_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "valid/0008d_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/0008d_06_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "valid/0008d_06_im.jpg"
+    }
+]

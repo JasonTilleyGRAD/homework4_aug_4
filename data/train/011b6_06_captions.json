@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/011b6_06_im.jpg"
+    },
+    {
+        "caption": "xue is in front of the ego car.",
+        "image_file": "train/011b6_06_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "train/011b6_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/011b6_06_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "train/011b6_06_im.jpg"
+    }
+]

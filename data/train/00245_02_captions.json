@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "None is the ego car.",
+        "image_file": "train/00245_02_im.jpg"
+    },
+    {
+        "caption": "There are 0 karts in the scene.",
+        "image_file": "train/00245_02_im.jpg"
+    },
+    {
+        "caption": "The track is minigolf.",
+        "image_file": "train/00245_02_im.jpg"
+    }
+]

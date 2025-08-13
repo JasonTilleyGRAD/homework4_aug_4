@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "gnu is right of the ego car.",
+        "image_file": "valid/000dc_05_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is right of the ego car.",
+        "image_file": "valid/000dc_05_im.jpg"
+    },
+    {
+        "caption": "suzanne is in front of the ego car.",
+        "image_file": "valid/000dc_05_im.jpg"
+    },
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "valid/000dc_05_im.jpg"
+    },
+    {
+        "caption": "konqi is the ego car.",
+        "image_file": "valid/000dc_05_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "valid/000dc_05_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "valid/000dc_05_im.jpg"
+    }
+]

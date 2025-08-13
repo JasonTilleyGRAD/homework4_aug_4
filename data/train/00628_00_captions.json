@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "gnu is behind the ego car.",
+        "image_file": "train/00628_00_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/00628_00_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "train/00628_00_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00628_00_im.jpg"
+    },
+    {
+        "caption": "The track is black_forest.",
+        "image_file": "train/00628_00_im.jpg"
+    }
+]

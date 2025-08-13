@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "train/005b4_08_im.jpg"
+    },
+    {
+        "caption": "beastie is right of the ego car.",
+        "image_file": "train/005b4_08_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "train/005b4_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/005b4_08_im.jpg"
+    },
+    {
+        "caption": "The track is tutorial.",
+        "image_file": "train/005b4_08_im.jpg"
+    }
+]

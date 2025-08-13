@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "pidgin is right of the ego car.",
+        "image_file": "train/00217_09_im.jpg"
+    },
+    {
+        "caption": "beastie is right of the ego car.",
+        "image_file": "train/00217_09_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is in front of the ego car.",
+        "image_file": "train/00217_09_im.jpg"
+    },
+    {
+        "caption": "gavroche is left of the ego car.",
+        "image_file": "train/00217_09_im.jpg"
+    },
+    {
+        "caption": "konqi is in front of the ego car.",
+        "image_file": "train/00217_09_im.jpg"
+    },
+    {
+        "caption": "emule is the ego car.",
+        "image_file": "train/00217_09_im.jpg"
+    },
+    {
+        "caption": "There are 6 karts in the scene.",
+        "image_file": "train/00217_09_im.jpg"
+    },
+    {
+        "caption": "The track is hacienda.",
+        "image_file": "train/00217_09_im.jpg"
+    }
+]

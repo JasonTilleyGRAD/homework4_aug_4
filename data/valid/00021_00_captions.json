@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "valid/00021_00_im.jpg"
+    },
+    {
+        "caption": "nolok is left of the ego car.",
+        "image_file": "valid/00021_00_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "valid/00021_00_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/00021_00_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "valid/00021_00_im.jpg"
+    }
+]

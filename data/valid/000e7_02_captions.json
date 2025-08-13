@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "konqi is right of the ego car.",
+        "image_file": "valid/000e7_02_im.jpg"
+    },
+    {
+        "caption": "amanda is behind the ego car.",
+        "image_file": "valid/000e7_02_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "valid/000e7_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000e7_02_im.jpg"
+    },
+    {
+        "caption": "The track is minigolf.",
+        "image_file": "valid/000e7_02_im.jpg"
+    }
+]

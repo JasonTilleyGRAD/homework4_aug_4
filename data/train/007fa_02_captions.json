@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "emule is right of the ego car.",
+        "image_file": "train/007fa_02_im.jpg"
+    },
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "train/007fa_02_im.jpg"
+    },
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "train/007fa_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/007fa_02_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/007fa_02_im.jpg"
+    }
+]

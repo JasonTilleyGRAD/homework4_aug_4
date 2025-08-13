@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/006b7_06_im.jpg"
+    },
+    {
+        "caption": "konqi is behind the ego car.",
+        "image_file": "train/006b7_06_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/006b7_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/006b7_06_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "train/006b7_06_im.jpg"
+    }
+]

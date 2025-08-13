@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "wilber is behind the ego car.",
+        "image_file": "train/0091b_01_im.jpg"
+    },
+    {
+        "caption": "hexley is right of the ego car.",
+        "image_file": "train/0091b_01_im.jpg"
+    },
+    {
+        "caption": "adiumy is right of the ego car.",
+        "image_file": "train/0091b_01_im.jpg"
+    },
+    {
+        "caption": "gnu is left of the ego car.",
+        "image_file": "train/0091b_01_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/0091b_01_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/0091b_01_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "train/0091b_01_im.jpg"
+    }
+]

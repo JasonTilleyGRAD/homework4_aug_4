@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/00e48_02_im.jpg"
+    },
+    {
+        "caption": "beastie is in front of the ego car.",
+        "image_file": "train/00e48_02_im.jpg"
+    },
+    {
+        "caption": "gavroche is in front of the ego car.",
+        "image_file": "train/00e48_02_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is left of the ego car.",
+        "image_file": "train/00e48_02_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "train/00e48_02_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/00e48_02_im.jpg"
+    },
+    {
+        "caption": "The track is sandtrack.",
+        "image_file": "train/00e48_02_im.jpg"
+    }
+]

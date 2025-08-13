@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "amanda is in front of the ego car.",
+        "image_file": "train/0123c_03_im.jpg"
+    },
+    {
+        "caption": "kiki is behind the ego car.",
+        "image_file": "train/0123c_03_im.jpg"
+    },
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/0123c_03_im.jpg"
+    },
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/0123c_03_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/0123c_03_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scene.",
+        "image_file": "train/0123c_03_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "train/0123c_03_im.jpg"
+    }
+]

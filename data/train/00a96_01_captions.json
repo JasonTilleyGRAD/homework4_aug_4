@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "wilber is left of the ego car.",
+        "image_file": "train/00a96_01_im.jpg"
+    },
+    {
+        "caption": "beastie is behind the ego car.",
+        "image_file": "train/00a96_01_im.jpg"
+    },
+    {
+        "caption": "pidgin is right of the ego car.",
+        "image_file": "train/00a96_01_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is the ego car.",
+        "image_file": "train/00a96_01_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00a96_01_im.jpg"
+    },
+    {
+        "caption": "The track is scotland.",
+        "image_file": "train/00a96_01_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "sara_the_wizard is in front of the ego car.",
+        "image_file": "train/0092c_02_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/0092c_02_im.jpg"
+    },
+    {
+        "caption": "tux is the ego car.",
+        "image_file": "train/0092c_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/0092c_02_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "train/0092c_02_im.jpg"
+    }
+]

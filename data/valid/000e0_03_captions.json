@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "sara_the_racer is right of the ego car.",
+        "image_file": "valid/000e0_03_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is behind the ego car.",
+        "image_file": "valid/000e0_03_im.jpg"
+    },
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "valid/000e0_03_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "valid/000e0_03_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "valid/000e0_03_im.jpg"
+    },
+    {
+        "caption": "The track is ravenbridge_mansion.",
+        "image_file": "valid/000e0_03_im.jpg"
+    }
+]

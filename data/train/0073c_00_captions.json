@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/0073c_00_im.jpg"
+    },
+    {
+        "caption": "pidgin is left of the ego car.",
+        "image_file": "train/0073c_00_im.jpg"
+    },
+    {
+        "caption": "sara_the_racer is right of the ego car.",
+        "image_file": "train/0073c_00_im.jpg"
+    },
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "train/0073c_00_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/0073c_00_im.jpg"
+    },
+    {
+        "caption": "The track is gran_paradiso_island.",
+        "image_file": "train/0073c_00_im.jpg"
+    }
+]

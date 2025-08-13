@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "tux is right of the ego car.",
+        "image_file": "train/002ac_09_im.jpg"
+    },
+    {
+        "caption": "hexley is the ego car.",
+        "image_file": "train/002ac_09_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/002ac_09_im.jpg"
+    },
+    {
+        "caption": "The track is cocoa_temple.",
+        "image_file": "train/002ac_09_im.jpg"
+    }
+]

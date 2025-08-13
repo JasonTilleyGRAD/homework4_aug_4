@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "tux is in front of the ego car.",
+        "image_file": "train/0022f_08_im.jpg"
+    },
+    {
+        "caption": "nolok is in front of the ego car.",
+        "image_file": "train/0022f_08_im.jpg"
+    },
+    {
+        "caption": "gnu is the ego car.",
+        "image_file": "train/0022f_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/0022f_08_im.jpg"
+    },
+    {
+        "caption": "The track is candela_city.",
+        "image_file": "train/0022f_08_im.jpg"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "puffy is in front of the ego car.",
+        "image_file": "train/00a2a_05_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/00a2a_05_im.jpg"
+    },
+    {
+        "caption": "kiki is the ego car.",
+        "image_file": "train/00a2a_05_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00a2a_05_im.jpg"
+    },
+    {
+        "caption": "The track is black_forest.",
+        "image_file": "train/00a2a_05_im.jpg"
+    }
+]

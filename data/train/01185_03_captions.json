@@ -1,0 +1,46 @@
+[
+    {
+        "caption": "sara_the_racer is right of the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "emule is behind the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "gavroche is right of the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "konqi is left of the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "amanda is left of the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "sara_the_wizard is right of the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "puffy is left of the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "adiumy is the ego car.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "There are 9 karts in the scene.",
+        "image_file": "train/01185_03_im.jpg"
+    },
+    {
+        "caption": "The track is minigolf.",
+        "image_file": "train/01185_03_im.jpg"
+    }
+]

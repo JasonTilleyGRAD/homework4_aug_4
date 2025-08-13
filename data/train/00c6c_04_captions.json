@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "pidgin is in front of the ego car.",
+        "image_file": "train/00c6c_04_im.jpg"
+    },
+    {
+        "caption": "xue is left of the ego car.",
+        "image_file": "train/00c6c_04_im.jpg"
+    },
+    {
+        "caption": "emule is in front of the ego car.",
+        "image_file": "train/00c6c_04_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/00c6c_04_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00c6c_04_im.jpg"
+    },
+    {
+        "caption": "The track is snowtuxpeak.",
+        "image_file": "train/00c6c_04_im.jpg"
+    }
+]

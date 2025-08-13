@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "suzanne is in front of the ego car.",
+        "image_file": "train/00c9a_08_im.jpg"
+    },
+    {
+        "caption": "nolok is right of the ego car.",
+        "image_file": "train/00c9a_08_im.jpg"
+    },
+    {
+        "caption": "wilber is the ego car.",
+        "image_file": "train/00c9a_08_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "train/00c9a_08_im.jpg"
+    },
+    {
+        "caption": "The track is overworld.",
+        "image_file": "train/00c9a_08_im.jpg"
+    }
+]

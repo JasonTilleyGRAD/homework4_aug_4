@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "gavroche is behind the ego car.",
+        "image_file": "train/01143_07_im.jpg"
+    },
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/01143_07_im.jpg"
+    },
+    {
+        "caption": "hexley is left of the ego car.",
+        "image_file": "train/01143_07_im.jpg"
+    },
+    {
+        "caption": "puffy is the ego car.",
+        "image_file": "train/01143_07_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/01143_07_im.jpg"
+    },
+    {
+        "caption": "The track is cocoa_temple.",
+        "image_file": "train/01143_07_im.jpg"
+    }
+]

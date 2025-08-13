@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "amanda is in front of the ego car.",
+        "image_file": "valid/000b7_06_im.jpg"
+    },
+    {
+        "caption": "xue is behind the ego car.",
+        "image_file": "valid/000b7_06_im.jpg"
+    },
+    {
+        "caption": "pidgin is the ego car.",
+        "image_file": "valid/000b7_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scene.",
+        "image_file": "valid/000b7_06_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "valid/000b7_06_im.jpg"
+    }
+]

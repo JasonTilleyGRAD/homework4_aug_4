@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "wilber is in front of the ego car.",
+        "image_file": "train/000a7_02_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/000a7_02_im.jpg"
+    },
+    {
+        "caption": "There are 2 karts in the scene.",
+        "image_file": "train/000a7_02_im.jpg"
+    },
+    {
+        "caption": "The track is scotland.",
+        "image_file": "train/000a7_02_im.jpg"
+    }
+]

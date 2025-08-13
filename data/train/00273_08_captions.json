@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "tux is left of the ego car.",
+        "image_file": "train/00273_08_im.jpg"
+    },
+    {
+        "caption": "emule is left of the ego car.",
+        "image_file": "train/00273_08_im.jpg"
+    },
+    {
+        "caption": "wilber is in front of the ego car.",
+        "image_file": "train/00273_08_im.jpg"
+    },
+    {
+        "caption": "gavroche is the ego car.",
+        "image_file": "train/00273_08_im.jpg"
+    },
+    {
+        "caption": "There are 4 karts in the scene.",
+        "image_file": "train/00273_08_im.jpg"
+    },
+    {
+        "caption": "The track is lighthouse.",
+        "image_file": "train/00273_08_im.jpg"
+    }
+]
