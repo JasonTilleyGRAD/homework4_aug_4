@@ -179,13 +179,21 @@ class CLIP(nn.Module):
         Returns:
             TODO: think about the what values should be returned
         """
-        image_encoded = self.encode_image(pixel_values)
-        text_encoded = self.encode_text(input_ids, attention_mask)
-        image_norm = torch.norm(image_encoded)
-        text_norm = torch.norm(text_encoded)
-        logits = image_norm @ text_norm.T
+        image_output = self.encode_image(pixel_values)
+        text_output = self.encode_text(input_ids, attention_mask)
+
+        image_features = image_output.last_hidden_state.mean(dim=1)
+        text_features = text_output.last_hidden_state.mean(dim=1)
+
+        image_features = image_features / image_features.norm(dim=-1, keepdim=True)
+        text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+
+        logits = image_features @ text_features.T
         logits = logits * self.temperature
-        return [logits,logits.T,labels]
+
+        return [logits, logits.T, labels]
+
+
 
 def compute_clip_loss(
     outputs: tuple[torch.Tensor, torch.Tensor, torch.Tensor],
