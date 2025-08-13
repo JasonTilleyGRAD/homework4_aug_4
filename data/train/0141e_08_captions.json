@@ -4,7 +4,7 @@
         "image_file": "train/0141e_08_im.jpg"
     },
     {
-        "caption": "gavroche is behind the ego car.",
+        "caption": "gavroche is in front of the ego car.",
         "image_file": "train/0141e_08_im.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "image_file": "train/0141e_08_im.jpg"
     },
     {
-        "caption": "tux is behind the ego car.",
+        "caption": "tux is in front of the ego car.",
         "image_file": "train/0141e_08_im.jpg"
     },
     {

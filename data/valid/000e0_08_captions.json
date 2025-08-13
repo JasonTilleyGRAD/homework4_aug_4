@@ -1,14 +1,14 @@
 [
     {
-        "caption": "wilber is in front of the ego car.",
+        "caption": "wilber is behind the ego car.",
         "image_file": "valid/000e0_08_im.jpg"
     },
     {
-        "caption": "gavroche is in front of the ego car.",
+        "caption": "gavroche is behind the ego car.",
         "image_file": "valid/000e0_08_im.jpg"
     },
     {
-        "caption": "emule is in front of the ego car.",
+        "caption": "emule is behind the ego car.",
         "image_file": "valid/000e0_08_im.jpg"
     },
     {
