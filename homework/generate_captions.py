@@ -2,27 +2,57 @@ from pathlib import Path
 
 import fire
 from matplotlib import pyplot as plt
+import json
 
-from .generate_qa import draw_detections, extract_frame_info
+from .generate_qa import draw_detections, extract_frame_info,extract_kart_objects,extract_track_info
 
 
 def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_height: int = 100) -> list:
     """
     Generate caption for a specific view.
     """
-    # 1. Ego car
-    # {kart_name} is the ego car.
+    with open(info_path, 'r') as f:
+        file = json.load(f)
+    track_name = extract_track_info(file)
 
-    # 2. Counting
-    # There are {num_karts} karts in the scenario.
+    karts = extract_kart_objects(file,view_index,img_width,img_height)
 
-    # 3. Track name
-    # The track is {track_name}.
+    ego_kart_name = None
+    for kart in karts:
+        if kart.get("is_center_kart", True):
+            ego_kart_name = kart["kart_name"]
+            ego_kart_center = kart["center"]
+            break
 
-    # 4. Relative position
-    # {kart_name} is {position} of the ego car.
+    captions =[]
+    for kart in karts:
+        coord = kart["center"]
+        new_coors = (int(coord[0] - ego_kart_center[0])),int(coord[1] - ego_kart_center[1])
 
-    raise NotImplementedError("Not implemented")
+
+        if abs(new_coors[0]) > abs(new_coors[1]):
+            if new_coors[0] > 0:
+                position = "right"
+            else:
+                position = "left"
+        else:
+            if new_coors[1] > 0:
+                position = "above"
+            else:
+                position = "below"
+        captions.append({"caption": f"{kart["kart_name"]} is {position} of the ego car."})
+
+    
+
+    
+    captions.append({"caption": f"{ego_kart_name} is the ego car."})
+    captions.append({"caption": f"There are {len(karts)} karts in the scenario."})
+    captions.append({"caption": f"The track is {track_name}."})
+        
+    return captions
+
+
+    
 
 
 def check_caption(info_file: str, view_index: int):

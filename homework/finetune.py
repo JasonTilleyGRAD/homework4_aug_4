@@ -69,7 +69,7 @@ class VQADatasetForTraining(Dataset):
         # Prepare input text in chat format
         input_message = [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": item["question"]}]}]
         prompt = self.processor.apply_chat_template(input_message, add_generation_prompt=True)
-        full_text = prompt + item["answer"]  # append the answer to the prompt
+        full_text = prompt + str(item["answer"])  # append the answer to the prompt
 
         inputs = self.processor(
             images=image,
@@ -167,6 +167,8 @@ def train(
     model.config.use_cache = False
     model.enable_input_require_grads()
     model.train()
+
+    Path("../homework4_aug_4/data")
 
     # Prepare datasets
     train_dataset = VQADataset(train_dataset_name, data_dir)

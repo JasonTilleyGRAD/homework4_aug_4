@@ -2,216 +2,186 @@
     {
         "question": "Is nolok to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is nolok in front of or behind the ego car?",
         "answer": "behind",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is nolok relative to the ego car?",
-        "answer": [
-            220,
-            -11
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(220, -11)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is beastie to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is beastie in front of or behind the ego car?",
         "answer": "behind",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is beastie relative to the ego car?",
-        "answer": [
-            240,
-            -2
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(240, -2)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is sara_the_wizard to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is sara_the_wizard in front of or behind the ego car?",
         "answer": "behind",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is sara_the_wizard relative to the ego car?",
-        "answer": [
-            277,
-            -13
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(277, -13)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is adiumy to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is adiumy in front of or behind the ego car?",
         "answer": "behind",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is adiumy relative to the ego car?",
-        "answer": [
-            211,
-            -12
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(211, -12)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is puffy to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is puffy in front of or behind the ego car?",
         "answer": "front",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is puffy relative to the ego car?",
-        "answer": [
-            150,
-            27
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(150, 27)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is konqi to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is konqi in front of or behind the ego car?",
         "answer": "front",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is konqi relative to the ego car?",
-        "answer": [
-            291,
-            3
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(291, 3)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is pidgin to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is pidgin in front of or behind the ego car?",
         "answer": "front",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is pidgin relative to the ego car?",
-        "answer": [
-            18,
-            94
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(18, 94)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is emule to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is emule in front of or behind the ego car?",
         "answer": "front",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is emule relative to the ego car?",
-        "answer": [
-            228,
-            20
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(228, 20)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is xue to the left or right of the ego car?",
         "answer": "right",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is xue in front of or behind the ego car?",
         "answer": "front",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is xue relative to the ego car?",
-        "answer": [
-            266,
-            46
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(266, 46)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is gnu to the left or right of the ego car?",
         "answer": "left",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Is gnu in front of or behind the ego car?",
         "answer": "behind",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "Where is gnu relative to the ego car?",
-        "answer": [
-            0,
-            0
-        ],
-        "image_file": "0007d_08_im.jpg"
+        "answer": "(0, 0)",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "What kart is the ego car?",
         "answer": "gnu",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "How many karts are there in the scenario?",
-        "answer": 10,
-        "image_file": "0007d_08_im.jpg"
+        "answer": "10",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "What track is this?",
         "answer": "fortmagma",
-        "image_file": "0007d_08_im.jpg"
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "How many karts are to the left of the ego car?",
-        "answer": 1,
-        "image_file": "0007d_08_im.jpg"
+        "answer": "1",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "How many karts are to the right of the ego car?",
-        "answer": 9,
-        "image_file": "0007d_08_im.jpg"
+        "answer": "9",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "How many karts are in front of the ego car?",
-        "answer": 5,
-        "image_file": "0007d_08_im.jpg"
+        "answer": "5",
+        "image_file": "train/0007d_08_im.jpg"
     },
     {
         "question": "How many karts are behind the ego car?",
-        "answer": 5,
-        "image_file": "0007d_08_im.jpg"
+        "answer": "5",
+        "image_file": "train/0007d_08_im.jpg"
     }
 ]

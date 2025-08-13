@@ -291,21 +291,23 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
         
         
     
-        qa_pair.append({"question": f"Is {kart["kart_name"]} to the left or right of the ego car?", "answer": LorR})
-        qa_pair.append({"question": f"Is {kart["kart_name"]} in front of or behind the ego car?", "answer": ForB})
-        qa_pair.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": new_coors})
+        qa_pair.append({"question": f"Is {kart['kart_name']} to the left or right of the ego car?", "answer": str(LorR)})
+        qa_pair.append({"question": f"Is {kart['kart_name']} in front of or behind the ego car?", "answer": str(ForB)})
+        qa_pair.append({"question": f"Where is {kart['kart_name']} relative to the ego car?", "answer": str(new_coors)})
 
-    more_qa =  [
-    {"question": "What kart is the ego car?", "answer": ego_kart_name},
-    {"question": "How many karts are there in the scenario?", "answer": len(karts)},
-    {"question": "What track is this?", "answer": track_name},
-    {"question": "How many karts are to the left of the ego car?", "answer": left},
-    {"question": "How many karts are to the right of the ego car?", "answer": len(karts)- left},
-    {"question": "How many karts are in front of the ego car?", "answer": front},
-    {"question": "How many karts are behind the ego car?", "answer": len(karts)- front}
+    more_qa = [
+        {"question": "What kart is the ego car?", "answer": str(ego_kart_name)},
+        {"question": "How many karts are there in the scenario?", "answer": str(len(karts))},
+        {"question": "What track is this?", "answer": str(track_name)},
+        {"question": "How many karts are to the left of the ego car?", "answer": str(left)},
+        {"question": "How many karts are to the right of the ego car?", "answer": str(len(karts) - left)},
+        {"question": "How many karts are in front of the ego car?", "answer": str(front)},
+        {"question": "How many karts are behind the ego car?", "answer": str(len(karts) - front)}
     ]
+
     qa_pair += more_qa
     return qa_pair
+
 
 
 def check_qa_pairs(info_file: str, view_index: int):
@@ -342,42 +344,36 @@ def check_qa_pairs(info_file: str, view_index: int):
         print(f"A: {qa['answer']}")
         print("-" * 50)
 
-
 def generate():
-    main_path = Path("../data/train/")
+    root_data_dir = Path("../data")
+    paths = [root_data_dir / "train/", root_data_dir / "valid/"]
 
-    for file_path in main_path.glob("*_info.json"):
-        base_name = file_path.stem.replace("_info", "")
+    for main_path in paths:
+        split_name = main_path.name 
 
-        for image_path in file_path.parent.glob(f"{base_name}_*_im.jpg"):
-            try:
-                # image_path is guaranteed to exist here because glob found it
+        for file_path in main_path.glob("*_info.json"):
+            base_name = file_path.stem.replace("_info", "")
+
+            for image_path in file_path.parent.glob(f"{base_name}_*_im.jpg"):
+
                 stem = image_path.stem
                 parts = stem.split('_')
-                j = int(parts[-2])  # extract the index from filename
+                j = int(parts[-2])
 
-                # generate QA pairs for this index
                 qa_pairs = generate_qa_pairs(file_path, j)
 
-                if not image_path.exists():
-                    print(f"Image file does not exist: {image_path}")
-                    continue  # skip to next image
                 for qa in qa_pairs:
-                    qa["image_file"] = image_path.name  # just the filename
+                    # Prepend split folder name + '/' before the image filename
+                    qa["image_file"] = f"{split_name}/{image_path.name}"
 
-                # name your QA pairs file by replacing '_im.jpg' with '_qa_pairs.json'
                 new_filename = image_path.stem.replace("_im", "") + "_qa_pairs.json"
                 new_file_path = main_path / new_filename
 
                 with open(new_file_path, "w") as f:
                     json.dump(qa_pairs, f, indent=4)
 
-            except ValueError:
-                print(f"No QA generated for view {j} in file {file_path.name}")
-            except Exception as e:
-                print(f"Error for file {file_path.name}, image {image_path.name}: {e}")
-
     print("Done.")
+
 
 
 
