@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import Any
-
+import numpy as np
 import torch
 import torch.nn as nn
 import torchvision as tv
@@ -188,10 +188,10 @@ class CLIP(nn.Module):
         image_features = image_features / image_features.norm(dim=-1, keepdim=True)
         text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
-        logits = image_features @ text_features.T
-        logits = logits * self.temperature
+        logits_per_image = (image_features @ text_features.T) * self.temperature
+        logits_per_text = logits_per_image.T
 
-        return [logits, logits.T, labels]
+        return logits_per_image, logits_per_text, labels
 
 
 
@@ -211,16 +211,13 @@ def compute_clip_loss(
     Returns:
         The loss for the CLIP model.
     """
-    image, text, labels = outputs
+    logits_per_image, logits_per_text, _ = outputs
 
-    
     CEL = nn.CrossEntropyLoss()
+    L_I = CEL(logits_per_image, labels)
+    L_T = CEL(logits_per_text, labels)
 
-    L_T = CEL(image,labels)
-    L_I = CEL(text,labels)
-
-    loss = L_T + L_I /2 
-
+    loss = (L_I + L_T) / 2
     return loss
 
 
