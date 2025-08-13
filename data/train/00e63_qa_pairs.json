@@ -1,731 +1,731 @@
 [
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(184.0), np.float64(-82.5))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(314.0), np.float64(-165.0))"
-            },
-            {
-                "question": "Is amanda to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is amanda in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is amanda relative to the ego car?",
-                "answer": "(np.float64(272.5), np.float64(-167.5))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "nolok"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 4
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 3
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 4
-            }
-        ],
-        "image_file": "../data/train/00e63_00_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(214.0), np.float64(39.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "adiumy"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 2
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 1
-            }
-        ],
-        "image_file": "../data/train/00e63_01_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(129.0), np.float64(16.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "adiumy"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 2
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 1
-            }
-        ],
-        "image_file": "../data/train/00e63_02_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(59.5), np.float64(-10.5))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(42.5), np.float64(36.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is amanda to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is amanda in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is amanda relative to the ego car?",
-                "answer": "(np.float64(174.0), np.float64(-53.5))"
-            },
-            {
-                "question": "Is beastie to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is beastie in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is beastie relative to the ego car?",
-                "answer": "(np.float64(136.0), np.float64(-55.5))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "hexley"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 5
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 4
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 4
-            }
-        ],
-        "image_file": "../data/train/00e63_03_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(26.0), np.float64(-1.0))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(13.0), np.float64(4.5))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(55.5))"
-            },
-            {
-                "question": "Is amanda to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is amanda in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is amanda relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is beastie to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is beastie in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is beastie relative to the ego car?",
-                "answer": "(np.float64(97.0), np.float64(-26.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "amanda"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 5
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 3
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 3
-            }
-        ],
-        "image_file": "../data/train/00e63_04_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(28.5), np.float64(0.5))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(-20.5), np.float64(59.5))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "adiumy"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 3
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 1
-            }
-        ],
-        "image_file": "../data/train/00e63_05_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(51.0), np.float64(-24.0))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(260.5), np.float64(-96.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(186.0), np.float64(93.5))"
-            },
-            {
-                "question": "Is amanda to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is amanda in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is amanda relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is beastie to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is beastie in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is beastie relative to the ego car?",
-                "answer": "(np.float64(120.5), np.float64(-78.5))"
-            },
-            {
-                "question": "Is konqi to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is konqi in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is konqi relative to the ego car?",
-                "answer": "(np.float64(84.5), np.float64(-81.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "amanda"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 6
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 5
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 5
-            }
-        ],
-        "image_file": "../data/train/00e63_06_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(68.0), np.float64(-63.0))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(87.0), np.float64(-62.5))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(43.0), np.float64(-57.0))"
-            },
-            {
-                "question": "Is amanda to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is amanda in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is amanda relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "amanda"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 4
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 3
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 4
-            }
-        ],
-        "image_file": "../data/train/00e63_07_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is adiumy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is adiumy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is adiumy relative to the ego car?",
-                "answer": "(np.float64(14.0), np.float64(-3.0))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(7.5), np.float64(-2.5))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is amanda to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is amanda in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is amanda relative to the ego car?",
-                "answer": "(np.float64(4.0), np.float64(-3.5))"
-            },
-            {
-                "question": "Is beastie to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is beastie in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is beastie relative to the ego car?",
-                "answer": "(np.float64(-32.5), np.float64(78.5))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "hexley"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 5
-            },
-            {
-                "question": "What track is this?",
-                "answer": "cornfield_crossing"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 3
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 4
-            }
-        ],
-        "image_file": "../data/train/00e63_08_im.jpg"
-    }
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(184.0), np.float64(-82.5))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(314.0), np.float64(-165.0))"
+        },
+        {
+            "question": "Is amanda to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is amanda in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is amanda relative to the ego car?",
+            "answer": "(np.float64(272.5), np.float64(-167.5))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "nolok"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 4
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 3
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 4
+        },
+        {
+            "image_file": "../data/train/00e63_00_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(214.0), np.float64(39.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "adiumy"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 2
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 1
+        },
+        {
+            "image_file": "../data/train/00e63_01_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(129.0), np.float64(16.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "adiumy"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 2
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 1
+        },
+        {
+            "image_file": "../data/train/00e63_02_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(59.5), np.float64(-10.5))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(42.5), np.float64(36.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is amanda to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is amanda in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is amanda relative to the ego car?",
+            "answer": "(np.float64(174.0), np.float64(-53.5))"
+        },
+        {
+            "question": "Is beastie to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is beastie in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is beastie relative to the ego car?",
+            "answer": "(np.float64(136.0), np.float64(-55.5))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "hexley"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 5
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 4
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 4
+        },
+        {
+            "image_file": "../data/train/00e63_03_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(26.0), np.float64(-1.0))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(13.0), np.float64(4.5))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(55.5))"
+        },
+        {
+            "question": "Is amanda to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is amanda in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is amanda relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is beastie to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is beastie in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is beastie relative to the ego car?",
+            "answer": "(np.float64(97.0), np.float64(-26.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "amanda"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 5
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 3
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 3
+        },
+        {
+            "image_file": "../data/train/00e63_04_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(28.5), np.float64(0.5))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(-20.5), np.float64(59.5))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "adiumy"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 3
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 1
+        },
+        {
+            "image_file": "../data/train/00e63_05_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(51.0), np.float64(-24.0))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(260.5), np.float64(-96.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(186.0), np.float64(93.5))"
+        },
+        {
+            "question": "Is amanda to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is amanda in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is amanda relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is beastie to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is beastie in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is beastie relative to the ego car?",
+            "answer": "(np.float64(120.5), np.float64(-78.5))"
+        },
+        {
+            "question": "Is konqi to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is konqi in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is konqi relative to the ego car?",
+            "answer": "(np.float64(84.5), np.float64(-81.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "amanda"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 6
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 5
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 5
+        },
+        {
+            "image_file": "../data/train/00e63_06_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(68.0), np.float64(-63.0))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(87.0), np.float64(-62.5))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(43.0), np.float64(-57.0))"
+        },
+        {
+            "question": "Is amanda to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is amanda in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is amanda relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "amanda"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 4
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 3
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 4
+        },
+        {
+            "image_file": "../data/train/00e63_07_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is adiumy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is adiumy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is adiumy relative to the ego car?",
+            "answer": "(np.float64(14.0), np.float64(-3.0))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(7.5), np.float64(-2.5))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is amanda to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is amanda in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is amanda relative to the ego car?",
+            "answer": "(np.float64(4.0), np.float64(-3.5))"
+        },
+        {
+            "question": "Is beastie to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is beastie in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is beastie relative to the ego car?",
+            "answer": "(np.float64(-32.5), np.float64(78.5))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "hexley"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 5
+        },
+        {
+            "question": "What track is this?",
+            "answer": "cornfield_crossing"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 3
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 4
+        },
+        {
+            "image_file": "../data/train/00e63_08_im.jpg"
+        }
+    ]
 ]

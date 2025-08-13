@@ -1,635 +1,635 @@
 [
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(63.5), np.float64(-53.5))"
-            },
-            {
-                "question": "Is tux to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is tux in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is tux relative to the ego car?",
-                "answer": "(np.float64(98.5), np.float64(-67.5))"
-            },
-            {
-                "question": "Is suzanne to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is suzanne in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is suzanne relative to the ego car?",
-                "answer": "(np.float64(75.0), np.float64(-74.5))"
-            },
-            {
-                "question": "Is pidgin to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is pidgin in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is pidgin relative to the ego car?",
-                "answer": "(np.float64(190.5), np.float64(-35.5))"
-            },
-            {
-                "question": "Is nolok to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is nolok in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is nolok relative to the ego car?",
-                "answer": "(np.float64(100.5), np.float64(-70.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "puffy"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 6
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 5
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 6
-            }
-        ],
-        "image_file": "../data/train/0023a_00_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(59.0), np.float64(108.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(79.5), np.float64(3.5))"
-            },
-            {
-                "question": "Is tux to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is tux in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is tux relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is suzanne to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is suzanne in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is suzanne relative to the ego car?",
-                "answer": "(np.float64(68.0), np.float64(0.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "tux"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 4
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 3
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 2
-            }
-        ],
-        "image_file": "../data/train/0023a_01_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(46.5), np.float64(-65.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "puffy"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 2
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 2
-            }
-        ],
-        "image_file": "../data/train/0023a_02_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "front"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(282.5), np.float64(36.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is tux to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is tux in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is tux relative to the ego car?",
-                "answer": "(np.float64(251.5), np.float64(-13.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "hexley"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 3
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 2
-            }
-        ],
-        "image_file": "../data/train/0023a_03_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(220.5), np.float64(-62.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is tux to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is tux in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is tux relative to the ego car?",
-                "answer": "(np.float64(132.5), np.float64(-67.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "hexley"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 3
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 3
-            }
-        ],
-        "image_file": "../data/train/0023a_04_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(172.5), np.float64(-199.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "hexley"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 2
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 2
-            }
-        ],
-        "image_file": "../data/train/0023a_05_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(97.0), np.float64(-55.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "Is tux to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is tux in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is tux relative to the ego car?",
-                "answer": "(np.float64(41.5), np.float64(-52.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "hexley"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 3
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 3
-            }
-        ],
-        "image_file": "../data/train/0023a_06_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(122.5), np.float64(-25.0))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(86.5), np.float64(-98.0))"
-            },
-            {
-                "question": "Is tux to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is tux in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is tux relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "tux"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 3
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 2
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 3
-            }
-        ],
-        "image_file": "../data/train/0023a_07_im.jpg"
-    },
-    {
-        "qa_pairs": [
-            {
-                "question": "Is puffy to the left or right of the ego car?",
-                "answer": "right"
-            },
-            {
-                "question": "Is puffy in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is puffy relative to the ego car?",
-                "answer": "(np.float64(54.5), np.float64(-60.5))"
-            },
-            {
-                "question": "Is hexley to the left or right of the ego car?",
-                "answer": "left"
-            },
-            {
-                "question": "Is hexley in front of or behind the ego car?",
-                "answer": "behind"
-            },
-            {
-                "question": "Where is hexley relative to the ego car?",
-                "answer": "(np.float64(0.0), np.float64(0.0))"
-            },
-            {
-                "question": "What kart is the ego car?",
-                "answer": "hexley"
-            },
-            {
-                "question": "How many karts are there in the scenario?",
-                "answer": 2
-            },
-            {
-                "question": "What track is this?",
-                "answer": "tutorial"
-            },
-            {
-                "question": "How many karts are to the left of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are to the right of the ego car?",
-                "answer": 1
-            },
-            {
-                "question": "How many karts are in front of the ego car?",
-                "answer": 0
-            },
-            {
-                "question": "How many karts are behind the ego car?",
-                "answer": 2
-            }
-        ],
-        "image_file": "../data/train/0023a_08_im.jpg"
-    }
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(63.5), np.float64(-53.5))"
+        },
+        {
+            "question": "Is tux to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is tux in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is tux relative to the ego car?",
+            "answer": "(np.float64(98.5), np.float64(-67.5))"
+        },
+        {
+            "question": "Is suzanne to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is suzanne in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is suzanne relative to the ego car?",
+            "answer": "(np.float64(75.0), np.float64(-74.5))"
+        },
+        {
+            "question": "Is pidgin to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is pidgin in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is pidgin relative to the ego car?",
+            "answer": "(np.float64(190.5), np.float64(-35.5))"
+        },
+        {
+            "question": "Is nolok to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is nolok in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is nolok relative to the ego car?",
+            "answer": "(np.float64(100.5), np.float64(-70.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "puffy"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 6
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 5
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 6
+        },
+        {
+            "image_file": "../data/train/0023a_00_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(59.0), np.float64(108.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(79.5), np.float64(3.5))"
+        },
+        {
+            "question": "Is tux to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is tux in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is tux relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is suzanne to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is suzanne in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is suzanne relative to the ego car?",
+            "answer": "(np.float64(68.0), np.float64(0.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "tux"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 4
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 3
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 2
+        },
+        {
+            "image_file": "../data/train/0023a_01_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(46.5), np.float64(-65.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "puffy"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 2
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 2
+        },
+        {
+            "image_file": "../data/train/0023a_02_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "front"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(282.5), np.float64(36.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is tux to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is tux in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is tux relative to the ego car?",
+            "answer": "(np.float64(251.5), np.float64(-13.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "hexley"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 3
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 2
+        },
+        {
+            "image_file": "../data/train/0023a_03_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(220.5), np.float64(-62.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is tux to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is tux in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is tux relative to the ego car?",
+            "answer": "(np.float64(132.5), np.float64(-67.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "hexley"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 3
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 3
+        },
+        {
+            "image_file": "../data/train/0023a_04_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(172.5), np.float64(-199.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "hexley"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 2
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 2
+        },
+        {
+            "image_file": "../data/train/0023a_05_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(97.0), np.float64(-55.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "Is tux to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is tux in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is tux relative to the ego car?",
+            "answer": "(np.float64(41.5), np.float64(-52.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "hexley"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 3
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 3
+        },
+        {
+            "image_file": "../data/train/0023a_06_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(122.5), np.float64(-25.0))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(86.5), np.float64(-98.0))"
+        },
+        {
+            "question": "Is tux to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is tux in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is tux relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "tux"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 3
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 2
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 3
+        },
+        {
+            "image_file": "../data/train/0023a_07_im.jpg"
+        }
+    ],
+    [
+        {
+            "question": "Is puffy to the left or right of the ego car?",
+            "answer": "right"
+        },
+        {
+            "question": "Is puffy in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is puffy relative to the ego car?",
+            "answer": "(np.float64(54.5), np.float64(-60.5))"
+        },
+        {
+            "question": "Is hexley to the left or right of the ego car?",
+            "answer": "left"
+        },
+        {
+            "question": "Is hexley in front of or behind the ego car?",
+            "answer": "behind"
+        },
+        {
+            "question": "Where is hexley relative to the ego car?",
+            "answer": "(np.float64(0.0), np.float64(0.0))"
+        },
+        {
+            "question": "What kart is the ego car?",
+            "answer": "hexley"
+        },
+        {
+            "question": "How many karts are there in the scenario?",
+            "answer": 2
+        },
+        {
+            "question": "What track is this?",
+            "answer": "tutorial"
+        },
+        {
+            "question": "How many karts are to the left of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are to the right of the ego car?",
+            "answer": 1
+        },
+        {
+            "question": "How many karts are in front of the ego car?",
+            "answer": 0
+        },
+        {
+            "question": "How many karts are behind the ego car?",
+            "answer": 2
+        },
+        {
+            "image_file": "../data/train/0023a_08_im.jpg"
+        }
+    ]
 ]

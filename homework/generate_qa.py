@@ -269,7 +269,7 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
             ego_kart_center = kart["center"]
             break
 
-    qa_pairs = []
+    qa_pair = []
     left = 0
     front = 0
     for kart in karts:
@@ -291,9 +291,9 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
         
         
     
-        qa_pairs.append({"question": f"Is {kart["kart_name"]} to the left or right of the ego car?", "answer": LorR})
-        qa_pairs.append({"question": f"Is {kart["kart_name"]} in front of or behind the ego car?", "answer": ForB})
-        qa_pairs.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": str(new_coors)})
+        qa_pair.append({"question": f"Is {kart["kart_name"]} to the left or right of the ego car?", "answer": LorR})
+        qa_pair.append({"question": f"Is {kart["kart_name"]} in front of or behind the ego car?", "answer": ForB})
+        qa_pair.append({"question": f"Where is {kart["kart_name"]} relative to the ego car?", "answer": str(new_coors)})
 
     more_qa =  [
     {"question": "What kart is the ego car?", "answer": ego_kart_name},
@@ -304,8 +304,8 @@ def generate_qa_pairs(info_path: str, view_index: int, img_width: int = 150, img
     {"question": "How many karts are in front of the ego car?", "answer": front},
     {"question": "How many karts are behind the ego car?", "answer": len(karts)- front}
     ]
-    qa_pairs += more_qa
-    return qa_pairs
+    qa_pair += more_qa
+    return qa_pair
 
 
 def check_qa_pairs(info_file: str, view_index: int):
@@ -342,29 +342,33 @@ def check_qa_pairs(info_file: str, view_index: int):
         print(f"A: {qa['answer']}")
         print("-" * 50)
 
-def generate():
+from pathlib import Path
+import json
 
+def generate():
     main_path = Path("../data/train/")
 
-    for file_path in main_path.glob("*.json"):
-
+    for file_path in main_path.glob("*_info.json"):
         generations = []
 
-        info_path = file_path
-        base_name = info_path.stem.replace("_info", "")
+        base_name = file_path.stem.replace("_info", "")
 
         for j in range(9):
             try:
-                image_file = list(info_path.parent.glob(f"{base_name}_{j:02d}_im.jpg"))[0]
+                image_files = list(file_path.parent.glob(f"{base_name}_{j:02d}_im.jpg"))
+                if not image_files:
+                    raise IndexError(f"No image file found for {base_name}_{j:02d}_im.jpg")
+                image_file = image_files[0]
+
                 qa_pairs = generate_qa_pairs(file_path, j)
-                generations.append({
-                    "qa_pairs": qa_pairs,
-                    "image_file": str(image_file)
-                })
+                qa_pairs.append({"image_file": str(image_file)})
+                generations.append(qa_pairs)
+              
+
             except ValueError:
                 print(f"No {j} generation for {file_path.name}")
-            except IndexError:
-                print(f"No image file found for {base_name}_{j:02d}_im.jpg")
+            except IndexError as e:
+                print(e)
 
         new_filename = base_name + "_qa_pairs.json"
         new_file_path = main_path / new_filename

@@ -51,7 +51,7 @@ class VQADataset:
 
         # Construct the full path to the image
         image_path = os.path.join(self.data_dir, qa_pair["image_file"])
-
+    
         return {
             "image_path": image_path,
             "question": qa_pair["question"],
