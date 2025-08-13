@@ -374,7 +374,6 @@ def generate():
             base_name = file_path.stem.replace("_info", "")
 
             for image_path in file_path.parent.glob(f"{base_name}_*_im.jpg"):
-
                 stem = image_path.stem
                 parts = stem.split('_')
                 j = int(parts[-2])
@@ -382,8 +381,9 @@ def generate():
                 qa_pairs = generate_qa_pairs(file_path, j)
 
                 for qa in qa_pairs:
-                
                     qa["image_file"] = f"{split_name}/{image_path.name}"
+                    qa["question"] = str(qa.get("question", ""))
+                    qa["answer"] = str(qa.get("answer", ""))
 
                 new_filename = image_path.stem.replace("_im", "") + "_qa_pairs.json"
                 new_file_path = main_path / new_filename
@@ -392,6 +392,7 @@ def generate():
                     json.dump(qa_pairs, f, indent=4)
 
     print("Done.")
+
 
 
 
