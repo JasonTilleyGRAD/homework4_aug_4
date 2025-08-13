@@ -190,10 +190,9 @@ class CLIP(nn.Module):
 
         image_features = nn.AvgPool1d(kernel_size=image_hidden.shape[1])(image_hidden.permute(0, 2, 1)).squeeze(-1)
         text_features = nn.AvgPool1d(kernel_size=text_hidden.shape[1])(text_hidden.permute(0, 2, 1)).squeeze(-1)
-
-        self.image_projection = nn.Linear(in_dim, proj_dim).to(image_features.device, dtype=image_features.dtype)
-        self.text_projection = nn.Linear(in_dim, proj_dim).to(text_features.device, dtype=text_features.dtype)
-
+        
+        self.image_projection = nn.Linear(image_features.shape[-1], self.proj_dim).to(image_features.device)
+        self.text_projection = nn.Linear(text_features.shape[-1], self.proj_dim).to(text_features.device)
 
         image_features = self.image_projection(image_features)
         text_features = self.text_projection(text_features)
