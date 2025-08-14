@@ -370,7 +370,7 @@ def test(ckpt_path: str, val_dataset: str = "valid_grader"):
 
     for pair in tqdm.tqdm(testset):
         image = Image.open(pair["image_path"]).convert("RGB")
-        pixel_values = image_processor(image).unsqueeze(0).to(device).float()
+        pixel_values = image_processor(image).unsqueeze(0).to(device).bfloat16()
         text_inputs = processor(
             text=[s + processor.tokenizer.eos_token for s in pair["candidates"]],
             return_tensors="pt",
@@ -379,7 +379,8 @@ def test(ckpt_path: str, val_dataset: str = "valid_grader"):
         )
         input_ids = text_inputs["input_ids"].long().to(device)
         attention_mask = text_inputs["attention_mask"].to(device)
-        vision_feature, text_feature, _ = clip(pixel_values, input_ids, attention_mask)
+        with torch.autocast(device_type="cuda",dtype=torch.bfloat16):
+            vision_feature, text_feature, _ = clip(pixel_values, input_ids, attention_mask)
         prediction = torch.matmul(vision_feature, text_feature.T).argmax(dim=-1)
         if prediction == pair["correct_index"]:
             correct_count += 1
