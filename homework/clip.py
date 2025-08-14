@@ -225,7 +225,7 @@ def compute_clip_loss(
         The loss for the CLIP model.
     """
     image_features, text_features, _ = outputs
-    logits_per_image = image_features @ text_features.T * self.temperature
+    logits_per_image = image_features @ text_features.T * nn.Parameter(torch.tensor(0.07))
     logits_per_text = logits_per_image.T
 
     
