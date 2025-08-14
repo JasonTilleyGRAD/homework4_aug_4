@@ -257,7 +257,7 @@ def get_target_modules_for_lora(model: nn.Module) -> list[str]:
 def train(
     data_dir: Path | None = None,
     output_dir: str = "clip",
-    num_train_epochs: float = 5,  # for debugging purpose, increase this once the dry run works
+    num_train_epochs: float = 4,  # for debugging purpose, increase this once the dry run works
     per_device_train_batch_size: int = 1024,
     gradient_accumulation_steps: int = 1,
     learning_rate: float = 5e-4,
@@ -282,8 +282,8 @@ def train(
     peft_config = LoraConfig(
         task_type=TaskType.FEATURE_EXTRACTION,
         inference_mode=False,
-        r=5,
-        lora_alpha=20,
+        r=4,
+        lora_alpha=16,
         lora_dropout=0.0,
         # target_modules="all-linear",
         target_modules=get_target_modules_for_lora(model),
