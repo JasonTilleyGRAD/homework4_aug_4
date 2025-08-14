@@ -200,10 +200,9 @@ class CLIP(nn.Module):
         image_features = self.image_projection(image_features)
         text_features = self.text_projection(text_features)
 
-        logits_per_image = image_features @ text_features.T * self.temperature
-        logits_per_text = logits_per_image.T
+        
 
-        return logits_per_image, logits_per_text, labels
+        return image_features, text_features, labels
 
 
 
@@ -225,7 +224,11 @@ def compute_clip_loss(
     Returns:
         The loss for the CLIP model.
     """
-    logits_per_image, logits_per_text, _ = outputs
+    image_features, text_features, _ = output
+    logits_per_image = image_features @ text_features.T * self.temperature
+    logits_per_text = logits_per_image.T
+
+    
     batch_size = logits_per_image.shape[0]
     labels = torch.arange(batch_size, device=logits_per_image.device)
 
