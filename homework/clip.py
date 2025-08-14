@@ -224,7 +224,7 @@ def compute_clip_loss(
     Returns:
         The loss for the CLIP model.
     """
-    image_features, text_features, _ = output
+    image_features, text_features, _ = outputs
     logits_per_image = image_features @ text_features.T * self.temperature
     logits_per_text = logits_per_image.T
 
