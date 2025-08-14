@@ -282,8 +282,8 @@ def train(
     peft_config = LoraConfig(
         task_type=TaskType.FEATURE_EXTRACTION,
         inference_mode=False,
-        r=8,
-        lora_alpha=32,
+        r=5,
+        lora_alpha=20,
         lora_dropout=0.0,
         # target_modules="all-linear",
         target_modules=get_target_modules_for_lora(model),
